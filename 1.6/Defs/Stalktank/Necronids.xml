@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <BodyPartDef Name="MechanicalThorax">
+        <defName>MechanicalNeckbrace</defName>
+        <label>neck plate</label>
+        <hitPoints>20</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <solid>true</solid>
+        <alive>false</alive>
+        <bleedRate>0</bleedRate>
+    </BodyPartDef>
+
+    <BodyPartDef>
+        <defName>Deamonengine</defName>
+        <label>deamon engine</label>
+        <hitPoints>20</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <skinCovered>false</skinCovered>
+        <solid>true</solid>
+        <alive>false</alive>
+        <bleedRate>0</bleedRate>
+        <tags>
+            <li>ConsciousnessSource</li>
+        </tags>
+    </BodyPartDef>
+
+    <BodyDef>
+        <defName>CVN_Stalktankframe</defName>
+        <label>Stalktank Frame</label>
+        <corePart Class="taranchuk_mechsuits.MechPart">
+            <partID>Torso</partID>
+            <def>MechanicalThorax</def>
+            <coverage>1.00</coverage>
+            <height>Middle</height>
+            <depth>Outside</depth>
+            <slots>
+                <li>
+                    <label>Power Source</label>
+                    <slotID>PowerSource</slotID>
+                    <tags>
+                        <li>Reactor</li>
+                    </tags>
+                </li>
+                <li>
+                    <label>Plating</label>
+                    <slotID>TorsoPlating</slotID>
+                    <tags>
+                        <li>Plating</li>
+                    </tags>
+                </li>
+                <li>
+                    <label>Machinegun Mount</label>
+                    <slotID>BackMachinegunMount</slotID>
+                    <tags>
+                        <li>Turret</li>
+                    </tags>
+                    <compDrawOffsets>
+                        <north>(0.00, 0.01, 0.00)</north>
+                        <east>(0.00, 0.01, 1.50)</east>
+                        <south>(0.00, 0.01, 0.70)</south>
+                        <west>(0.00, 0.01, 1.50)</west>
+                    </compDrawOffsets>
+                </li>
+            </slots>
+            <parts>
+                <li>
+                    <def>FluidReprocessor</def>
+                    <coverage>0.05</coverage>
+                    <height>Middle</height>
+                    <depth>Inside</depth>
+                </li>
+                <li>
+                    <def>Reactor</def>
+                    <coverage>0.03</coverage>
+                    <height>Middle</height>
+                    <depth>Inside</depth>
+                </li>
+                <li>
+                    <def>MechanicalNeckbrace</def>
+                    <coverage>0.18</coverage>
+                    <height>Top</height>
+                    <depth>Outside</depth>
+                    <parts>
+                        <li Class="taranchuk_mechsuits.MechPart">
+                            <partID>Head</partID>
+                            <def>InsectHead</def>
+                            <coverage>0.65</coverage>
+                            <height>Top</height>
+                            <depth>Outside</depth>
+                            <groups>
+                                <li>HeadAttackTool</li>
+                            </groups>
+                            <slots>
+                                <li>
+                                    <label>System Slot 1</label>
+                                    <slotID>System1</slotID>
+                                    <tags>
+                                        <li>System</li>
+                                    </tags>
+                                </li>
+                                <li>
+                                    <label>System Slot 2</label>
+                                    <slotID>System2</slotID>
+                                    <tags>
+                                        <li>System</li>
+                                    </tags>
+                                </li>
+                                <li>
+                                    <label>lasgun</label>
+                                    <slotID>HeadLasgun</slotID>
+                                    <tags>
+                                        <li>H_Lasgun</li>
+                                    </tags>
+                                    <compDrawOffsets>
+                                        <north>(0.00, 0.00, 2.49)</north>
+                                        <east>(3.11, 0.00, 0.77)</east>
+                                        <south>(0.00, 0.00, -3.00)</south>
+                                        <west>(-3.11, 0.00, 0.77)</west>
+                                    </compDrawOffsets>
+                                    <shootingArcMinAngle>-120.0</shootingArcMinAngle>
+                                    <shootingArcMaxAngle>120.0</shootingArcMaxAngle>
+                                </li>
+                            </slots>
+                            <parts>
+                                <li Class="taranchuk_mechsuits.MechPart">
+                                    <partID>Brain</partID>
+                                    <def>Brain</def>
+                                    <coverage>0.20</coverage>
+                                    <height>Top</height>
+                                    <depth>Inside</depth>
+                                    <slots>
+                                        <li>
+                                            <label>Core</label>
+                                            <slotID>Core</slotID>
+                                            <tags>
+                                                <li>Core</li>
+                                            </tags>
+                                        </li>
+                                    </slots>
+                                </li>
+                                <li>
+                                    <def>Eye</def>
+                                    <customLabel>left eye</customLabel>
+                                    <coverage>0.12</coverage>
+                                    <height>Top</height>
+                                    <depth>Outside</depth>
+                                </li>
+                                <li>
+                                    <def>Eye</def>
+                                    <customLabel>right eye</customLabel>
+                                    <coverage>0.12</coverage>
+                                    <height>Top</height>
+                                    <depth>Outside</depth>
+                                </li>
+                                <li>
+                                    <def>Antenna</def>
+                                    <customLabel>left antenna</customLabel>
+                                    <coverage>0.08</coverage>
+                                    <height>Top</height>
+                                    <depth>Outside</depth>
+                                </li>
+                                <li>
+                                    <def>Antenna</def>
+                                    <customLabel>right antenna</customLabel>
+                                    <coverage>0.08</coverage>
+                                    <height>Top</height>
+                                    <depth>Outside</depth>
+                                </li>
+                                <li>
+                                    <def>InsectNostril</def>
+                                    <coverage>0.06</coverage>
+                                    <height>Top</height>
+                                    <depth>Outside</depth>
+                                </li>
+                                <li Class="taranchuk_mechsuits.MechPart">
+                                    <partID>Mouth</partID>
+                                    <def>InsectMouth</def>
+                                    <coverage>0.08</coverage>
+                                    <height>Top</height>
+                                    <depth>Outside</depth>
+                                    <groups>
+                                        <li>Mouth</li>
+                                    </groups>
+                                    <slots>
+                                        <li>
+                                            <label>Mouth</label>
+                                            <slotID>Mouth</slotID>
+                                            <tags>
+                                                <li>Turret</li>
+                                                <li>Mouth</li>
+                                            </tags>
+                                        </li>
+                                    </slots>
+                                </li>
+                                <li>
+                                    <def>HeadClaw</def>
+                                    <coverage>0.15</coverage>
+                                    <height>Top</height>
+                                    <depth>Outside</depth>
+                                    <groups>
+                                        <li>HeadClaw</li>
+                                    </groups>
+                                </li>
+                            </parts>
+                        </li>
+                    </parts>
+                </li>
+                <li Class="taranchuk_mechsuits.MechPart">
+                    <partID>LegFrontLeft</partID>
+                    <def>InsectLeg</def>
+                    <coverage>0.09</coverage>
+                    <height>Bottom</height>
+                    <depth>Outside</depth>
+                    <slots>
+                        <li>
+                            <label>front left leg</label>
+                            <slotID>LegFL</slotID>
+                            <tags>
+                                <li>Turret</li>
+                                <li>Utility</li>
+                            </tags>
+                            <compDrawOffsets>
+                                <north>(-1.2, 0.1, 0.1)</north>
+                                <east>(0.1, 0.0, -1.0)</east>
+                                <south>(1.2, 0.0, -0.6)</south>
+                                <west>(-0.1, 0.1, -1.0)</west>
+                            </compDrawOffsets>
+                            <shootingArcMinAngle>-30.0</shootingArcMinAngle>
+                            <shootingArcMaxAngle>30.0</shootingArcMaxAngle>
+                            <defaultTurretAngleOffset>270.0</defaultTurretAngleOffset>
+                        </li>
+                    </slots>
+                </li>
+                <li Class="taranchuk_mechsuits.MechPart">
+                    <partID>LegFrontRight</partID>
+                    <def>InsectLeg</def>
+                    <coverage>0.09</coverage>
+                    <height>Bottom</height>
+                    <depth>Outside</depth>
+                    <slots>
+                        <li>
+                            <label>front right leg</label>
+                            <slotID>LegFR</slotID>
+                            <tags>
+                                <li>Turret</li>
+                                <li>Utility</li>
+                            </tags>
+                            <compDrawOffsets>
+                                <north>(1.2, 0.1, 0.1)</north>
+                                <east>(0.1, 0.1, -1.0)</east>
+                                <south>(-1.2, 0.0, -0.6)</south>
+                                <west>(-0.1, 0.0, -1.0)</west>
+                            </compDrawOffsets>
+                            <shootingArcMinAngle>-30.0</shootingArcMinAngle>
+                            <shootingArcMaxAngle>30.0</shootingArcMaxAngle>
+                            <defaultTurretAngleOffset>90.0</defaultTurretAngleOffset>
+                        </li>
+                    </slots>
+                </li>
+                <li Class="taranchuk_mechsuits.MechPart">
+                    <partID>LegBackLeft</partID>
+                    <def>InsectLeg</def>
+                    <coverage>0.09</coverage>
+                    <height>Bottom</height>
+                    <depth>Outside</depth>
+                    <slots>
+                        <li>
+                            <label>back left leg</label>
+                            <slotID>LegBL</slotID>
+                            <tags>
+                                <li>Turret</li>
+                                <li>Utility</li>
+                            </tags>
+                            <compDrawOffsets>
+                                <north>(-1.2, 0.1, -0.7)</north>
+                                <east>(-0.7, 0.0, -1.0)</east>
+                                <south>(1.0, 0.0, -0.1)</south>
+                                <west>(0.7, 0.1, -1.0)</west>
+                            </compDrawOffsets>
+                            <shootingArcMinAngle>-30.0</shootingArcMinAngle>
+                            <shootingArcMaxAngle>30.0</shootingArcMaxAngle>
+                            <defaultTurretAngleOffset>270.0</defaultTurretAngleOffset>
+                        </li>
+                    </slots>
+                </li>
+                <li Class="taranchuk_mechsuits.MechPart">
+                    <partID>LegBackRight</partID>
+                    <def>InsectLeg</def>
+                    <coverage>0.09</coverage>
+                    <height>Bottom</height>
+                    <depth>Outside</depth>
+                    <slots>
+                        <li>
+                            <label>back right leg</label>
+                            <slotID>LegBR</slotID>
+                            <tags>
+                                <li>Turret</li>
+                                <li>Utility</li>
+                            </tags>
+                            <compDrawOffsets>
+                                <north>(1.2, 0.1, -0.7)</north>
+                                <east>(-0.7, 0.1, -1.0)</east>
+                                <south>(-1.0, 0.0, -0.1)</south>
+                                <west>(0.7, 0.0, -1.0)</west>
+                            </compDrawOffsets>
+                            <shootingArcMinAngle>-30.0</shootingArcMinAngle>
+                            <shootingArcMaxAngle>30.0</shootingArcMaxAngle>
+                            <defaultTurretAngleOffset>90.0</defaultTurretAngleOffset>
+                        </li>
+                    </slots>
+                </li>
+            </parts>
+        </corePart>
+    </BodyDef>
+
+    <ThingDef ParentName="BaseInsect">
+        <defName>Necronid_Megaspider</defName>
+        <label>necronid megaspider</label>
+        <description>text.todo.</description>
+        <statBases>
+            <MoveSpeed>4.0</MoveSpeed>
+            <ComfyTemperatureMin>-50</ComfyTemperatureMin>
+            <MarketValue>1200</MarketValue>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <Flammability>0.7</Flammability>
+            <Wildness>0.4</Wildness>
+        </statBases>
+        <uiIconScale>1.2</uiIconScale>
+        <tools>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2.2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <race>
+            <intelligence>ToolUser</intelligence>
+            <thinkTreeMain>Animal</thinkTreeMain>
+            <body>NecronidMegaspiderBody</body>
+            <baseHungerRate>0.4</baseHungerRate>
+            <baseBodySize>1.5</baseBodySize>
+            <baseHealthScale>3.0</baseHealthScale>
+            <lifeExpectancy>10</lifeExpectancy>
+            <trainability>Advanced</trainability>
+            <lifeStageAges>
+                <li>
+                    <def>AnimalAdult</def>
+                    <minAge>0</minAge>
+                    <soundWounded>Pawn_BigInsect_Pain</soundWounded>
+                    <soundDeath>Pawn_BigInsect_Death</soundDeath>
+                    <soundCall>Pawn_BigInsect_Call</soundCall>
+                    <soundAngry>Pawn_BigInsect_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+            <fleshType>Insectoid</fleshType>
+            <needsRest>true</needsRest>
+            <bloodDef>Filth_BloodInsect</bloodDef>
+            <meatLabel>insect meat</meatLabel>
+        </race>
+        <inspectorTabs>
+            <li>taranchuk_mechsuits.ITab_MechSuit</li>
+        </inspectorTabs>
+        <comps>
+            <li Class="taranchuk_mechsuits.CompProperties_MechSuit">
+                <baseCarryingCapacity>500</baseCarryingCapacity>
+                <requiresGantryForModifications>False</requiresGantryForModifications>
+                <basePowerGeneration>50</basePowerGeneration>
+                <canBePilotedByPawns>false</canBePilotedByPawns>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <PawnKindDef ParentName="AnimalKindBase">
+        <defName>Necronid_Megaspider</defName>
+        <label>necronid megaspider</label>
+        <race>Necronid_Megaspider</race>
+        <combatPower>250</combatPower>
+        <canArriveManhunter>true</canArriveManhunter>
+        <ecoSystemWeight>0.3</ecoSystemWeight>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>MechSuitz/MechSuit/Toxibug_Megaspider</texPath>
+                    <drawSize>5</drawSize>
+                    <shaderType>CutoutComplex</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <shadowData>
+                        <volume>(0.5, 0.7, 0.43)</volume>
+                        <offset>(0,0,-0.1)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+                    <drawSize>5</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+        <modExtensions>
+            <li Class="taranchuk_mechsuits.MechSpawnGeneration">
+                <colonyFactionByDefault>True</colonyFactionByDefault>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <ThingDef ParentName="BaseMechanoid">
+        <defName>StalkTank</defName>
+        <label>Stalk Tank</label>
+        <description>Fast, spindly, human-sized combat mechanoids specializing in rapid approach and close-range combat. Their bodies are covered in points and blades, but they mostly use their two arm blades to lop off limbs or gut their victims alive.</description>
+        <size>(5, 6)</size>
+        <statBases>
+            <UF_FlightSpeed>190</UF_FlightSpeed>
+            <UF_FlightControl>1</UF_FlightControl>
+        </statBases>
+        <tools>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+        </tools>
+        <race>
+            <body>CVN_Stalktankframe</body>
+            <baseHealthScale>2.5</baseHealthScale>
+            <soundMeleeHitPawn>Pawn_Melee_MechanoidSlash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_MechanoidSlash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_MechanoidSlash_Miss</soundMeleeMiss>
+            <intelligence>ToolUser</intelligence>
+            <thinkTreeMain>MechSuit</thinkTreeMain>
+            <baseBodySize>2.0</baseBodySize>
+            <lifeStageAges>
+                <li>
+                    <def>MechanoidFullyFormed</def>
+                    <minAge>0</minAge>
+                    <soundWounded>Pawn_Mech_Scyther_Wounded</soundWounded>
+                    <soundDeath>Pawn_Mech_Scyther_Death</soundDeath>
+                    <soundCall>Pawn_Mech_Scyther_Call</soundCall>
+                </li>
+            </lifeStageAges>
+        </race>
+        <butcherProducts>
+            <Steel>30</Steel>
+            <Plasteel>5</Plasteel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </butcherProducts>
+        <inspectorTabs>
+            <li>taranchuk_mechsuits.ITab_MechSuit</li>
+            <li>taranchuk_mechsuits.ITab_MechSuitWork</li>
+        </inspectorTabs>
+        <comps Inherit="False">
+            <li Class="taranchuk_mechsuits.CompProperties_MechSuit">
+                <requiresPilot>true</requiresPilot>
+                <canBePilotedByPawns>true</canBePilotedByPawns>
+                <standIfNotMoving>true</standIfNotMoving>
+                <tabNameKey>MS.MechSuitTabName</tabNameKey>
+                <workTypes>
+                    <li>Hauling</li>
+                </workTypes>
+                <overridenSkillLevels>
+                    <Shooting>7</Shooting>
+                    <Melee>4</Melee>
+                </overridenSkillLevels>
+                <basePowerGeneration>50</basePowerGeneration>
+                <basePilotCapacity>1</basePilotCapacity>
+                <basePassengerCapacity>0</basePassengerCapacity>
+                <baseCarryingCapacity>1000</baseCarryingCapacity>
+
+                <requiresGantryForModifications>False</requiresGantryForModifications>
+                <requiresGantryForConstruction>False</requiresGantryForConstruction>
+                <repairable>true</repairable>
+                <requireGantryRepair>false</requireGantryRepair>
+
+                <designationCategory>Security</designationCategory>
+                <costList>
+                    <Steel>100</Steel>
+                    <ComponentIndustrial>30</ComponentIndustrial>
+                </costList>
+                <researchPrerequisites>
+                    <li>MicroelectronicsBasics</li>
+                </researchPrerequisites>
+                <statBases>
+                    <WorkToBuild>8000</WorkToBuild>
+                    <MaxHitPoints>200</MaxHitPoints>
+                    <Flammability>0.5</Flammability>
+                </statBases>
+            </li>
+            <li Class="Taranchuk_ColorPicker.CompProperties_ColorPicker">
+                <includeColorTwo>true</includeColorTwo>
+                <label>Mech Personalized Paint</label>
+                <description>Mech Personalized Paint</description>
+                <iconPath>UI/PaintIcon_weapon</iconPath>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <PawnKindDef ParentName="BaseMechanoidKind">
+        <defName>StalkTank</defName>
+        <label>Stalk Tank</label>
+        <race>StalkTank</race>
+        <combatPower>800</combatPower>
+        <allowInMechClusters>false</allowInMechClusters>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawn/StalkTank/StalkTank</texPath>
+                    <shaderType>CutoutComplex</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>8</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+        <weaponMoney>0~0</weaponMoney>
+        <defendPointRadius>0</defendPointRadius>
+        <weaponTags />
+        <techHediffsChance>1</techHediffsChance>
+        <techHediffsMoney>9999~9999</techHediffsMoney>
+        <modExtensions>
+            <li Class="taranchuk_mechsuits.MechSpawnGeneration">
+                <prebuiltComponents>
+                    <li>
+                        <partID>Torso</partID>
+                        <slotID>PowerSource</slotID>
+                        <component>CVN_MicrofusionMechGen</component>
+                    </li>
+                    <li>
+                        <partID>Torso</partID>
+                        <slotID>TorsoPlating</slotID>
+                        <component>CVN_SteelLvl1MechPlating</component>
+                    </li>
+                    <li>
+                        <partID>Head</partID>
+                        <slotID>Core</slotID>
+                        <component>CVN_AIPersonaCore</component>
+                    </li>
+                    <li>
+                        <partID>Head</partID>
+                        <slotID>HeadLasgun</slotID>
+                        <component>CVN_StalkTank_Lasgun</component>
+                    </li>
+                    <li>
+                        <partID>Torso</partID>
+                        <slotID>BackMachinegunMount</slotID>
+                        <component>CVN_Stalktank_Machinegun</component>
+                    </li>
+                </prebuiltComponents>
+                <pilotsToGenerate>
+                    <options>
+                        <Mercenary_Slasher>7</Mercenary_Slasher>
+                        <Mercenary_Gunner>10</Mercenary_Gunner>
+                        <Mercenary_Elite>10</Mercenary_Elite>
+                    </options>
+                    <pawnCount>1</pawnCount>
+                </pilotsToGenerate>
+                <passengersToGenerate>
+                    <factionDef>Pirate</factionDef>
+                    <options>
+                        <Mercenary_Slasher>7</Mercenary_Slasher>
+                        <Mercenary_Gunner>10</Mercenary_Gunner>
+                        <Mercenary_Elite>10</Mercenary_Elite>
+                    </options>
+                    <pawnCount>5~10</pawnCount>
+                </passengersToGenerate>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+</Defs>

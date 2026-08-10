@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_Flakhelm</defName>
+        <label>Salvaged Flak helmet</label>
+        <description>An Imperial Guard flak helmet, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. Repainted in the traditional Blood Pact colors.\n\nMade from low-grade ceramite, they offer superior protection compared to the hand-forged Blood Pact Grotesque while lacking in facial protection.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet_south</texPath>
+        </graphicData>
+        <costList>
+        <Steel>25</Steel>
+	<ComponentIndustrial>1</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>2</Mass>
+            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>2</Insulation_Cold>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>BP_Plunder</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet</wornGraphicPath>
+            <tags>
+                <li>BPapparelhead1</li>
+            </tags>
+		    <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_Flakghelm</defName>
+        <label>Salvaged Gas-mask helmet</label>
+        <description>An Imperial Guard flak helmet, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. It features a familiar gas mask for added facial protection, while the helmet's fixed spikes can help in melee combat.\n\nMade from low-grade ceramite, they offer superior protection compared to the hand-forged Blood Pact Grotesque helmets.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask_south</texPath>
+        </graphicData>
+        <costList>
+        <Steel>35</Steel>
+	<ComponentIndustrial>2</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>4000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>2.5</Mass>
+            <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.41</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>4</Insulation_Cold>
+            <EquipDelay>1.6</EquipDelay>
+        </statBases>
+		<equippedStatOffsets>
+         <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">0.75</ToxicEnvironmentResistance>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>BP_Plunder</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask</wornGraphicPath>
+            <tags>
+                <li>BPapparelhead1</li>
+            </tags>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_SirdarMaskA</defName>
+        <label>Sirdar grotesque grim</label>
+        <description>The Grotesque, a facemask featuring a leering grin made of solid metal, affixed to a metal-bound, spiked helmet. Arguably the most iconic symbol of the Pact, it instills a sense of dread in those who face it.\n\nThis particular helmet is painted in dark, with round eyes that complement a perverse grin, a horrible sight on the battlefield.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetA_south</texPath>
+        </graphicData>
+        <costList>
+        <Steel>40</Steel>
+	<ComponentIndustrial>2</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <EquipDelay>2.5</EquipDelay>
+        </statBases>
+	    <equippedStatOffsets> 
+         <PainShockThreshold>0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>BP_Basic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetA</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <tags>
+                <li>BPapparelhead2</li>
+            </tags>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+    <ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_SirdarMaskB</defName>
+        <label>Sirdar grotesque maw</label>
+        <description>The Grotesque, a facemask featuring a leering grin made of solid metal, affixed to a metal-bound, spiked helmet. Arguably the most iconic symbol of the Pact, it instills a sense of dread in those who face it.\n\nThis particular helmet is made of bare metal, with glaring eyes that complement its evil, grinning maw.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetB_south</texPath>
+        </graphicData>
+        <costList>
+        <Steel>40</Steel>
+	<ComponentIndustrial>2</ComponentIndustrial>
+        </costList>	
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <EquipDelay>2.5</EquipDelay>
+        </statBases>
+	    <equippedStatOffsets> 
+         <PainShockThreshold>0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>BP_Basic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetB</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <tags>
+                <li>BPapparelhead2</li>
+            </tags>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_DBmaskA</defName>
+        <label>Death grotesque visage</label>
+        <description>Reinforced grotesques reserved for members of the Death Brigade, these are made of carapace and dyed a faded red, the color of dried blood. Arguably the most iconic symbol of the Pact, it instill a sense of dread in all who face them.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetA_south</texPath>
+        </graphicData>
+        <costList>
+            <Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+            <GW_ChaosSpikes>1</GW_ChaosSpikes>
+        </costList>	
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <EquipDelay>2.5</EquipDelay>
+        </statBases>
+	    <equippedStatOffsets> 
+         <PainShockThreshold>0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>BP_Vanguard</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetA</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <tags>
+                <li>BPapparelhead3</li>
+            </tags>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_DBmaskB</defName>
+        <label>Death grotesque wailer</label>
+        <description>Reinforced grotesques reserved for members of the Death Brigade, these are made of carapace and dyed a faded red, the color of dried blood. Arguably the most iconic symbol of the Pact, it instill a sense of dread in all who face them.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetB_south</texPath>
+        </graphicData>
+        <costList>
+        <Steel>70</Steel>
+	<ComponentIndustrial>2</ComponentIndustrial>
+            <GW_ChaosSpikes>1</GW_ChaosSpikes>
+        </costList>	
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Mass>6</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <EquipDelay>2.5</EquipDelay>
+        </statBases>
+	    <equippedStatOffsets> 
+         <PainShockThreshold>0.05</PainShockThreshold>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>BP_Vanguard</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetB</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <tags>
+                <li>BPapparelhead3</li>
+            </tags>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_Arnogaurmask</defName>
+        <label>Arnogaur grotesque</label>
+        <description>A grotesque forged to imitate the visage of Urlock Gaur.</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Headgear/BP_Arnogaur_south</texPath>
+        </graphicData>
+		<costList>
+			<Steel>95</Steel>
+		    <ComponentIndustrial>3</ComponentIndustrial>
+			<Gold>10</Gold>
+            <GW_KhornateSymbol>1</GW_KhornateSymbol>
+            <GW_ChaosSpikes>2</GW_ChaosSpikes>
+        </costList>
+        <statBases>
+            <WorkToMake>11000</WorkToMake>
+            <MaxHitPoints>500</MaxHitPoints>
+            <Mass>7</Mass>
+            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.75</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.80</ArmorRating_Heat>
+            <Insulation_Cold>7</Insulation_Cold>
+            <EquipDelay>6.5</EquipDelay>
+        </statBases>
+		<equippedStatOffsets>
+			<PainShockThreshold>0.10</PainShockThreshold>
+			<SocialImpact>0.1</SocialImpact>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisites>
+			 <li>BP_Elites</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+			<displayPriority>415</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Headgear/BP_Arnogaur</wornGraphicPath>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+            </bodyPartGroups>
+			<layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+    </ThingDef>
+
+
+</Defs>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+    <ThingDef Abstract="true" ParentName="ApparelMakeableBase" Name="CVN_BP_OnSkinBase">
+    	<techLevel>Industrial</techLevel>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>1.3</drawSize>
+        </graphicData>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <recipeMaker>
+            <recipeUsers Inherit="false">
+                <li>CVN_BP_FabricationBench</li>
+            </recipeUsers>
+        </recipeMaker>
+		<uiIconScale>1.6</uiIconScale>
+    </ThingDef>
+
+    <ThingDef ParentName="CVN_BP_OnSkinBase">
+        <defName>BP_Fatigues</defName>
+        <label>Sirdar fatigues</label>
+        <recipeMaker>
+		    <researchPrerequisites>
+			 <li>BP_Basic</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>418</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Onskin/BP_SirdarSkin_Male_south</texPath>
+        </graphicData>
+		<stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+	    <description>Standard Imperial Guard fatigues that have seen better times, now pressed into service of the Blood Pact. These were likely kept after desertion or taken from a fallen soldier. \n\nThe battle-hardened Blood Pact were the core of the Chaos resistance forces in the Sabbat Worlds Crusade, fighting with a disciple unusual for Chaos cultists.</description>
+        <costStuffCount>85</costStuffCount>
+        <statBases>
+            <MaxHitPoints>110</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+			<Mass>2</Mass>
+            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Sirdar/Onskin/BP_SirdarSkin</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>		
+            <countsAsClothingForNudity>true</countsAsClothingForNudity>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+				<li>Feet</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>BPapparelskin1</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_OnSkinBase">
+        <defName>BP_DBfatigues</defName>
+        <label>Death tunic</label>
+        <recipeMaker>
+		    <researchPrerequisites>
+			 <li>BP_Vanguard</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>419</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Onskin/BP_DeathBOnskin_Male_south</texPath>
+        </graphicData>
+		<stuffCategories>
+		    <li>Leathery</li>
+        </stuffCategories>
+	    <description>Taking on a more ceremonial appearance, these tunic-like fatigues are worn by senior members of the Pact. The Death Brigade often serves at the vanguard of Blood Pact assaults and is a equivalent of Imperial Guard Storm Troopers. They are the most skilled and the most feared of all Blood Pact units.</description>
+        <costStuffCount>125</costStuffCount>
+        <statBases>
+            <MaxHitPoints>125</MaxHitPoints>
+            <WorkToMake>6500</WorkToMake>
+			<Mass>2</Mass>
+            <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Onskin/BP_DeathBOnskin</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>		
+            <countsAsClothingForNudity>true</countsAsClothingForNudity>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+				<li>Feet</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>BPapparelskin2</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+	
+    <ThingDef ParentName="CVN_BP_OnSkinBase">
+        <defName>BP_AGchainmail</defName>
+        <label>Arnogaur chainmail</label>
+        <recipeMaker>
+		    <researchPrerequisites>
+			 <li>BP_Elites</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <displayPriority>420</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Onskin/BP_ArnogaurOnskin_Male_south</texPath>
+        </graphicData>
+		<stuffCategories>
+		    <li>Metallic</li>
+        </stuffCategories>
+	    <description>In contrast to the corrupted armor it lies beneath, this chainmail is unimpressive and simple.</description>
+        <costStuffCount>125</costStuffCount>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>9500</WorkToMake>
+			<Mass>5</Mass>
+            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.40</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+        </statBases>
+	    <equippedStatOffsets>
+            <MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Onskin/BP_ArnogaurOnskin</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>		
+            <countsAsClothingForNudity>true</countsAsClothingForNudity>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>BPapparelskin3</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+	
+	<ThingDef ParentName="CVN_BP_OnSkinBase">
+        <defName>BP_Gorerobe</defName>
+        <label>Gore Mage tunic</label>
+        <recipeMaker>
+		    <researchPrerequisites>
+			 <li>BP_Elites</li>
+			</researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <displayPriority>418</displayPriority>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Goremage/Onskin/BP_GoreMageOnskin_Male_south</texPath>
+        </graphicData>
+		<stuffCategories>
+		    <li>Leathery</li>
+        </stuffCategories>
+	    <description>The uniform of a Gore Mage, a Chaos Psyker of the Blood Pact. \n\nTattered Blood Pact fatigues sewn into a crude robe, it was once a standard Imperial uniform, but it is now adorned with wrappings of old cloth and blood-tanned leather, giving a distinct and gruesome appearance.</description>
+        <costStuffCount>95</costStuffCount>
+        <statBases>
+            <MaxHitPoints>110</MaxHitPoints>
+            <WorkToMake>5000</WorkToMake>
+			<Mass>2</Mass>
+            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+        </statBases>
+        <equippedStatOffsets>
+         <PsychicSensitivityOffset>0.05</PsychicSensitivityOffset>
+         <PsychicEntropyRecoveryRate>0.011</PsychicEntropyRecoveryRate>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Goremage/Onskin/BP_GoreMageOnskin</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>		
+            <countsAsClothingForNudity>true</countsAsClothingForNudity>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+				<li>Feet</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>BPmage</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+</Defs>

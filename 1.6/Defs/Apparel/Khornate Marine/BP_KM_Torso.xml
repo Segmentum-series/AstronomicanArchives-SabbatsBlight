@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+	<ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>BP_KhornemarineT</defName>
+		<label>Blood Berzerker armor</label>
+        <description>The Power Armor of a Khornate Berzerker, complete with the markings of the World Eaters Traitor Legion on its shoulders. The pain of blows and projectiles that can pierce its thick ceramite is dulled by the white-hot rage of its wearer. \n\nThe Pact has been known to recruit Berzerkers from the World Eaters, with many permanently joining the Pact and converting to its ideals of restraint and focus - or rather, concentrated slaughter.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Torso/BP_BerserkerTorso_Male_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>
+		<techLevel>Spacer</techLevel>
+		<recipeMaker>
+		    <researchPrerequisites>
+			 <li>BP_Legion</li>
+			</researchPrerequisites>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>72000</WorkToMake>
+			<MaxHitPoints>480</MaxHitPoints>
+			<Mass>9</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.49</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.58</ArmorRating_Heat>
+			<Insulation_Cold>34</Insulation_Cold>
+			<Insulation_Heat>12</Insulation_Heat>
+			<EquipDelay>7</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+		    <MoveSpeed>0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>BerserkerBP</li>
+			</tags>
+		    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Torso/BP_BerserkerTorso</wornGraphicPath>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <soundWear>Wear_PowerArmor</soundWear>
+            <soundRemove>Remove_PowerArmor</soundRemove>
+		    <gender>Male</gender>
+		</apparel>
+		<costList>
+			<ComponentSpacer>7</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>350</Steel>
+			<GW_KhornateSymbol>2</GW_KhornateSymbol>
+            <GW_ChaosSpikes>3</GW_ChaosSpikes>
+		</costList>
+	 <modExtensions>
+      <li Class="taranchuk_apparelgraphics.ApparelExtension">
+       <hideBody>True</hideBody>
+       <femaleBody>Male</femaleBody>
+       <maleBody>Male</maleBody>
+      </li>
+     </modExtensions>
+    </ThingDef>
+
+</Defs>

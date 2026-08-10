@@ -1,0 +1,175 @@
+<Defs>
+
+    <taranchuk_mechsuits.MechComponentDef ParentName="CVN_MechComponentBase">
+        <defName>CVN_StalkTank_Lasgun</defName>
+        <label>Lasgun</label>
+        <description>Lasgun</description>
+
+        <graphicData>
+            <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <drawOnMech>True</drawOnMech>
+
+        <slotTags>
+            <li>H_Lasgun</li>
+        </slotTags>
+
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>30</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li>
+                <compClass>CompEquippable</compClass>
+            </li>
+            <li Class="taranchuk_mechsuits.CompProperties_MechCompTurret">
+                <turretDef>CVN_Stalktank_LasgunTurret</turretDef>
+                <canRotate>true</canRotate>
+            </li>
+        </comps>
+    </taranchuk_mechsuits.MechComponentDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>CVN_Stalktank_LasgunTurret</defName>
+        <label>Lasgun</label>
+        <description>WIP.</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>3.4</Mass>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+            <Flammability>0.7</Flammability>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Projectile_CVN_BP_Longlas</defaultProjectile>
+                <warmupTime>3.50</warmupTime>
+                <range>44.9</range>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <burstShotCount>10</burstShotCount>
+                <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+        </comps>
+    </ThingDef>
+
+    <!-- <ThingDef ParentName="BaseWeaponTurret">
+        <defName>CVN_Stalktank_FlamethrowerTurret</defName>
+        <label>Flamethrower</label>
+        <description>WIP.</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>3.4</Mass>
+            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+            <Flammability>0.7</Flammability>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
+                <warmupTime>3.5</warmupTime>
+                <range>19.9</range>
+                <forcedMissRadius>1.9</forcedMissRadius>
+                <burstShotCount>100</burstShotCount>
+                <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+                <soundCast>Shot_IncendiaryLauncher</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>1</muzzleFlashScale>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <comps>
+        </comps>
+    </ThingDef> -->
+
+
+    <taranchuk_mechsuits.MechComponentDef ParentName="CVN_MechComponentBase">
+        <defName>CVN_Stalktank_Machinegun</defName>
+        <label>Machinegun</label>
+        <description>Machinegun</description>
+
+        <graphicData>
+            <texPath>Things/Pawn/StalkTank/DualMG_MainGun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <drawOnMech>True</drawOnMech>
+
+        <slotTags>
+            <li>Turret</li>
+        </slotTags>
+
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>30</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li>
+                <compClass>CompEquippable</compClass>
+            </li>
+            <li Class="taranchuk_mechsuits.CompProperties_MechCompTurret">
+                <turretDef>CVN_Stalktank_MachinegunTurret</turretDef>
+                <canRotate>true</canRotate>
+            </li>
+        </comps>
+    </taranchuk_mechsuits.MechComponentDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>CVN_Stalktank_MachinegunTurret</defName>
+        <label>Machinegun</label>
+        <description>WIP.</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <graphicData>
+            <texPath>Things/Pawn/StalkTank/DualMG_MainGun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>2500</WorkToMake>
+            <Mass>10</Mass>
+            <AccuracyTouch>0.2</AccuracyTouch>
+            <AccuracyShort>0.25</AccuracyShort>
+            <AccuracyMedium>0.25</AccuracyMedium>
+            <AccuracyLong>0.18</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Minigun</defaultProjectile>
+                <warmupTime>2.5</warmupTime>
+                <range>30.9</range>
+                <burstShotCount>30</burstShotCount>
+                <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+                <soundCast>Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+        </comps>
+    </ThingDef>
+
+</Defs>

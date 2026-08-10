@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>BP_MissileLauncher</defName>
+		<label>Pact Missile Launcher</label>
+		<description>A standard Astra Millitarum shoulder-fired guided missile launcher, covered in red markings by its new owners.\n\nA favorite of Heavy Weapons Teams, these launchers can sling a potent, high-speed missile far outside the range of hand grenades and grenade launchers.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/BP_Rocketlaucher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.4</drawSize>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<recipeMaker>
+			<researchPrerequisites>
+			 <li>BP_AntiArmorWeapons</li>
+			</researchPrerequisites>
+			<recipeUsers Inherit="False">
+				<li>CVN_BP_FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+			<displayPriority>235</displayPriority>
+		</recipeMaker>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Chemfuel>100</Chemfuel>
+		</costList>
+		<equippedStatOffsets>
+            <MoveSpeed>-0.50</MoveSpeed>
+		</equippedStatOffsets>
+	    <equippedAngleOffset>45</equippedAngleOffset>
+		<weaponTags>
+         <li>BPranged4</li>
+        </weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BP_Projectile_Missile</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<range>36</range>
+				<forcedMissRadius>1</forcedMissRadius>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+		<statBases>
+			<WorkToMake>35000</WorkToMake>
+            <Mass>11.5</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.80</AccuracyMedium>
+            <AccuracyLong>0.80</AccuracyLong>
+            <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+		</statBases>
+		<tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+					<li>Blunt</li>
+                </capacities>
+				<power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>BP_Projectile_Missile</defName>
+		<label>missile</label>
+		<graphicData>
+			<texPath>Things/Projectile/Rocket_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<explosionRadius>2.9</explosionRadius>
+			<speed>75</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>BP_Bullet_Flamer</defName>
+		<label>flame burst</label>
+		<graphicData>
+			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Burn</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<stoppingPower>0.5</stoppingPower>
+			<armorPenetrationBase>0.1</armorPenetrationBase>
+			<speed>25</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Abstract="True" ParentName="BaseGunWithQuality" Name="KillYourselfFlamerBase">
+		<smeltable>false</smeltable>
+		<techLevel>Spacer</techLevel>
+		<generateCommonality>0.5</generateCommonality>
+		<tradeability>None</tradeability>
+		<relicChance>0</relicChance>
+	</ThingDef>
+
+		<ThingDef ParentName="KillYourselfFlamerBase">
+		<defName>BP_Flamer</defName>
+		<label>Blood Pact Flamer</label>
+		<description>A man-portable flamer used by warriors of the Blood Pact. Imperial forces facing this weapon are consumed in a tide of blazing promethium. \n\nThe burns caused by flamers spill no blood, but Khorne nevertheless remains pleased at the death of his enemies.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/BP_Flamer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<weaponTags>
+         <li>BPranged3</li>
+        </weaponTags>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<recipeUsers Inherit="False">
+				<li>CVN_BP_FabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>BP_Vanguard</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<workSkill>Crafting</workSkill>
+		</recipeMaker>
+		<costList>
+			<Plasteel>90</Plasteel>
+			<Steel>135</Steel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>14</Mass>
+			<RangedWeapon_Cooldown>3.8</RangedWeapon_Cooldown>
+			<WorkToMake>38000</WorkToMake>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>BP_Bullet_Flamer</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.25</warmupTime>
+				<range>14</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+		
+</Defs>
