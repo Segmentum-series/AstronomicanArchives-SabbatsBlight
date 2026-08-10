@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>Things/Vehicles/BPTaurox/Vehicle/BP_Taurox</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(7, 7)</drawSize>
+			<drawSize>(7, 9)</drawSize>
 		</graphicData>
 		
 		<statBases>
