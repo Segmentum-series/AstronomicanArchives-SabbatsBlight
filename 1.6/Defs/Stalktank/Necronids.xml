@@ -314,7 +314,7 @@
             </parts>
         </corePart>
     </BodyDef>
-
+<!--
     <ThingDef ParentName="BaseInsect">
         <defName>Necronid_Megaspider</defName>
         <label>necronid megaspider</label>
@@ -392,7 +392,7 @@
         <lifeStages>
             <li>
                 <bodyGraphicData>
-                    <texPath>MechSuitz/MechSuit/Toxibug_Megaspider</texPath>
+                    <texPath>MechSuits/Toxibug_Megaspider</texPath>
                     <drawSize>5</drawSize>
                     <shaderType>CutoutComplex</shaderType>
                     <graphicClass>Graphic_Multi</graphicClass>
@@ -412,7 +412,7 @@
                 <colonyFactionByDefault>True</colonyFactionByDefault>
             </li>
         </modExtensions>
-    </PawnKindDef>
+    </PawnKindDef>-->
 
     <ThingDef ParentName="BaseMechanoid">
         <defName>StalkTank</defName>
@@ -469,7 +469,6 @@
                 <requiresPilot>true</requiresPilot>
                 <canBePilotedByPawns>true</canBePilotedByPawns>
                 <standIfNotMoving>true</standIfNotMoving>
-                <tabNameKey>MS.MechSuitTabName</tabNameKey>
                 <workTypes>
                     <li>Hauling</li>
                 </workTypes>

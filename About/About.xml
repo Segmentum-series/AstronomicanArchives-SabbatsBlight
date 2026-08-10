@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-  <name>Astronomican Archives - Sabbat's Blight</name>
-  <author>JerryTheCultist, Eridanus, Abomination, BlackMarket420, Artemiish, Gerrymon, The Suspect, Razzberry, Forrr</author>
+  <name>Astronomican Archives:Segmentum - Sabbat's Blight</name>
+  <author> Abomination, Anndra,  Artemiish, BlackMarket420,Eridanus,Forrr, Gerrymon, JerryTheCultist, Razzberry, The Suspect, TwoLargeGayMen, </author>
   <packageId>CVN.BloodPact</packageId>
   <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/GW_BP_BloodPactModIcon</modIconPath>
   <supportedVersions>

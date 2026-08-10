@@ -65,7 +65,7 @@
         </comps>
     </ThingDef>
 
-    <!-- <ThingDef ParentName="BaseWeaponTurret">
+    <ThingDef ParentName="BaseWeaponTurret">
         <defName>CVN_Stalktank_FlamethrowerTurret</defName>
         <label>Flamethrower</label>
         <description>WIP.</description>
@@ -101,7 +101,7 @@
         </verbs>
         <comps>
         </comps>
-    </ThingDef> -->
+    </ThingDef>
 
 
     <taranchuk_mechsuits.MechComponentDef ParentName="CVN_MechComponentBase">
