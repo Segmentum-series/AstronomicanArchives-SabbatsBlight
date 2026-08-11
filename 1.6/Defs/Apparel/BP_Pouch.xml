@@ -3,11 +3,11 @@
 <Defs>
 
   <ThingDef ParentName="CVN_BP_OnSkinBase">
-    <defName>BP_Pouch</defName>
+    <defName>CVN_BP_Pouch</defName>
     <label>Sirdar protector belt</label>
     <description>A small belt with a crude metal plate attached, used to help store munitions for extended combat and additional abdominal protection.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Attachments/BP_SirdarPouches_Male_south</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Attachments/BP_SirdarPouches</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1</drawSize>
@@ -31,7 +31,7 @@
     </equippedStatOffsets>
     <recipeMaker>
       <researchPrerequisites>
-		 <li>BP_Basic</li>
+		 <li>CVN_BP_Basic</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>4</Crafting>
@@ -52,7 +52,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-        <li>BP_Pouchs</li>
+        <li>CVN_BP_Pouchs</li>
       </tags>
       <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
     </apparel>

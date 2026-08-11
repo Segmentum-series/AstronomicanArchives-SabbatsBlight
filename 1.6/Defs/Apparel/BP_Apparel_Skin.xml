@@ -21,11 +21,11 @@
     </ThingDef>
 
     <ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>BP_Fatigues</defName>
+        <defName>CVN_BP_Fatigues</defName>
         <label>Sirdar fatigues</label>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>BP_Basic</li>
+			 <li>CVN_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -33,7 +33,7 @@
             <displayPriority>418</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Onskin/BP_SirdarSkin_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Onskin/BP_SirdarSkin</texPath>
         </graphicData>
 		<stuffCategories>
             <li>Fabric</li>
@@ -69,11 +69,11 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>BP_DBfatigues</defName>
+        <defName>CVN_BP_DBfatigues</defName>
         <label>Death tunic</label>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>BP_Vanguard</li>
+			 <li>CVN_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -81,7 +81,7 @@
             <displayPriority>419</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Onskin/BP_DeathBOnskin_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Onskin/BP_DeathBOnskin</texPath>
         </graphicData>
 		<stuffCategories>
 		    <li>Leathery</li>
@@ -117,11 +117,11 @@
     </ThingDef>
 	
     <ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>BP_AGchainmail</defName>
+        <defName>CVN_BP_AGchainmail</defName>
         <label>Arnogaur chainmail</label>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>BP_Elites</li>
+			 <li>CVN_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -129,7 +129,7 @@
             <displayPriority>420</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Onskin/BP_ArnogaurOnskin_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Onskin/BP_ArnogaurOnskin</texPath>
         </graphicData>
 		<stuffCategories>
 		    <li>Metallic</li>
@@ -167,11 +167,11 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>BP_Gorerobe</defName>
+        <defName>CVN_BP_Gorerobe</defName>
         <label>Gore Mage tunic</label>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>BP_Elites</li>
+			 <li>CVN_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -179,7 +179,7 @@
             <displayPriority>418</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Goremage/Onskin/BP_GoreMageOnskin_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Goremage/Onskin/BP_GoreMageOnskin</texPath>
         </graphicData>
 		<stuffCategories>
 		    <li>Leathery</li>

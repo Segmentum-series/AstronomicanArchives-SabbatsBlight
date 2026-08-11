@@ -3,7 +3,7 @@
 <Defs>
 
 	<Vehicles.UpgradeTreeDef>
-		<defName>BP_Taurox_UpgradeTree</defName>		 
+		<defName>CVN_BP_Taurox_UpgradeTree</defName>		 
 		<nodes>
 			<li>
 				<key>PintleStubberUpgrade</key>
@@ -20,7 +20,7 @@
 					<li Class = "Vehicles.TurretUpgrade">
 						<turrets>
 							<li>
-								<turretDef>BP_Vehicle_HeavyStubber</turretDef>
+								<turretDef>CVN_BP_Vehicle_HeavyStubber</turretDef>
 								<renderProperties>
 									<north>(-0.46, 1.4)</north>
 									<south>(0.46, -0.2)</south>

@@ -2,7 +2,7 @@
 
 <Defs>
 	<Vehicles.UpgradeTreeDef>
-		<defName>BP_Lemanruss_UpgradeTree</defName>		 
+		<defName>CVN_BP_Lemanruss_UpgradeTree</defName>		 
 		<nodes>
 			<li>
 				<key>DozerBlade</key>
@@ -87,7 +87,7 @@
 						</removeTurrets>
 						<turrets>
 							<li>
-								<turretDef>BP_LemanRuss_MainTurret_Spikes</turretDef>
+								<turretDef>CVN_BP_LemanRuss_MainTurret_Spikes</turretDef>
 								<renderProperties>
 									<north>(0.0, 0.2)</north>
 									<south>(0.0, -0.2)</south>
@@ -104,7 +104,7 @@
 				</upgrades>
 				<ingredients>
 				 <Steel>50</Steel>
-				<GW_ChaosSpikes>7</GW_ChaosSpikes>
+				<CVN_BP_ChaosSpikes>7</CVN_BP_ChaosSpikes>
 				</ingredients>
 			</li>
 			<li>
@@ -144,7 +144,7 @@
 						</removeTurrets>
 						<turrets>
 							<li>
-								<turretDef>BP_LemanRuss_MainTurret_SpikesBarbed</turretDef>
+								<turretDef>CVN_BP_LemanRuss_MainTurret_SpikesBarbed</turretDef>
 								<renderProperties>
 									<north>(0.0, 0.2)</north>
 									<south>(0.0, -0.2)</south>
@@ -161,7 +161,7 @@
 				</upgrades>
 				<ingredients>
 				 <Steel>50</Steel>
-				<GW_ChaosSpikes>7</GW_ChaosSpikes>
+				<CVN_BP_ChaosSpikes>7</CVN_BP_ChaosSpikes>
 				</ingredients>
 			</li>
 		</nodes>

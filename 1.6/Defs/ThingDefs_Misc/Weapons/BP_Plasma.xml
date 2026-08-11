@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>BP_PlasmaGun</defName>
+        <defName>CVN_BP_PlasmaGun</defName>
         <label>Pact Plasma Gun</label>
         <description>A human-sized plasma gun. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma guns are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pact's defeat on Urdesh.</description>
         <graphicData>
@@ -28,7 +28,7 @@
                 <li>CVN_BP_FabricationBench</li>
             </recipeUsers>		
             <researchPrerequisites>
-                <li>BP_Elites</li>
+                <li>CVN_BP_Elites</li>
 	        </researchPrerequisites>
             <skillRequirements>
                 <Crafting>9</Crafting>
@@ -96,7 +96,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>BP_PlasmaPistol</defName>
+        <defName>CVN_BP_PlasmaPistol</defName>
         <label>Pact Plasma Pistol</label>
         <description>A human-sized plasma pistol. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma pistols are highly valued by the Pact for tank hunter squads, while being used regularly with senior members and melee specialists.</description>
         <graphicData>
@@ -119,7 +119,7 @@
                 <li>CVN_BP_FabricationBench</li>
             </recipeUsers>		
             <researchPrerequisites>
-                <li>BP_Elites</li>
+                <li>CVN_BP_Elites</li>
 	        </researchPrerequisites>
             <skillRequirements>
                 <Crafting>9</Crafting>
@@ -187,7 +187,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>BP_Melta</defName>
+        <defName>CVN_BP_Melta</defName>
         <label>Pact Melta</label>
         <description>WIP</description>
         <graphicData>
@@ -198,7 +198,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
 		    <researchPrerequisites>
-			 <li>BP_HeatWeapons</li>
+			 <li>CVN_BP_HeatWeapons</li>
 	        </researchPrerequisites>
 			<recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>

@@ -2,7 +2,7 @@
 <Defs>
 
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
-		<defName>BP_LemanRuss_Blueprint</defName>
+		<defName>CVN_BP_LemanRuss_Blueprint</defName>
 		<label>Blood Pact Leman Russ tank</label>
 		<description>The standard battle tank of the Imperial Guard, this Leman Russ was forged on Urdesh. Urdeshi machines tend to be far less pristine then ones produced elsewhere, often resulting in further field retrofits being desired by those that field them. This particular variant has been claimed by the Blood Pact\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>VF_Vehicles</designationCategory>
@@ -18,15 +18,15 @@
 		</statBases>
 		<size>(5, 5)</size>
 		<researchPrerequisites>
-			<li>BP_ReclaimedArmor</li>
+			<li>CVN_BP_ReclaimedArmor</li>
 		</researchPrerequisites>
 		<costList>
 			<Steel>875</Steel>
 			<ComponentIndustrial>16</ComponentIndustrial>
-			<GW_KhornateSymbol>3</GW_KhornateSymbol>
+			<CVN_BP_KhornateSymbol>3</CVN_BP_KhornateSymbol>
 		</costList>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-		<thingToSpawn>BP_LemanRuss</thingToSpawn>
+		<thingToSpawn>CVN_BP_LemanRuss</thingToSpawn>
 		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
 	</Vehicles.VehicleBuildDef>
 	

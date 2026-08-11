@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef Name="KillYourself_BP_PawnBase" Abstract="True">
+  <PawnKindDef Name="CVN_BP_BP_PawnBase" Abstract="True">
         <race>Human</race>
         <defaultFactionType>Bloodpact</defaultFactionType>
         <invNutrition>2.55</invNutrition>
@@ -40,8 +40,8 @@
         </inventoryOptions>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_Initiate</defName>
+  <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_Initiate</defName>
         <combatPower>40</combatPower>
         <apparelMoney>20~700</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
@@ -65,23 +65,23 @@
         </skills>
     </PawnKindDef>
 
-      <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_TraitorGuardMelee</defName>
+      <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_TraitorGuardMelee</defName>
         <combatPower>100</combatPower>
         <apparelMoney>1500~2500</apparelMoney>
         <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle1</li>
             <li>BPapparelhead1</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
             <li>PactBackpack</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_Fatigues</li>
+            <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPMelee1</li>
-            <li>BP_Chainsword_Tag</li>
+            <li>CVN_BP_Chainsword_Tag</li>
         </weaponTags>
         <weaponMoney>550~850</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -98,19 +98,19 @@
         </skills>
     </PawnKindDef>
 
-      <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_TraitorGuardRanged</defName>
+      <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_TraitorGuardRanged</defName>
         <combatPower>100</combatPower>
         <apparelMoney>1700~2500</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle1</li>
             <li>BPapparelhead1</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
             <li>PactBackpack</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_Fatigues</li>
+            <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged1</li>
@@ -134,18 +134,18 @@
         </disallowedTraits>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_Sirdar_Melee</defName>
+    <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_Sirdar_Melee</defName>
         <combatPower>100</combatPower>
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
             <li>BPapparelhead2</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_Fatigues</li>
+            <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPMelee1</li>
@@ -165,18 +165,18 @@
         </skills>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_Sirdar_Ranged</defName>
+    <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_Sirdar_Ranged</defName>
         <combatPower>100</combatPower>
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
             <li>BPapparelhead2</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_Fatigues</li>
+            <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged1</li>
@@ -199,18 +199,18 @@
         </disallowedTraits>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_Sirdar_Gunner</defName>
+    <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_Sirdar_Gunner</defName>
         <combatPower>150</combatPower>
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
             <li>BPapparelhead2</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_Fatigues</li>
+            <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged3</li>
@@ -234,18 +234,18 @@
         </disallowedTraits>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_Sirdar_sniper</defName>
+    <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_Sirdar_sniper</defName>
         <combatPower>130</combatPower>
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle2</li>
             <li>BPapparelhead2</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_Fatigues</li>
+            <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPlongLasTag</li>
@@ -268,18 +268,18 @@
         </disallowedTraits>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_DeathBrigade_Melee</defName>
+    <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_DeathBrigade_Melee</defName>
         <combatPower>150</combatPower>
         <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelRequired>
-            <li>BP_DBfatigues</li>
+            <li>CVN_BP_DBfatigues</li>
         </apparelRequired>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
         </apparelTags>
         <weaponTags>
             <li>BPMelee1</li>
@@ -301,18 +301,18 @@
         </skills>
     </PawnKindDef>
 
-     <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_DeathBrigade_Ranged</defName>
+     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_DeathBrigade_Ranged</defName>
         <combatPower>150</combatPower>
         <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_DBfatigues</li>
+            <li>CVN_BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged1</li>
@@ -335,18 +335,18 @@
         </disallowedTraits>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_DeathBrigade_Gunner</defName>
+    <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_DeathBrigade_Gunner</defName>
         <combatPower>1800</combatPower>
         <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_DBfatigues</li>
+            <li>CVN_BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged3</li>
@@ -370,18 +370,18 @@
     </PawnKindDef>
 
     
-    <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_DeathBrigade_Demo</defName>
+    <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_DeathBrigade_Demo</defName>
         <combatPower>1800</combatPower>
         <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelmiddle3</li>
             <li>BPapparelhead3</li>
-            <li>BP_Pouchs</li>
+            <li>CVN_BP_Pouchs</li>
         </apparelTags>
         <apparelRequired>
-            <li>BP_DBfatigues</li>
+            <li>CVN_BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>BPranged4</li>
@@ -404,16 +404,16 @@
         </disallowedTraits>
     </PawnKindDef>
 
-      <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_Arnogaur</defName>
+      <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_Arnogaur</defName>
         <combatPower>250</combatPower>
         <apparelMoney>3000~3500</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <factionLeader>true</factionLeader>
         <apparelRequired>
-            <li>BP_AGchainmail</li>
-            <li>BP_Arnogaur</li>
-            <li>BP_Arnogaurmask</li>
+            <li>CVN_BP_AGchainmail</li>
+            <li>CVN_BP_Arnogaur</li>
+            <li>CVN_BP_Arnogaurmask</li>
         </apparelRequired>
         <apparelTags>
             <li>BPapparelmiddle4</li>
@@ -439,15 +439,15 @@
         </forcedTraits>
     </PawnKindDef>
 
-    <PawnKindDef ParentName="KillYourself_BP_PawnBase">
-        <defName>BP_KhorneBerzerker</defName>
+    <!-- <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+        <defName>CVN_BP_KhorneBerzerker</defName>
         <combatPower>400</combatPower>
         <apparelMoney>3000~3500</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelRequired>
-            <li>BP_KhornemarineT</li>
-            <li>BP_KhornemarineH</li>
-            <li>BP_KhorneBackpack</li>
+            <li>CVN_BP_KhornemarineT</li>
+            <li>CVN_BP_KhornemarineH</li>
+            <li>CVN_BP_KhorneBackpack</li>
         </apparelRequired>
         <apparelTags>
             <li>BPapparelskin1</li>
@@ -472,5 +472,5 @@
         <forcedTraits>
             <li>Brawler</li>
         </forcedTraits>
-    </PawnKindDef>
+    </PawnKindDef> -->
 </Defs>

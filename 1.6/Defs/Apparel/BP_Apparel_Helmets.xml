@@ -3,11 +3,11 @@
 <Defs>
 
     <ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_Flakhelm</defName>
+        <defName>CVN_BP_Flakhelm</defName>
         <label>Salvaged Flak helmet</label>
         <description>An Imperial Guard flak helmet, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. Repainted in the traditional Blood Pact colors.\n\nMade from low-grade ceramite, they offer superior protection compared to the hand-forged Blood Pact Grotesque while lacking in facial protection.</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet</texPath>
         </graphicData>
         <costList>
         <Steel>25</Steel>
@@ -25,7 +25,7 @@
         </statBases>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Plunder</li>
+			 <li>CVN_BP_Plunder</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -47,11 +47,11 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_Flakghelm</defName>
+        <defName>CVN_BP_Flakghelm</defName>
         <label>Salvaged Gas-mask helmet</label>
         <description>An Imperial Guard flak helmet, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. It features a familiar gas mask for added facial protection, while the helmet's fixed spikes can help in melee combat.\n\nMade from low-grade ceramite, they offer superior protection compared to the hand-forged Blood Pact Grotesque helmets.</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask</texPath>
         </graphicData>
         <costList>
         <Steel>35</Steel>
@@ -72,7 +72,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Plunder</li>
+			 <li>CVN_BP_Plunder</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -94,11 +94,11 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_SirdarMaskA</defName>
+        <defName>CVN_BP_SirdarMaskA</defName>
         <label>Sirdar grotesque grim</label>
         <description>The Grotesque, a facemask featuring a leering grin made of solid metal, affixed to a metal-bound, spiked helmet. Arguably the most iconic symbol of the Pact, it instills a sense of dread in those who face it.\n\nThis particular helmet is painted in dark, with round eyes that complement a perverse grin, a horrible sight on the battlefield.</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetA_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetA</texPath>
         </graphicData>
         <costList>
         <Steel>40</Steel>
@@ -119,7 +119,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Basic</li>
+			 <li>CVN_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -141,11 +141,11 @@
     </ThingDef>
 	
     <ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_SirdarMaskB</defName>
+        <defName>CVN_BP_SirdarMaskB</defName>
         <label>Sirdar grotesque maw</label>
         <description>The Grotesque, a facemask featuring a leering grin made of solid metal, affixed to a metal-bound, spiked helmet. Arguably the most iconic symbol of the Pact, it instills a sense of dread in those who face it.\n\nThis particular helmet is made of bare metal, with glaring eyes that complement its evil, grinning maw.</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetB_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetB</texPath>
         </graphicData>
         <costList>
         <Steel>40</Steel>
@@ -166,7 +166,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Basic</li>
+			 <li>CVN_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -188,16 +188,16 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_DBmaskA</defName>
+        <defName>CVN_BP_DBmaskA</defName>
         <label>Death grotesque visage</label>
         <description>Reinforced grotesques reserved for members of the Death Brigade, these are made of carapace and dyed a faded red, the color of dried blood. Arguably the most iconic symbol of the Pact, it instill a sense of dread in all who face them.</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetA_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetA</texPath>
         </graphicData>
         <costList>
             <Steel>40</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
-            <GW_ChaosSpikes>1</GW_ChaosSpikes>
+            <CVN_BP_ChaosSpikes>1</CVN_BP_ChaosSpikes>
         </costList>	
         <statBases>
             <WorkToMake>7000</WorkToMake>
@@ -214,7 +214,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Vanguard</li>
+			 <li>CVN_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -236,16 +236,16 @@
     </ThingDef>
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_DBmaskB</defName>
+        <defName>CVN_BP_DBmaskB</defName>
         <label>Death grotesque wailer</label>
         <description>Reinforced grotesques reserved for members of the Death Brigade, these are made of carapace and dyed a faded red, the color of dried blood. Arguably the most iconic symbol of the Pact, it instill a sense of dread in all who face them.</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetB_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetB</texPath>
         </graphicData>
         <costList>
         <Steel>70</Steel>
 	<ComponentIndustrial>2</ComponentIndustrial>
-            <GW_ChaosSpikes>1</GW_ChaosSpikes>
+            <CVN_BP_ChaosSpikes>1</CVN_BP_ChaosSpikes>
         </costList>	
         <statBases>
             <WorkToMake>7000</WorkToMake>
@@ -262,7 +262,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Vanguard</li>
+			 <li>CVN_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -284,18 +284,18 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_Arnogaurmask</defName>
+        <defName>CVN_BP_Arnogaurmask</defName>
         <label>Arnogaur grotesque</label>
         <description>A grotesque forged to imitate the visage of Urlock Gaur.</description>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Headgear/BP_Arnogaur_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Headgear/BP_Arnogaur</texPath>
         </graphicData>
 		<costList>
 			<Steel>95</Steel>
 		    <ComponentIndustrial>3</ComponentIndustrial>
 			<Gold>10</Gold>
-            <GW_KhornateSymbol>1</GW_KhornateSymbol>
-            <GW_ChaosSpikes>2</GW_ChaosSpikes>
+            <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
+            <CVN_BP_ChaosSpikes>2</CVN_BP_ChaosSpikes>
         </costList>
         <statBases>
             <WorkToMake>11000</WorkToMake>
@@ -313,7 +313,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Elites</li>
+			 <li>CVN_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>

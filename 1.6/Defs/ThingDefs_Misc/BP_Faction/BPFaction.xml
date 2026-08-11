@@ -53,7 +53,7 @@
     <label>Blood Pact</label>
     <description>A Blood Pact base of operations.</description>
     <configurationListOrderPriority>990</configurationListOrderPriority>
-    <basicMemberKind>BP_Initiate</basicMemberKind>
+    <basicMemberKind>CVN_BP_Initiate</basicMemberKind>
     <leaderTitle>Warlord</leaderTitle>
     <pawnSingular>Soldier</pawnSingular>
     <pawnsPlural>Soldiers</pawnsPlural>
@@ -62,7 +62,7 @@
     <factionNameMaker>KilllYourself_Namer_BloodPact</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-    <factionIconPath>UI/Icons/GW_BP_BloodPactFactionIcon</factionIconPath>
+    <factionIconPath>UI/Icons/CVN_BP_BP_BloodPactFactionIcon</factionIconPath>
     <colorSpectrum>
       <li>(0.54, 0.17, 0.16)</li>
     </colorSpectrum>
@@ -103,35 +103,35 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
-                  <BP_Initiate>10</BP_Initiate>
-                  <BP_TraitorGuardMelee>3</BP_TraitorGuardMelee>
-                  <BP_TraitorGuardRanged>8</BP_TraitorGuardRanged>
-                  <BP_Sirdar_Melee>3</BP_Sirdar_Melee>
-                  <BP_Sirdar_Ranged>8</BP_Sirdar_Ranged>
-                  <BP_Sirdar_Gunner>2</BP_Sirdar_Gunner>
-                  <BP_Sirdar_sniper>2</BP_Sirdar_sniper>
-                  <BP_DeathBrigade_Melee>3</BP_DeathBrigade_Melee>
-                  <BP_DeathBrigade_Ranged>6</BP_DeathBrigade_Ranged>
-                  <BP_DeathBrigade_Gunner>2</BP_DeathBrigade_Gunner>
-                  <BP_DeathBrigade_Demo>2</BP_DeathBrigade_Demo>
-                  <BP_Arnogaur>1</BP_Arnogaur>
+                  <CVN_BP_Initiate>10</CVN_BP_Initiate>
+                  <CVN_BP_TraitorGuardMelee>3</CVN_BP_TraitorGuardMelee>
+                  <CVN_BP_TraitorGuardRanged>8</CVN_BP_TraitorGuardRanged>
+                  <CVN_BP_Sirdar_Melee>3</CVN_BP_Sirdar_Melee>
+                  <CVN_BP_Sirdar_Ranged>8</CVN_BP_Sirdar_Ranged>
+                  <CVN_BP_Sirdar_Gunner>2</CVN_BP_Sirdar_Gunner>
+                  <CVN_BP_Sirdar_sniper>2</CVN_BP_Sirdar_sniper>
+                  <CVN_BP_DeathBrigade_Melee>3</CVN_BP_DeathBrigade_Melee>
+                  <CVN_BP_DeathBrigade_Ranged>6</CVN_BP_DeathBrigade_Ranged>
+                  <CVN_BP_DeathBrigade_Gunner>2</CVN_BP_DeathBrigade_Gunner>
+                  <CVN_BP_DeathBrigade_Demo>2</CVN_BP_DeathBrigade_Demo>
+                  <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
                 </options>
               </li>
             <li>
                 <kindDef>Peaceful</kindDef>
                 <options>
-                  <BP_Initiate>10</BP_Initiate>
-                  <BP_TraitorGuardMelee>3</BP_TraitorGuardMelee>
-                  <BP_TraitorGuardRanged>8</BP_TraitorGuardRanged>
-                  <BP_Sirdar_Melee>3</BP_Sirdar_Melee>
-                  <BP_Sirdar_Ranged>8</BP_Sirdar_Ranged>
-                  <BP_Sirdar_Gunner>2</BP_Sirdar_Gunner>
-                  <BP_Sirdar_sniper>2</BP_Sirdar_sniper>
-                  <BP_DeathBrigade_Melee>3</BP_DeathBrigade_Melee>
-                  <BP_DeathBrigade_Ranged>6</BP_DeathBrigade_Ranged>
-                  <BP_DeathBrigade_Gunner>2</BP_DeathBrigade_Gunner>
-                  <BP_DeathBrigade_Demo>2</BP_DeathBrigade_Demo>
-                  <BP_Arnogaur>1</BP_Arnogaur>
+                  <CVN_BP_Initiate>10</CVN_BP_Initiate>
+                  <CVN_BP_TraitorGuardMelee>3</CVN_BP_TraitorGuardMelee>
+                  <CVN_BP_TraitorGuardRanged>8</CVN_BP_TraitorGuardRanged>
+                  <CVN_BP_Sirdar_Melee>3</CVN_BP_Sirdar_Melee>
+                  <CVN_BP_Sirdar_Ranged>8</CVN_BP_Sirdar_Ranged>
+                  <CVN_BP_Sirdar_Gunner>2</CVN_BP_Sirdar_Gunner>
+                  <CVN_BP_Sirdar_sniper>2</CVN_BP_Sirdar_sniper>
+                  <CVN_BP_DeathBrigade_Melee>3</CVN_BP_DeathBrigade_Melee>
+                  <CVN_BP_DeathBrigade_Ranged>6</CVN_BP_DeathBrigade_Ranged>
+                  <CVN_BP_DeathBrigade_Gunner>2</CVN_BP_DeathBrigade_Gunner>
+                  <CVN_BP_DeathBrigade_Demo>2</CVN_BP_DeathBrigade_Demo>
+                  <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
                 </options>
             </li>
 
@@ -139,18 +139,18 @@
                 <kindDef>Settlement</kindDef>
                 <commonality>1</commonality>
                 <options>
-                  <BP_Initiate>10</BP_Initiate>
-                  <BP_TraitorGuardMelee>3</BP_TraitorGuardMelee>
-                  <BP_TraitorGuardRanged>8</BP_TraitorGuardRanged>
-                  <BP_Sirdar_Melee>3</BP_Sirdar_Melee>
-                  <BP_Sirdar_Ranged>8</BP_Sirdar_Ranged>
-                  <BP_Sirdar_Gunner>2</BP_Sirdar_Gunner>
-                  <BP_Sirdar_sniper>2</BP_Sirdar_sniper>
-                  <BP_DeathBrigade_Melee>3</BP_DeathBrigade_Melee>
-                  <BP_DeathBrigade_Ranged>6</BP_DeathBrigade_Ranged>
-                  <BP_DeathBrigade_Gunner>2</BP_DeathBrigade_Gunner>
-                  <BP_DeathBrigade_Demo>2</BP_DeathBrigade_Demo>
-                  <BP_Arnogaur>1</BP_Arnogaur>
+                  <CVN_BP_Initiate>10</CVN_BP_Initiate>
+                  <CVN_BP_TraitorGuardMelee>3</CVN_BP_TraitorGuardMelee>
+                  <CVN_BP_TraitorGuardRanged>8</CVN_BP_TraitorGuardRanged>
+                  <CVN_BP_Sirdar_Melee>3</CVN_BP_Sirdar_Melee>
+                  <CVN_BP_Sirdar_Ranged>8</CVN_BP_Sirdar_Ranged>
+                  <CVN_BP_Sirdar_Gunner>2</CVN_BP_Sirdar_Gunner>
+                  <CVN_BP_Sirdar_sniper>2</CVN_BP_Sirdar_sniper>
+                  <CVN_BP_DeathBrigade_Melee>3</CVN_BP_DeathBrigade_Melee>
+                  <CVN_BP_DeathBrigade_Ranged>6</CVN_BP_DeathBrigade_Ranged>
+                  <CVN_BP_DeathBrigade_Gunner>2</CVN_BP_DeathBrigade_Gunner>
+                  <CVN_BP_DeathBrigade_Demo>2</CVN_BP_DeathBrigade_Demo>
+                  <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
                 </options>
               </li>
           </pawnGroupMakers>
@@ -163,7 +163,7 @@
     <label>Blood Pact</label>
     <description>A Blood Pact base of operations.</description>
     <isPlayer>true</isPlayer>
-    <basicMemberKind>BP_Sirdar_Ranged</basicMemberKind>
+    <basicMemberKind>CVN_BP_Sirdar_Ranged</basicMemberKind>
     <pawnSingular>Soldier</pawnSingular>
     <pawnsPlural>Soldiers</pawnsPlural>
     <techLevel>Industrial</techLevel>

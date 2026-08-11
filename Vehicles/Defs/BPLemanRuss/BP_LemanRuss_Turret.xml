@@ -23,7 +23,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-        <defName>BP_LemanRuss_Bolter</defName>
+        <defName>CVN_BP_LemanRuss_Bolter</defName>
         <label>bolt</label>
         <graphicData>
             <texPath>Projectiles/BolterD</texPath>
@@ -39,7 +39,7 @@
     </ThingDef>
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
-		<defName>BP_LemanRuss_MainTurret</defName>
+		<defName>CVN_BP_LemanRuss_MainTurret</defName>
 		<label>Leman Russ battle cannon</label>
 		<description>A main turret-mounted Battle Cannon. This is the standard ballistic weapon used as the primary turret armament of the Leman Russ Battle Tank, showing Urdesh manufacturing characteristics.</description>
 		<turretType>Rotatable</turretType>
@@ -87,7 +87,7 @@
 	</Vehicles.VehicleTurretDef>
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
-		<defName>BP_LemanRuss_MainTurret_Spikes</defName>
+		<defName>CVN_BP_LemanRuss_MainTurret_Spikes</defName>
 		<label>Leman Russ main cannon</label>
 		<description>A turret-mounted Battle Cannon used on the Leman Russ battle tank.</description>
 		<turretType>Rotatable</turretType>
@@ -135,7 +135,7 @@
 	</Vehicles.VehicleTurretDef>
 
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
-		<defName>BP_LemanRuss_MainTurret_SpikesBarbed</defName>
+		<defName>CVN_BP_LemanRuss_MainTurret_SpikesBarbed</defName>
 		<label>Leman Russ main cannon</label>
 		<description>A turret-mounted Battle Cannon used on the Leman Russ battle tank.</description>
 		<turretType>Rotatable</turretType>
@@ -183,12 +183,12 @@
 	</Vehicles.VehicleTurretDef>
 
  <Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
-		<defName>BP_LemanRuss_HeavyBolter</defName>
+		<defName>CVN_BP_LemanRuss_HeavyBolter</defName>
 		<label>Heavy Bolter</label>
 		<description>A sponson-mounted heavy bolter used on the Imperial vehicles. Fires 0.998 cal bolts.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
-		<projectile>BP_LemanRuss_Bolter</projectile>
+		<projectile>CVN_BP_LemanRuss_Bolter</projectile>
 		<reloadTimer>6.0</reloadTimer>
 		<warmUpTimer>1.0</warmUpTimer>
 		<magazineCapacity>80</magazineCapacity>

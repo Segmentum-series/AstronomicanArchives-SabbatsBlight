@@ -2,7 +2,7 @@
 <Defs>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>BP_MissileLauncher</defName>
+		<defName>CVN_BP_MissileLauncher</defName>
 		<label>Pact Missile Launcher</label>
 		<description>A standard Astra Millitarum shoulder-fired guided missile launcher, covered in red markings by its new owners.\n\nA favorite of Heavy Weapons Teams, these launchers can sling a potent, high-speed missile far outside the range of hand grenades and grenade launchers.</description>
 		<graphicData>
@@ -13,7 +13,7 @@
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<recipeMaker>
 			<researchPrerequisites>
-			 <li>BP_AntiArmorWeapons</li>
+			 <li>CVN_BP_AntiArmorWeapons</li>
 			</researchPrerequisites>
 			<recipeUsers Inherit="False">
 				<li>CVN_BP_FabricationBench</li>
@@ -39,7 +39,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>BP_Projectile_Missile</defaultProjectile>
+				<defaultProjectile>CVN_BP_Projectile_Missile</defaultProjectile>
 				<warmupTime>4</warmupTime>
 				<range>36</range>
 				<forcedMissRadius>1</forcedMissRadius>
@@ -74,7 +74,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="BaseBullet">
-		<defName>BP_Projectile_Missile</defName>
+		<defName>CVN_BP_Projectile_Missile</defName>
 		<label>missile</label>
 		<graphicData>
 			<texPath>Things/Projectile/Rocket_Big</texPath>
@@ -90,7 +90,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>BP_Bullet_Flamer</defName>
+		<defName>CVN_BP_Bullet_Flamer</defName>
 		<label>flame burst</label>
 		<graphicData>
 			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
@@ -107,7 +107,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef Abstract="True" ParentName="BaseGunWithQuality" Name="KillYourselfFlamerBase">
+	<ThingDef Abstract="True" ParentName="BaseGunWithQuality" Name="CVN_BP_FlamerBase">
 		<smeltable>false</smeltable>
 		<techLevel>Spacer</techLevel>
 		<generateCommonality>0.5</generateCommonality>
@@ -115,8 +115,8 @@
 		<relicChance>0</relicChance>
 	</ThingDef>
 
-		<ThingDef ParentName="KillYourselfFlamerBase">
-		<defName>BP_Flamer</defName>
+		<ThingDef ParentName="CVN_BP_FlamerBase">
+		<defName>CVN_BP_Flamer</defName>
 		<label>Blood Pact Flamer</label>
 		<description>A man-portable flamer used by warriors of the Blood Pact. Imperial forces facing this weapon are consumed in a tide of blazing promethium. \n\nThe burns caused by flamers spill no blood, but Khorne nevertheless remains pleased at the death of his enemies.</description>
 		<graphicData>
@@ -142,7 +142,7 @@
 			<recipeUsers Inherit="False">
 				<li>CVN_BP_FabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>BP_Vanguard</researchPrerequisite>
+			<researchPrerequisite>CVN_BP_Vanguard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -162,7 +162,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>BP_Bullet_Flamer</defaultProjectile>
+				<defaultProjectile>CVN_BP_Bullet_Flamer</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<warmupTime>1.25</warmupTime>
 				<range>14</range>

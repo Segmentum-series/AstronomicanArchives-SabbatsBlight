@@ -2,7 +2,7 @@
 <Defs>
 	
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
-		<defName>BP_LemanRuss</defName>
+		<defName>CVN_BP_LemanRuss</defName>
 		<label>Urdeshi Leman Russ Tank</label>
 		<description>The standard battle tank of the Imperial Guard, this Leman Russ was forged on Urdesh. Urdeshi machines tend to be far less pristine then ones produced elsewhere, often resulting in further field retrofits being desired by those that field them. This particular variant has been claimed by the Blood Pact\n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x1, Passenger x2\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<graphicData>
@@ -28,7 +28,7 @@
 			</graphicOverlays>
 		</drawProperties>
 		<fillPercent>1</fillPercent>
-		<buildDef>BP_LemanRuss_Blueprint</buildDef>
+		<buildDef>CVN_BP_LemanRuss_Blueprint</buildDef>
 		<size>(5, 5)</size>
 		<vehicleCategory>Combat</vehicleCategory>
 		<techLevel>Industrial</techLevel>
@@ -367,12 +367,12 @@
 				<fuelCapacity>130</fuelCapacity>
 			</li>
 		    <li Class = "Vehicles.CompProperties_UpgradeTree">
-				<def>BP_Lemanruss_UpgradeTree</def>
+				<def>CVN_BP_Lemanruss_UpgradeTree</def>
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
 					<li>
-						<turretDef>BP_LemanRuss_MainTurret</turretDef>
+						<turretDef>CVN_BP_LemanRuss_MainTurret</turretDef>
 							<renderProperties>
 								<north>(0.0, 0.2)</north>
 								<south>(0.0, -0.2)</south>
@@ -385,7 +385,7 @@
 							<key>mainTurret</key>
 						</li>
 							<li>
-								<turretDef>BP_LemanRuss_HeavyBolter</turretDef>
+								<turretDef>CVN_BP_LemanRuss_HeavyBolter</turretDef>
 								<renderProperties>
 							<north>(-0.43, 1.8)</north>
 							<south>(0.43, -1.45)</south>
@@ -400,7 +400,7 @@
 								<parentKey>mainTurret</parentKey>
 							</li>
 							<li>
-								<turretDef>BP_LemanRuss_HeavyBolter</turretDef>
+								<turretDef>CVN_BP_LemanRuss_HeavyBolter</turretDef>
 								<renderProperties>
 							<north>(2, 0)</north>
 							<south>(-2, -0.15)</south>
@@ -415,7 +415,7 @@
 								<parentKey>mainTurret</parentKey>
 							</li>
 					<li>
-						<turretDef>BP_LemanRuss_HeavyBolter</turretDef>
+						<turretDef>CVN_BP_LemanRuss_HeavyBolter</turretDef>
 						<renderProperties>
 							<north>(-2, 0)</north>
 							<south>(2, -0.15)</south>

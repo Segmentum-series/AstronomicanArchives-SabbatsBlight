@@ -28,12 +28,12 @@
     </ThingDef>
 
     <ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_FlakArmor</defName>
+        <defName>CVN_BP_FlakArmor</defName>
         <label>Salvaged Flak armor</label>
         <description>A suit of Imperial Guard flak armor, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. Repainted in the traditional Blood Pact colors.\n\nMade from low-grade ceramite, they offer superior protection compared to the basic hand-forged Blood Pact armors.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Plunder</li>
+			 <li>CVN_BP_Plunder</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -41,7 +41,7 @@
 			<displayPriority>415</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Middle/BPFlakArmor_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Middle/BPFlakArmor</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>9000</WorkToMake>
@@ -74,12 +74,12 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_SirdarArmorA</defName>
+        <defName>CVN_BP_SirdarArmorA</defName>
         <label>Sirdar plate</label>
         <description>Not quite flak armor in the traditional sense, Warriors of the Pact forge barbaric imitations of Flak armor from battle salvage. Crude, sharp spikes adorn its shell, lacerating the enemy and spilling their blood for Khorne. \n\n"Khorne cares not from whence the blood flows, only that it flows!"</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Basic</li>
+			 <li>CVN_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -87,7 +87,7 @@
 			<displayPriority>416</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Middle/BP_SirdarMiddleA_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Middle/BP_SirdarMiddleA</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>11000</WorkToMake>
@@ -123,12 +123,12 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_SirdarArmorB</defName>
+        <defName>CVN_BP_SirdarArmorB</defName>
         <label>Sirdar armor</label>
         <description>Not quite flak armor in the traditional sense, Warriors of the Pact forge barbaric imitations of Flak armor from metal and battle salvage. Crude and barbaric, no two Blood Pact troopers ever appear the same, as their uniforms are the result of plunder, scavenging, and field customization.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Basic</li>
+			 <li>CVN_BP_Basic</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -136,7 +136,7 @@
 			<displayPriority>416</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Middle/BP_SirdarMiddleB_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Middle/BP_SirdarMiddleB</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>11000</WorkToMake>
@@ -172,12 +172,12 @@
     </ThingDef>
 
     <ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_DBArmorA</defName>
+        <defName>CVN_BP_DBArmorA</defName>
         <label>Death spiked carapace</label>
         <description>Specially forged suits of carapace armor, reserved solely for members of the Death Brigade. Carapace Armour consists of large, rigid plates of ceramite, molded to fit parts of the body. Carapace Armour is stronger and thicker than the Flak Armour.\n\n This particular design features a single spiked shoulder pad and reinforcements made of rebar on the back.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Vanguard</li>
+			 <li>CVN_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -185,7 +185,7 @@
 			<displayPriority>417</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Middle/BP_DeathBMiddleA_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Middle/BP_DeathBMiddleA</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>20000</WorkToMake>
@@ -205,8 +205,8 @@
 			<Steel>125</Steel>
 			<Cloth>15</Cloth>
 		    <ComponentIndustrial>2</ComponentIndustrial>
-            <GW_KhornateSymbol>1</GW_KhornateSymbol>
-            <GW_ChaosSpikes>2</GW_ChaosSpikes>
+            <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
+            <CVN_BP_ChaosSpikes>2</CVN_BP_ChaosSpikes>
         </costList>
         <apparel>
             <bodyPartGroups>
@@ -230,12 +230,12 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_DBArmorB</defName>
+        <defName>CVN_BP_DBArmorB</defName>
         <label>Death carapace armor</label>
         <description>Specially forged suits of carapace armor, reserved solely for members of the Death Brigade. Carapace Armour consists of large, rigid plates of ceramite, molded to fit parts of the body. Carapace Armour is stronger and thicker than the Flak Armour.\n\n This particular design features a streamlined look, with a daemon skull motif on its shoulder.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Vanguard</li>
+			 <li>CVN_BP_Vanguard</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -243,7 +243,7 @@
 			<displayPriority>417</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Middle/BP_DeathBMiddleB_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Middle/BP_DeathBMiddleB</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>20000</WorkToMake>
@@ -263,8 +263,8 @@
 			<Steel>125</Steel>
 			<Cloth>15</Cloth>
 		    <ComponentIndustrial>2</ComponentIndustrial>
-            <GW_KhornateSymbol>1</GW_KhornateSymbol>
-            <GW_ChaosSpikes>2</GW_ChaosSpikes>
+            <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
+            <CVN_BP_ChaosSpikes>2</CVN_BP_ChaosSpikes>
         </costList>
         <apparel>
             <bodyPartGroups>
@@ -288,12 +288,12 @@
     </ThingDef>
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_Arnogaur</defName>
+        <defName>CVN_BP_Arnogaur</defName>
         <label>Arnogaur battleplate</label>
         <description>Forged in the image of Urlock Gaur, this armor represents the highest rank one can achieve within the Pact. Arnogaurs are tasked with the removal of traitors from the ranks, being the only rank who hold the permission outside the Gaur himself to kill members of the Pact.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Elites</li>
+			 <li>CVN_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -301,7 +301,7 @@
 			<displayPriority>417</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Middle/BP_ArnogaurMiddle_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Middle/BP_ArnogaurMiddle</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>60000</WorkToMake>
@@ -321,8 +321,8 @@
 		<costList>
 			<Steel>195</Steel>
 		    <ComponentIndustrial>2</ComponentIndustrial>
-            <GW_KhornateSymbol>2</GW_KhornateSymbol>
-            <GW_ChaosSpikes>3</GW_ChaosSpikes>
+            <CVN_BP_KhornateSymbol>2</CVN_BP_KhornateSymbol>
+            <CVN_BP_ChaosSpikes>3</CVN_BP_ChaosSpikes>
 			<Gold>10</Gold>
         </costList>
         <apparel>
@@ -347,12 +347,12 @@
     </ThingDef> 
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_Goremagesuit</defName>
+        <defName>CVN_BP_Goremagesuit</defName>
         <label>Gore Mage cuirass</label>
         <description>The armor of a Gore Mage, a Chaos Psyker of the Blood Pact. \n\nGore Mages are spellcasters of Khorne, based heavily in the beliefs of the ancient cults from which the Pact descends. Khornate psykers are quite rare due to Khorne's hatred of magic, so equipment for them tends to be scarce among his followers - this makes Gore Mage apparel fairly crude and heavily armored to encourage them to remain on the frontlines.</description>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Elites</li>
+			 <li>CVN_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -360,7 +360,7 @@
 			<displayPriority>417</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/Goremage/Middle/BP_GoreMageMiddle_Male_south</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/Goremage/Middle/BP_GoreMageMiddle</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>30000</WorkToMake>
@@ -381,7 +381,7 @@
 			<Steel>105</Steel>
 			<Cloth>15</Cloth>
 		    <ComponentIndustrial>4</ComponentIndustrial>
-            <GW_KhornateSymbol>2</GW_KhornateSymbol>
+            <CVN_BP_KhornateSymbol>2</CVN_BP_KhornateSymbol>
         </costList>
         <apparel>
             <bodyPartGroups>

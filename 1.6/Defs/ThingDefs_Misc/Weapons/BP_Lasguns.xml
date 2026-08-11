@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef Abstract="true" Name="KillYourself_LasgunBase" ParentName="BaseHumanMakeableGun">
+    <ThingDef Abstract="true" Name="CVN_BP_LasgunBase" ParentName="BaseHumanMakeableGun">
         <techLevel>Spacer</techLevel>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
@@ -20,7 +20,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <researchPrerequisites>
-		     <li>BP_Basic</li>
+		     <li>CVN_BP_Basic</li>
 		    </researchPrerequisites>
             <recipeUsers Inherit="false">
                 <li>HP_AM_MilitarumFabricationBench</li>
@@ -29,8 +29,8 @@
         </recipeMaker>
     </ThingDef>
 
-    <ThingDef ParentName="KillYourself_LasgunBase">
-        <defName>BP_Gun_Flashlight</defName>
+    <ThingDef ParentName="CVN_BP_LasgunBase">
+        <defName>CVN_BP_Gun_Flashlight</defName>
         <label>Pact Lasgun</label>
         <description>The most iconic weapon throughout the entire Imperium of Man, the lasgun comes in too many variants to even attempt recording. Lasguns while more expensive to produce, have highly reduced strain logistical networks compared to the Autogun.\n\nPact lasguns dont see much modification outside the installation of bayonets.</description>
         <graphicData>
@@ -77,7 +77,7 @@
             </recipeUsers>
             <displayPriority>231</displayPriority>
 			<researchPrerequisites>
-		     <li>BP_Basic</li>
+		     <li>CVN_BP_Basic</li>
 		    </researchPrerequisites>
         </recipeMaker>
         <tools>
@@ -136,8 +136,8 @@
         </modExtensions>
     </ThingDef>
  
-    <ThingDef ParentName="KillYourself_LasgunBase">
-        <defName>BP_Laspistol</defName>
+    <ThingDef ParentName="CVN_BP_LasgunBase">
+        <defName>CVN_BP_Laspistol</defName>
         <label>Pact Laspistol</label>
         <description>Most commonly seen in the hands of a commissar, Laspistols are rumored to see more use in execution then in actual combat.\n\nDue to the Blood Pacts disdain for killing its own members, Laspistols arent nearly as common within its ranks.</description>
         <graphicData>
@@ -184,7 +184,7 @@
             </recipeUsers>
             <displayPriority>232</displayPriority>
 			<researchPrerequisites>
-                <li>BP_Basic</li>
+                <li>CVN_BP_Basic</li>
 	        </researchPrerequisites>
         </recipeMaker>
         <tools>
@@ -244,8 +244,8 @@
         </modExtensions>
     </ThingDef>
 	
-	<ThingDef ParentName="KillYourself_LasgunBase">
-        <defName>BP_longLasgun</defName>
+	<ThingDef ParentName="CVN_BP_LasgunBase">
+        <defName>CVN_BP_longLasgun</defName>
         <label>Pact Longlas</label>
         <description>A Lasgun that has been altered for long range engagement.\n\nMembers of the Pact equipped with these lack the common hand scars seen with other believers, this is due to the Archon allowing snipers to cut other parts of flesh during initiation, so as to not lessen their aim.</description>
         <graphicData>
@@ -291,7 +291,7 @@
             </recipeUsers>
             <displayPriority>231</displayPriority>
 			<researchPrerequisites>
-                <li>BP_Basic</li>
+                <li>CVN_BP_Basic</li>
 	        </researchPrerequisites>
         </recipeMaker>
         <tools>

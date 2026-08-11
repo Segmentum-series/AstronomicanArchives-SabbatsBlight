@@ -3,14 +3,14 @@
 <Defs>
 
   <ThingDef ParentName="ApparelNoQualityBase">
-    <defName>BP_Backpack</defName>
+    <defName>CVN_BP_Backpack</defName>
     <label>Salvaged battleline backpack</label>
     <description>A basic battleline backpack used by the Blood Pact. \n\nThe Pact teaches all of its members to grab anything they can, munitions, food, and more. Backpacks like these allow their warriors to maintain supplies and battle readiness for longer campaigns.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
       <researchPrerequisites>
-			 <li>BP_Basic</li>
+			 <li>CVN_BP_Basic</li>
 			</researchPrerequisites>
       <recipeUsers>
         <li>CVN_BP_FabricationBench</li>
@@ -29,7 +29,7 @@
         </stuffCategories>
 		<costStuffCount>35</costStuffCount>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Backpacks/BP_BackpackBattleline_south</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Backpacks/Battleline/BP_BackpackBattleline</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1,1</drawSize>
@@ -66,7 +66,7 @@
       <tags>
         <li>PactBackpack</li>
       </tags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Backpacks/BP_BackpackBattleline</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Backpacks/Battleline/BP_BackpackBattleline</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>true</renderUtilityAsPack>
         <north>
@@ -98,14 +98,14 @@
   </ThingDef>
   
   <ThingDef ParentName="ApparelNoQualityBase">
-    <defName>BP_BackpackM</defName>
+    <defName>CVN_BP_BackpackM</defName>
     <label>Salvaged Medicae backpack</label>
     <description>A basic backpack used by the Blood Pact. This one has been outfitted with crude medical supplies, resulting in better medical outcomes for those being tended. \n\nIt is rare for a Chaos cult to have medics, especially a Khornate one - after all, Khorne cares not from whence the blood flows. The presence of these medicae indicates a discipline among the Blood Pact that many others lack.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
       <researchPrerequisites>
-			 <li>BP_Basic</li>
+			 <li>CVN_BP_Basic</li>
 			</researchPrerequisites>
       <recipeUsers>
         <li>CVN_BP_FabricationBench</li>
@@ -124,7 +124,7 @@
         </stuffCategories>
 		<costStuffCount>65</costStuffCount>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Backpacks/BP_BackpackMedicae_south</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Backpacks/Medicae/BP_BackpackMedicae</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1,1</drawSize>
@@ -162,7 +162,7 @@
       <tags>
         <li>PactBackpack</li>
       </tags>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Backpacks/BP_BackpackMedicae</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Backpacks/Medicae/BP_BackpackMedicae</wornGraphicPath>
       <wornGraphicData>
         <renderUtilityAsPack>true</renderUtilityAsPack>
         <north>
@@ -193,15 +193,15 @@
     </apparel>
   </ThingDef>
   
-  <ThingDef ParentName="ApparelNoQualityBase">
-    <defName>BP_KhorneBackpack</defName>
+  <!-- <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>CVN_BP_KhorneBackpack</defName>
     <label>Blood Berzerker backpack</label>
     <description>A power armor backpack modified for use by Khornate Berzerkers. As well as providing backup power to the armor’s servos, these backpacks also serve other functions, such as supplying reserve air in a vacuum, temperature regulation, and air purification.\n\nWhile permanently joining a cult would reduce an Astarte's ability to maintain their equipment, the Pact provides a more organized enviroment for Khornate Berzerkers.</description>
     <techLevel>Industrial</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
       <researchPrerequisites>
-			 <li>BP_Legion</li>
+			 <li>CVN_BP_Legion</li>
 			</researchPrerequisites>
       <recipeUsers>
         <li>CVN_BP_FabricationBench</li>
@@ -219,8 +219,8 @@
 			<ComponentSpacer>1</ComponentSpacer>
 			<Plasteel>25</Plasteel>
 			<Steel>35</Steel>
-      <GW_KhornateSymbol>1</GW_KhornateSymbol>
-      <GW_ChaosSpikes>1</GW_ChaosSpikes>
+      <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
+      <CVN_BP_ChaosSpikes>1</CVN_BP_ChaosSpikes>
 		</costList>
       <statBases>
 			<WorkToMake>10000</WorkToMake>
@@ -235,7 +235,7 @@
 			<EquipDelay>5</EquipDelay>
 		</statBases>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Backpack/BP_BerserkerBackpack_south</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Backpack/BP_BerserkerBackpack</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
       <drawSize>1,1</drawSize>
@@ -285,6 +285,6 @@
       </wornGraphicData>
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
-  </ThingDef>
+  </ThingDef> -->
 
 </Defs>

@@ -2,7 +2,7 @@
 <Defs>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>BP_SabreKnife</defName>
+    <defName>CVN_BP_SabreKnife</defName>
     <label>Sabre-Knife</label>
     <description>A grossly oversized knife-like sword, often seen in use by the Blood Pact. Great for hacking away at unarmored prey, it is however lacking when it comes to piercing armor.</description>
     <graphicData>
@@ -26,7 +26,7 @@
     </costList>
     <recipeMaker>
       <researchPrerequisites>
-       <li>BP_Vanguard</li>
+       <li>CVN_BP_Vanguard</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -64,7 +64,7 @@
   </ThingDef>
     
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-    <defName>BP_TrenchClub</defName>
+    <defName>CVN_BP_TrenchClub</defName>
     <label>Trench Club</label>
     <description>A makeshift club, intended for use within cramped spaces. The smaller size allow for fast cruel swings.</description>
     <graphicData>
@@ -88,7 +88,7 @@
     </costList>
     <recipeMaker>
       <researchPrerequisites>
-       <li>BP_Basic</li>
+       <li>CVN_BP_Basic</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>4</Crafting>
@@ -125,7 +125,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>BP_ChainSword</defName>
+    <defName>CVN_BP_ChainSword</defName>
     <label>Pact Chainsword</label>
     <description>A one-handed chainsword fit for use by a baseline human, it can still rip through enemy flesh with horrifying efficiency. \n\nOne of the most feared close combat armaments in known space, this particular Chainsword has been salvaged for service in the Blood Pact.</description>
     <graphicData>
@@ -136,7 +136,7 @@
     <techLevel>Medieval</techLevel>
     <weaponTags>
       <li>BPMelee2</li>
-      <li>BP_Chainsword_Tag</li>
+      <li>CVN_BP_Chainsword_Tag</li>
     </weaponTags>
 	<weaponClasses>
       <li>Melee</li>
@@ -190,7 +190,7 @@
     </tools>
     <recipeMaker>
       <researchPrerequisites>
-	   <li>BP_Vanguard</li>
+	   <li>CVN_BP_Vanguard</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -203,7 +203,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>BP_ChainAxe</defName>
+    <defName>CVN_BP_ChainAxe</defName>
     <label>Pact Chainaxe</label>
     <description>The favored weapon of all Khornate worshippers, the Chain axe is a brutal melee weapon capable of biting deep into flesh or metal.\n\nThis particular axe appears to have originally belonged to the World Eaters, but has been gifted to the Blood Pact.</description>
     <graphicData>
@@ -266,7 +266,7 @@
     </tools>
     <recipeMaker>
       <researchPrerequisites>
-	   <li>BP_Legion</li>
+	   <li>CVN_BP_Legion</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -279,7 +279,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>BP_PowerFist</defName>
+        <defName>CVN_BP_PowerFist</defName>
         <label>Pact Power Fist</label>
         <description>The Powerfist is a brutal but refined weapon utilizing an energy field to disrupt matter it touchs, allowing it to easily rend even the largest of targets.</description>
         <graphicData>
@@ -295,7 +295,7 @@
         <equippedAngleOffset>-65</equippedAngleOffset>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Elites</li>
+			 <li>CVN_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>9</Crafting>
@@ -308,7 +308,7 @@
         <costList>
             <Plasteel>110</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-      <GW_KhornateSymbol>1</GW_KhornateSymbol>
+      <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
         </costList>
         <weaponTags>
          <li>BPMelee3</li>
@@ -339,7 +339,7 @@
     </ThingDef>
 	
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>BP_PowerSword</defName>
+        <defName>CVN_BP_PowerSword</defName>
         <label>Pact Power Sword</label>
 		<description>Power swords are elegantly crafted blades designed to carve through any target with ease, generally seeing widespread use among any high ranking members of the Imperium\n\nThis sword likely came from a commissar who refused to revoke his rank, and join the Blood Pact.</description>
         <graphicData>
@@ -392,7 +392,7 @@
         </tools>
         <recipeMaker>
             <researchPrerequisites>
-			 <li>BP_Elites</li>
+			 <li>CVN_BP_Elites</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>9</Crafting>
@@ -405,7 +405,7 @@
 	    <costList>
             <Plasteel>60</Plasteel>
             <ComponentSpacer>2</ComponentSpacer>
-            <GW_KhornateSymbol>1</GW_KhornateSymbol>
+            <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
         </costList>
     </ThingDef>
   	

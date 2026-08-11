@@ -2,8 +2,8 @@
 
 <Defs>
 
-	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>BP_KhornemarineH</defName>
+	<!-- <ThingDef ParentName="CVN_BP_ArmorBase">
+        <defName>CVN_BP_KhornemarineH</defName>
 		<label>Blood Berzerker helmet</label>
         <description>A Power Armor helmet worn by Khornate Berzerkers. It is sturdy enough to withstand a torrent of enemy fire, allowing the Berzerker to leap into the fray and rend the corpse-worshippers apart. \n\n"Blood for the Blood God! Skulls for the Skull Throne!"</description>
 		<graphicData>
@@ -16,7 +16,7 @@
 		<techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<researchPrerequisites>
-			 <li>BP_Legion</li>
+			 <li>CVN_BP_Legion</li>
 			</researchPrerequisites>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -78,8 +78,8 @@
 			<ComponentSpacer>2</ComponentSpacer>
 			<Plasteel>75</Plasteel>
 			<Steel>150</Steel>
-			<GW_KhornateSymbol>1</GW_KhornateSymbol>
-            <GW_ChaosSpikes>2</GW_ChaosSpikes>
+			<CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
+            <CVN_BP_ChaosSpikes>2</CVN_BP_ChaosSpikes>
 		</costList>
 	 <modExtensions>
       <li Class="taranchuk_apparelgraphics.ApparelExtension">
@@ -88,6 +88,6 @@
        <maleBody>Male</maleBody>
       </li>
      </modExtensions>
-    </ThingDef>
+    </ThingDef> -->
 
 </Defs>
