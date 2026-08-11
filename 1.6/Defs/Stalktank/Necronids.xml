@@ -213,6 +213,9 @@
                     <coverage>0.09</coverage>
                     <height>Bottom</height>
                     <depth>Outside</depth>
+                    <groups>
+                        <li>FrontLeftLeg</li>
+                    </groups>
                     <slots>
                         <li>
                             <label>front left leg</label>
@@ -239,6 +242,9 @@
                     <coverage>0.09</coverage>
                     <height>Bottom</height>
                     <depth>Outside</depth>
+                    <groups>
+                        <li>FrontLeftLeg</li>
+                    </groups>
                     <slots>
                         <li>
                             <label>front right leg</label>
@@ -314,105 +320,7 @@
             </parts>
         </corePart>
     </BodyDef>
-<!--
-    <ThingDef ParentName="BaseInsect">
-        <defName>Necronid_Megaspider</defName>
-        <label>necronid megaspider</label>
-        <description>text.todo.</description>
-        <statBases>
-            <MoveSpeed>4.0</MoveSpeed>
-            <ComfyTemperatureMin>-50</ComfyTemperatureMin>
-            <MarketValue>1200</MarketValue>
-            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-            <Flammability>0.7</Flammability>
-            <Wildness>0.4</Wildness>
-        </statBases>
-        <uiIconScale>1.2</uiIconScale>
-        <tools>
-            <li>
-                <label>head</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>8</power>
-                <cooldownTime>2.2</cooldownTime>
-                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-                <chanceFactor>0.2</chanceFactor>
-            </li>
-        </tools>
-        <race>
-            <intelligence>ToolUser</intelligence>
-            <thinkTreeMain>Animal</thinkTreeMain>
-            <body>NecronidMegaspiderBody</body>
-            <baseHungerRate>0.4</baseHungerRate>
-            <baseBodySize>1.5</baseBodySize>
-            <baseHealthScale>3.0</baseHealthScale>
-            <lifeExpectancy>10</lifeExpectancy>
-            <trainability>Advanced</trainability>
-            <lifeStageAges>
-                <li>
-                    <def>AnimalAdult</def>
-                    <minAge>0</minAge>
-                    <soundWounded>Pawn_BigInsect_Pain</soundWounded>
-                    <soundDeath>Pawn_BigInsect_Death</soundDeath>
-                    <soundCall>Pawn_BigInsect_Call</soundCall>
-                    <soundAngry>Pawn_BigInsect_Angry</soundAngry>
-                </li>
-            </lifeStageAges>
-            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-            <fleshType>Insectoid</fleshType>
-            <needsRest>true</needsRest>
-            <bloodDef>Filth_BloodInsect</bloodDef>
-            <meatLabel>insect meat</meatLabel>
-        </race>
-        <inspectorTabs>
-            <li>taranchuk_mechsuits.ITab_MechSuit</li>
-        </inspectorTabs>
-        <comps>
-            <li Class="taranchuk_mechsuits.CompProperties_MechSuit">
-                <baseCarryingCapacity>500</baseCarryingCapacity>
-                <requiresGantryForModifications>False</requiresGantryForModifications>
-                <basePowerGeneration>50</basePowerGeneration>
-                <canBePilotedByPawns>false</canBePilotedByPawns>
-            </li>
-        </comps>
-    </ThingDef>
 
-    <PawnKindDef ParentName="AnimalKindBase">
-        <defName>Necronid_Megaspider</defName>
-        <label>necronid megaspider</label>
-        <race>Necronid_Megaspider</race>
-        <combatPower>250</combatPower>
-        <canArriveManhunter>true</canArriveManhunter>
-        <ecoSystemWeight>0.3</ecoSystemWeight>
-        <lifeStages>
-            <li>
-                <bodyGraphicData>
-                    <texPath>MechSuits/Toxibug_Megaspider</texPath>
-                    <drawSize>5</drawSize>
-                    <shaderType>CutoutComplex</shaderType>
-                    <graphicClass>Graphic_Multi</graphicClass>
-                    <shadowData>
-                        <volume>(0.5, 0.7, 0.43)</volume>
-                        <offset>(0,0,-0.1)</offset>
-                    </shadowData>
-                </bodyGraphicData>
-                <dessicatedBodyGraphicData>
-                    <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
-                    <drawSize>5</drawSize>
-                </dessicatedBodyGraphicData>
-            </li>
-        </lifeStages>
-        <modExtensions>
-            <li Class="taranchuk_mechsuits.MechSpawnGeneration">
-                <colonyFactionByDefault>True</colonyFactionByDefault>
-            </li>
-        </modExtensions>
-    </PawnKindDef>-->
 
     <ThingDef ParentName="BaseMechanoid">
         <defName>StalkTank</defName>
@@ -432,6 +340,17 @@
                 <power>9</power>
                 <cooldownTime>2</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>scythe claw</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>22</power>
+                <cooldownTime>1.78</cooldownTime>
+                <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
                 <chanceFactor>0.2</chanceFactor>
             </li>
@@ -488,11 +407,12 @@
 
                 <designationCategory>Security</designationCategory>
                 <costList>
-                    <Steel>100</Steel>
+                    <Steel>250</Steel>
                     <ComponentIndustrial>30</ComponentIndustrial>
                 </costList>
                 <researchPrerequisites>
                     <li>MicroelectronicsBasics</li>
+                    <li>BP_Vanguard</li>
                 </researchPrerequisites>
                 <statBases>
                     <WorkToBuild>8000</WorkToBuild>
