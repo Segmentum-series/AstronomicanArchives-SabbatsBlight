@@ -13,6 +13,11 @@
 		<displayName>Harmony</displayName>
 		<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
 	</li>
+  	<li>
+		<packageId>shunthewitch.cvnmechanoidwarfarecore</packageId>
+		<displayName>CVN Mechanoid Warfare Core</displayName>
+		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3047564391</steamWorkshopUrl>
+	</li>
   </modDependencies>
   <loadAfter>
     <li>brrainz.harmony</li>
@@ -21,6 +26,9 @@
     <li>Ludeon.RimWorld.Ideology</li>
     <li>Ludeon.RimWorld.Biotech</li>
     <li>SmashPhil.VehicleFramework</li>
+    <li>shunthewitch.mechsuitframework</li>
+    <li>shunthewitch.cvnmechanoidwarfarecore</li>
+
   </loadAfter>
   <description>“They hide their faces in snarling iron, but the cruelty in their hearts is manifest in their brutal deeds. We are lost and we are done. May the God-Emperor forgive our failure and protect our souls."" \n\nExperience dread or join the forces of Khorne, the Blood God. Sabbat's Blight adds the Blood Pact, a warrior Chaos Cult engaged in trying to maintain the grip of the forces of Chaos on the Sabbat Worlds.\n\nComprised of both highly-trained Human troops and xenos mercenaries, the forces of the Blood Pact were instrumental in Chaos' victory in overrunning the Sabbat Worlds and are equally important in defending the forces of Chaos' gains from the ongoing Imperial Sabbat Worlds Crusade.</description>
 </ModMetaData>

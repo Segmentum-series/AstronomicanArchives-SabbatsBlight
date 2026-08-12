@@ -4,5 +4,6 @@
 		<li>/</li>
 		<li>1.6</li>
 		<li IfModActive = "SmashPhil.VehicleFramework">Vehicles</li>
+		<li IfModActive = "shunthewitch.mechsuitframework">Stalktank</li>
 	</v1.6>
 </loadFolders>

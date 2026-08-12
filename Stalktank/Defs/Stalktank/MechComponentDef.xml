@@ -9,6 +9,7 @@
             <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
+            <shaderType>Cutout</shaderType>
         </graphicData>
         <drawOnMech>True</drawOnMech>
 
@@ -40,6 +41,7 @@
         <graphicData>
             <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Cutout</shaderType>
         </graphicData>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -74,6 +76,7 @@
         <graphicData>
             <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Cutout</shaderType>
         </graphicData>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -112,6 +115,7 @@
         <graphicData>
             <texPath>Things/Pawn/StalkTank/DualMG_MainGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Cutout</shaderType>
             <drawSize>2</drawSize>
         </graphicData>
         <drawOnMech>True</drawOnMech>
@@ -144,6 +148,7 @@
         <graphicData>
             <texPath>Things/Pawn/StalkTank/DualMG_MainGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Cutout</shaderType>
         </graphicData>
         <statBases>
             <WorkToMake>2500</WorkToMake>
