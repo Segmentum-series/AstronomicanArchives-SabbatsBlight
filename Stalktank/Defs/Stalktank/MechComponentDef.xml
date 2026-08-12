@@ -1,5 +1,6 @@
 <Defs>
 
+    <!-- Lasgun mouth MechComponent-->
     <taranchuk_mechsuits.MechComponentDef ParentName="CVN_MechComponentBase">
         <defName>CVN_StalkTank_Lasgun</defName>
         <label>Lasgun</label>
@@ -9,7 +10,7 @@
             <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
-            <shaderType>Cutout</shaderType>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <drawOnMech>True</drawOnMech>
 
@@ -32,6 +33,7 @@
         </comps>
     </taranchuk_mechsuits.MechComponentDef>
 
+    <!-- Lasgun mouth turret -->
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>CVN_Stalktank_LasgunTurret</defName>
         <label>Lasgun</label>
@@ -41,7 +43,7 @@
         <graphicData>
             <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>Cutout</shaderType>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -67,6 +69,7 @@
         </comps>
     </ThingDef>
 
+    <!-- Flamethrower mouth turret -->
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>CVN_Stalktank_FlamethrowerTurret</defName>
         <label>Flamethrower</label>
@@ -76,7 +79,7 @@
         <graphicData>
             <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>Cutout</shaderType>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <statBases>
             <WorkToMake>2500</WorkToMake>
@@ -107,6 +110,7 @@
     </ThingDef>
 
 
+    <!-- Machinegun main turret MechComponent-->
     <taranchuk_mechsuits.MechComponentDef ParentName="CVN_MechComponentBase">
         <defName>CVN_Stalktank_Machinegun</defName>
         <label>Machinegun</label>
@@ -115,7 +119,7 @@
         <graphicData>
             <texPath>Things/Pawn/StalkTank/DualMG_MainGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>Cutout</shaderType>
+            <shaderType>CutoutComplex</shaderType>
             <drawSize>2</drawSize>
         </graphicData>
         <drawOnMech>True</drawOnMech>
@@ -139,6 +143,7 @@
         </comps>
     </taranchuk_mechsuits.MechComponentDef>
 
+    <!-- Machinegun main turret -->
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>CVN_Stalktank_MachinegunTurret</defName>
         <label>Machinegun</label>
@@ -148,7 +153,7 @@
         <graphicData>
             <texPath>Things/Pawn/StalkTank/DualMG_MainGun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>Cutout</shaderType>
+            <shaderType>CutoutComplex</shaderType>
         </graphicData>
         <statBases>
             <WorkToMake>2500</WorkToMake>
