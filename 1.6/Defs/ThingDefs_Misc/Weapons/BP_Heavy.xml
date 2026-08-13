@@ -8,8 +8,9 @@
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/BP_Rocketlaucher</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.4</drawSize>
+			<drawSize>1.3</drawSize>
 		</graphicData>
+		<uiIconScale>0.9</uiIconScale>
 		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<recipeMaker>
 			<researchPrerequisites>
@@ -96,7 +97,6 @@
 			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
-			<drawSize>1.2</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Burn</damageDef>
@@ -115,15 +115,16 @@
 		<relicChance>0</relicChance>
 	</ThingDef>
 
-		<ThingDef ParentName="CVN_BP_FlamerBase">
+	<ThingDef ParentName="CVN_BP_FlamerBase">
 		<defName>CVN_BP_Flamer</defName>
 		<label>Blood Pact Flamer</label>
 		<description>A man-portable flamer used by warriors of the Blood Pact. Imperial forces facing this weapon are consumed in a tide of blazing promethium. \n\nThe burns caused by flamers spill no blood, but Khorne nevertheless remains pleased at the death of his enemies.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/BP_Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.0</drawSize>
+			<drawSize>1.4</drawSize>
 		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
 		<tools>
 			<li>
 				<label>barrel</label>

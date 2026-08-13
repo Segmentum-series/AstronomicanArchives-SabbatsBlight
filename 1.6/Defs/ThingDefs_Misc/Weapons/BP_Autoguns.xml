@@ -16,7 +16,7 @@
 		</projectile>
 	</ThingDef>
 
-	
+	<!-- Auto pistol bullet -->
 	<ThingDef ParentName="BaseBullet">
 		<defName>CVN_BP_Bullet_AutoPistol</defName>
 		<label>bullet</label>
@@ -60,6 +60,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.4</drawSize>
 		</graphicData>
+		<uiIconScale>0.9</uiIconScale>
 		<recipeMaker>
 			<researchPrerequisites>
 			<li>CVN_BP_Basic</li>
@@ -132,6 +133,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		    <drawSize>1.4</drawSize>
         </graphicData>
+		<uiIconScale>1</uiIconScale>
 		<recipeMaker>
 		    <researchPrerequisites>
 			 <li>CVN_BP_Basic</li>
@@ -196,88 +198,89 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_AutogunBase">
-    <defName>CVN_BP_Autopistol</defName>
-    <label>Pact Autopistol</label>
-    <description>A simple autopistol, unimpressive and weak. Autopistols main benefit is their high rate of fire, ease of production, and low maintenance.\n\nPact pistols dont have many notable changes outside heretical markings, being such a commonly distributed weapon that none of its users hold particular attachment to them.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BP_Autopistol</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>1.4</drawSize>
-    </graphicData>
-    <uiIconScale>1.5</uiIconScale>
-    <soundInteract>Interact_Autopistol</soundInteract>
-    <recipeMaker>
-      	<researchPrerequisites>
-		 <li>CVN_BP_Basic</li>
-		</researchPrerequisites>
-	  <recipeUsers Inherit="false">
-        <li>CVN_BP_FabricationBench</li>
-      </recipeUsers>
-      <skillRequirements>
-        <Crafting>4</Crafting>
-      </skillRequirements>
-      <displayPriority>429</displayPriority>
-    </recipeMaker>
-    <statBases>
-      <WorkToMake>7000</WorkToMake>
-      <Mass>1.2</Mass>
-      <AccuracyTouch>0.90</AccuracyTouch>
-      <AccuracyShort>0.65</AccuracyShort>
-      <AccuracyMedium>0.35</AccuracyMedium>
-      <AccuracyLong>0.15</AccuracyLong>
-      <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
-    </statBases>
-    <costList>
-      <Steel>50</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>CVN_BP_Bullet_AutoPistol</defaultProjectile>
-        <warmupTime>0.5</warmupTime>
-        <range>20.9</range>
-		<burstShotCount>2</burstShotCount>
-        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>Shot_Autopistol</soundCast>
-        <soundCastTail>GunTail_Light</soundCastTail>
-        <muzzleFlashScale>9</muzzleFlashScale>
-      </li>
-    </verbs>
-    <weaponTags>
-     <li>BPranged1</li>
-    </weaponTags>
-    <tools>
-      <li>
-        <label>grip</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-      <li>
-        <label>barrel</label>
-        <capacities>
-          <li>Blunt</li>
-          <li>Poke</li>
-        </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
-      </li>
-    </tools>
-  </ThingDef>
+        <defName>CVN_BP_Autopistol</defName>
+        <label>Pact Autopistol</label>
+        <description>A simple autopistol, unimpressive and weak. Autopistols main benefit is their high rate of fire, ease of production, and low maintenance.\n\nPact pistols dont have many notable changes outside heretical markings, being such a commonly distributed weapon that none of its users hold particular attachment to them.</description>
+        <graphicData>
+            <texPath>Things/Item/Equipment/WeaponRanged/BP_Autopistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.4</drawSize>
+        </graphicData>
+        <uiIconScale>2</uiIconScale>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+            <li>CVN_BP_Basic</li>
+            </researchPrerequisites>
+        <recipeUsers Inherit="false">
+            <li>CVN_BP_FabricationBench</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+        <displayPriority>429</displayPriority>
+        </recipeMaker>
+        <statBases>
+        <WorkToMake>7000</WorkToMake>
+        <Mass>1.2</Mass>
+        <AccuracyTouch>0.90</AccuracyTouch>
+        <AccuracyShort>0.65</AccuracyShort>
+        <AccuracyMedium>0.35</AccuracyMedium>
+        <AccuracyLong>0.15</AccuracyLong>
+        <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+        <Steel>50</Steel>
+        <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>CVN_BP_Bullet_AutoPistol</defaultProjectile>
+            <warmupTime>0.5</warmupTime>
+            <range>20.9</range>
+            <burstShotCount>2</burstShotCount>
+            <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+            <soundCast>Shot_Autopistol</soundCast>
+            <soundCastTail>GunTail_Light</soundCastTail>
+            <muzzleFlashScale>9</muzzleFlashScale>
+        </li>
+        </verbs>
+        <weaponTags>
+        <li>BPranged1</li>
+        </weaponTags>
+        <tools>
+        <li>
+            <label>grip</label>
+            <capacities>
+            <li>Blunt</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        <li>
+            <label>barrel</label>
+            <capacities>
+            <li>Blunt</li>
+            <li>Poke</li>
+            </capacities>
+            <power>9</power>
+            <cooldownTime>2</cooldownTime>
+        </li>
+        </tools>
+     </ThingDef>
 
     <ThingDef ParentName="CVN_BP_AutogunBase">
         <defName>CVN_BP_Heavystubber</defName>
         <label>Pact Heavy stubber</label>
         <description>Heavy stubbers are large autoguns usually employed on economically poor worlds that cannot maintain energy based armaments. While inferior to higher-tech weapons of the same weight, it can still provide reliable firepower. \n\nThis is likely one of the few weapons fully manufactured by the Pact, instead of the Forgeworld of Urdesh.</description>
         <graphicData>
-	        <drawSize>1.4</drawSize>
+	        <drawSize>1.3</drawSize>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Heavystubber</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+		<uiIconScale>0.95</uiIconScale>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
 		    <researchPrerequisites>

@@ -41,7 +41,7 @@
 			<displayPriority>415</displayPriority>
         </recipeMaker>
         <graphicData>
-            <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Middle/BPFlakArmor</texPath>
+            <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Middle/BP_FlakArmor</texPath>
         </graphicData>
         <statBases>
             <WorkToMake>9000</WorkToMake>
@@ -58,7 +58,7 @@
 			<ComponentIndustrial>1</ComponentIndustrial>
         </costList>	
         <apparel>
-            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Middle/BPFlakArmor</wornGraphicPath>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Middle/BP_FlakArmor</wornGraphicPath>
             <tags>
                 <li>BPapparelmiddle1</li>
             </tags>

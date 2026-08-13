@@ -439,7 +439,7 @@
         </forcedTraits>
     </PawnKindDef>
 
-    <!-- <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
+    <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_KhorneBerzerker</defName>
         <combatPower>400</combatPower>
         <apparelMoney>3000~3500</apparelMoney>
@@ -472,5 +472,5 @@
         <forcedTraits>
             <li>Brawler</li>
         </forcedTraits>
-    </PawnKindDef> -->
+    </PawnKindDef>
 </Defs>

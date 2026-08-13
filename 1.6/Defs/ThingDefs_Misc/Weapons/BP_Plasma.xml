@@ -10,6 +10,7 @@
             <graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.4</drawSize>
         </graphicData>
+		<uiIconScale>1.1</uiIconScale>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
             <WorkToMake>50000</WorkToMake>
@@ -104,6 +105,7 @@
             <graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.4</drawSize>
         </graphicData>
+		<uiIconScale>1.7</uiIconScale>
         <soundInteract>Interact_ChargeRifle</soundInteract>
         <statBases>
             <WorkToMake>30000</WorkToMake>
@@ -195,6 +197,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.4</drawSize>
         </graphicData>
+		<uiIconScale>1</uiIconScale>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
 		    <researchPrerequisites>
