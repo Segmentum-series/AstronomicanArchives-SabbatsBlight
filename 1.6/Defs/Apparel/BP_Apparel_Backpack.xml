@@ -192,8 +192,8 @@
 	  <useWornGraphicMask>true</useWornGraphicMask>
     </apparel>
   </ThingDef>
-  
-  <!-- <ThingDef ParentName="ApparelNoQualityBase">
+
+<!-- no sprites given <ThingDef ParentName="ApparelNoQualityBase">
     <defName>CVN_BP_KhorneBackpack</defName>
     <label>Blood Berzerker backpack</label>
     <description>A power armor backpack modified for use by Khornate Berzerkers. As well as providing backup power to the armor’s servos, these backpacks also serve other functions, such as supplying reserve air in a vacuum, temperature regulation, and air purification.\n\nWhile permanently joining a cult would reduce an Astarte's ability to maintain their equipment, the Pact provides a more organized enviroment for Khornate Berzerkers.</description>
