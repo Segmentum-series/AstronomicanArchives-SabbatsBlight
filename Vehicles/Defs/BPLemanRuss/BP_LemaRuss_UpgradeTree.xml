@@ -110,7 +110,7 @@
 			<li>
 				<key>TurretBarbs</key>
 				<label>Turret barbed wire</label>
-				<description>Further enhancing crew protection, barbed wire is wrapped around the turret-mounted spikes. Blood Pact cresw sometimes decorate these with corpses, giving their forces a grotesque and gruesome appearance to terrify their enemies.</description>
+				<description>Further enhancing crew protection, barbed wire is wrapped around the turret-mounted spikes. Blood Pact crews sometimes decorate these with corpses, giving their vehicles a grotesque and gruesome appearance to terrify their enemies.</description>
 				<icon>Things/Vehicles/BPLemanRuss/BP_BarbWire/BP_MainCannon_BarbWire</icon>
 				<work>1800</work>
 				<prerequisiteNodes>

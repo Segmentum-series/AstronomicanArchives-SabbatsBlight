@@ -4,7 +4,7 @@
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>CVN_BP_Taurox_blueprint</defName>
 		<label>Blood Pact Taurox</label>
-		<description>A tracked armored personnel carrier used by the Blood Pact. Relatively fast for an APC, it can rapidly deploy large numbers of Traitor Guardsmen to exploit weaknesses in the enemy’s defenses or plug up holes in Imperial lines. \n\nThis design is unarmed, but older versions used to possess heavy bolters and lascannons for defense. \n\n&lt;color=#bb8f04&gt;Crew :&lt;/color&gt; Driver x1, Passengers x11\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<description>A tracked armoured personnel carrier used by the Blood Pact. Relatively fast for an APC, it can rapidly deploy large numbers of Traitor Guardsmen to exploit weaknesses in the enemy’s defences or plug up holes in the front lines. \n\nThis design is unarmed, but older versions used to possess heavy bolters and lascannons for defense. \n\n&lt;color=#bb8f04&gt;Crew :&lt;/color&gt; Driver x1, Passengers x11\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>VF_Vehicles</designationCategory>
 		
 		<graphicData>
