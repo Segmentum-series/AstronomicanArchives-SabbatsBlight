@@ -125,7 +125,7 @@
         <drawOnMech>True</drawOnMech>
 
         <slotTags>
-            <li>Turret</li>
+            <li>CVN_BP_Turret</li>
         </slotTags>
 
         <costList>
