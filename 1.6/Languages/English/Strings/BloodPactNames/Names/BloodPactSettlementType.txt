@@ -1,0 +1,5 @@
+Fortress
+Outpost
+Fort
+Altar
+Field

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <!--Blood Pact namers-->
+ 
+  <RulePackDef>
+    <defName>CVN_BP_BloodPactNameUtility</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>BloodPactFirstMale->BloodPactNames/Names/BloodPactFirst_Male</li>
+	    <li>BloodPactFirstFemale->BloodPactNames/Names/BloodPactFirst_Female</li>
+        <li>BloodPactLast->BloodPactNames/Names/BloodPactLast</li>
+      </rulesFiles>
+	  <rulesStrings>
+        <li>BloodPactFirstMale->[BloodPactFirst_Male]</li>
+        <li>BloodPactFirstFemale->[BloodPactFirst_Female]</li>
+        <li>BloodPactLast->[BloodPactLast]</li>
+      </rulesStrings>
+	  </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>CVN_BP_NamerPersonBloodPactMale</defName>
+	<include>
+		<li>CVN_BP_BloodPactNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[BloodPactFirstMale] [BloodPactLast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>CVN_BP_NamerPersonBloodPactFemale</defName>
+	<include>
+		<li>CVN_BP_BloodPactNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[BloodPactFirstFemale] [BloodPactLast]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>CVN_BP_NamerSettlementBloodPact</defName>
+    <rulePack>
+      <rulesStrings>
+		<li>r_name(p=4)->Fort [BloodPacttownname1][BloodPacttownname2]</li>
+		<li>r_name(p=4)->[BloodPacttownname1][BloodPacttownname2] [BloodPacttowntype]</li>
+		<li>r_name(p=4)->[BloodPacttownname1][BloodPacttownname2] Fortress</li>
+		<li>r_name(p=4)->[BloodPacttowntype] of the [BloodPacttownname1]</li>
+		<li>r_name(p=4)->[BloodPacttowntype] of the [BloodPacttownname1][BloodPacttownname2]</li>
+		<li>r_name(p=2)->Place of the [BloodPacttownname1]</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>BloodPacttownname1->BloodPactNames/Names/BloodPactSettlementName1</li>
+		<li>BloodPacttownname2->BloodPactNames/Names/BloodPactSettlementName2</li>
+        <li>BloodPacttowntype->BloodPactNames/Names/BloodPactSettlementType</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>CVN_BP_NamerFactionBloodPact</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=4)->[BloodPactNumber] [BloodPactRegiment] [BloodPactAllegiance]</li>
+        <li>r_name(p=2)->[BloodPactLeader] Etogaur's [BloodPactNumber] [BloodPactRegiment]</li>
+        <li>r_name(p=2)->[BloodPactLeader] Etogaur's Urdeshi [BloodPactRegiment]</li>
+        <li>r_name(p=2)->[BloodPactNumber] Urdeshi [BloodPactRegiment]</li>
+        <li>r_name(p=2)->[BloodPactLeader] Etogaur's Ghourran [BloodPactRegiment]</li>
+        <li>r_name(p=2)->[BloodPactNumber] Ghourran [BloodPactRegiment]</li>
+        <li>r_name(p=2)->[BloodPactLeader] Etogaur's Neffethyli [BloodPactRegiment]</li>
+        <li>r_name(p=2)->[BloodPactNumber] Neffethyli [BloodPactRegiment]</li>
+        <li>r_name(p=2)->[BloodPactNumber] Death Brigade</li>
+      </rulesStrings>
+      <rulesFiles>
+		<li>BloodPactLeader->BloodPactNames/Names/BloodPactLast</li>
+		<li>BloodPactNumber->BloodPactNames/Names/BloodPactNumber</li>
+        <li>BloodPactRegiment->BloodPactNames/Names/BloodPactRegiment</li>
+		<li>BloodPactAllegiance->BloodPactNames/Names/BloodPactAllegiance</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+ 
+</Defs>

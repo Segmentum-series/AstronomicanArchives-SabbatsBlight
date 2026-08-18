@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Blood Pact Backstories--> 
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>blood cultist</title>
+    <defName>CVN_BP_BloodCultist</defName>
+    <titleShort>cultist</titleShort>
+    <baseDesc>[PAWN_nameDef] is a member of a minor cult that worships an aspect of Khorne, God of Blood. [PAWN_pronoun] is fanatically devoted to [PAWN_possessive] god, but unstable, and looked down on by the more organised and disciplined Blood Pact.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Caring</li>
+	  <li>PlantWork</li>
+	  <li>Animals</li>
+    </workDisables>
+    <skillGains>
+      <Melee>4</Melee>
+	  <Social>-4</Social>
+	  <Intellectual>-4</Intellectual>
+	  <Animals>-4</Animals>
+    </skillGains>
+	<forcedTraits>
+	  <Bloodlust />
+	  <ShootingAccuracy>-1</ShootingAccuracy>
+	  <Psychopath />
+	  <Disturbing MayRequire="Ludeon.RimWorld.Anomaly"/>
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Militarum deserter</title>
+    <defName>CVN_BP_HereticDeserter</defName>
+    <titleShort>deserter</titleShort>
+    <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum and trained in the use of a lasgun and bayonet. [PAWN_pronoun] deserted and ended up joining the Blood Pact, where [PAWN_pronoun] is treated better than [PAWN_pronoun] ever was in [PAWN_possessive] former regiment.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>	  
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+    </skillGains>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Militarum convert</title>
+    <defName>CVN_BP_HereticConvert</defName>
+    <titleShort>convert</titleShort>
+    <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum and trained in the use of a lasgun and bayonet. Taken prisoner by Blood Pact forces, [PAWN_pronoun] was offered the chance to join as long as [PAWN_pronoun] embraced the worship of Khorne.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>	  
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+    </skillGains>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Blood Pact soldier</title>
+    <defName>CVN_BP_BloodPactSoldier</defName>
+    <titleShort>Pact soldier</titleShort>
+    <baseDesc>[PAWN_nameDef] was inducted into the forces of the Blood Pact and trained in the ways of war. [PAWN_pronoun] is proficient with numerous weapons, used to performing field maintenance of [PAWN_possessive] gear, and utterly committed to the service of the Gaur and the Lord of Blood.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>	  
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>5</Melee>
+	  <Crafting>2</Crafting>
+    </skillGains>
+	<forcedTraits>
+	  <Nerves>1</Nerves>
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Blood Pact marksman</title>
+    <defName>CVN_BP_BloodPactMarksman</defName>
+    <titleShort>Pact marksman</titleShort>
+    <baseDesc>[PAWN_nameDef] was inducted into the forces of the Blood Pact and trained in the ways of war. [PAWN_pronoun] showed a particular aptitude for marksmanship, and is used to being deployed as a sniper in engagements against the Imperium's forces.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>	  
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>7</Shooting>
+      <Melee>2</Melee>
+    </skillGains>
+	<forcedTraits>
+	  <ShootingAccuracy>1</ShootingAccuracy>
+	  <Nerves>1</Nerves>
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Blood Pact sawbones</title>
+    <defName>CVN_BP_BloodPactSawbones</defName>
+    <titleShort>Pact sawbones</titleShort>
+    <baseDesc>[PAWN_nameDef] was inducted into the forces of the Blood Pact and trained in the ways of war, including the ways of keeping people fighting after wounds are sustained. [PAWN_possessive] methods may be crude by the standards of 'civilised' Imperial medicae, but they work, and many Pact warriors have survived to kill again under [PAWN_possessive] knife.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>	  
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>6</Melee>
+	  <Medicine>4</Medicine>
+	  <Intellectual>2</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Nerves>1</Nerves>
+	  <BEWH_FieldMedic MayRequire="phonicmas.rimdark.mankindsfinest"/>
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Blood Pact tank crew</title>
+    <defName>CVN_BP_BloodPactTankCrew</defName>
+    <titleShort>Pact tanker</titleShort>
+    <baseDesc>[PAWN_nameDef] was inducted into the forces of the Blood Pact and trained in the ways of war, particularly the operation of armoured vehicles. [PAWN_pronoun] is able to wield these wheeled and tracked machines as weapons in the name of the Blood God, as well as patiently maintaining [PAWN_possessive] charge.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>	  
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Melee>3</Melee>
+	  <Crafting>4</Crafting>
+	  <Intellectual>3</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Nerves>1</Nerves>
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Death Brigadier</title>
+    <defName>CVN_BP_BloodPactDeathBrigadier</defName>
+    <titleShort>Death Brigadier</titleShort>
+    <baseDesc>[PAWN_nameDef] was inducted into the forces of the Blood Pact and elevated to the elite Death Brigade, a unit of storm troopers and unyielding fighters, for [PAWN_possessive] bravery and martial prowess. [PAWN_pronoun] is utterly committed to the service of the Gaur and the Lord of Blood.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>	  
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>6</Melee>
+    </skillGains>
+	<forcedTraits>
+	  <Nerves>2</Nerves>
+	  <Bloodlust />
+	  <Nimble />
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Sirdar</title>
+    <defName>CVN_BP_BloodPactSirdar</defName>
+    <titleShort>Sirdar</titleShort>
+    <baseDesc>[PAWN_nameDef] was inducted into the forces of the Blood Pact and trained in the ways of war, and given the rank of Sirdar for [PAWN_possessive] faithful service and skill at arms. [PAWN_pronoun] is used to command, and is a dangerous warrior to boot.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>	  
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>5</Shooting>
+      <Melee>7</Melee>
+	  <Social>4</Social>
+    </skillGains>
+	<forcedTraits>
+	  <Nerves>2</Nerves>
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Gore Mage</title>
+    <defName>CVN_BP_GoreMage</defName>
+    <titleShort>Gore Mage</titleShort>
+    <baseDesc>[PAWN_nameDef] is a Gore Mage, a psyker dedicated to Khorne, the Brazen King. [PAWN_pronoun] knows bloody rituals that can bring visions and track enemies.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+    <skillGains>
+      <Melee>5</Melee>
+	  <Intellectual>6</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Nerves>1</Nerves>
+	  <Masochist />
+	  <PsychicSensitivity>1</PsychicSensitivity>
+	  <Disturbing MayRequire="Ludeon.RimWorld.Anomaly"/>
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Gourmand />
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+<!--Chaos Backstories-->
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>cultist child</title>
+    <defName>CVN_BP_CultistChild</defName>
+    <titleShort>cultist child</titleShort>
+    <baseDesc>[PAWN_nameDef] was raised among a cult worshipping the Ruinous Powers. [PAWN_pronoun] was involved in dark rituals from an early age and took great delight in participating.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>1</Shooting>
+	  <Melee>2</Melee>
+      <Social>3</Social>
+	  <Medicine>2</Medicine>
+	  <Intellectual>4</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Occultist MayRequire="Ludeon.RimWorld.Anomaly"/>
+	</forcedTraits>	
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>abductee</title>
+    <defName>CVN_BP_Abductee</defName>
+    <titleShort>abductee</titleShort>
+    <baseDesc>[PAWN_nameDef] was born on an Imperial world but abducted in a raid by a heretical warband in which [PAWN_possessive] family was bloodily murdered. [PAWN_pronoun] barely remembers [PAWN_possessive] parents, and has embraced the possibilities of [PAWN_possessive] new life enthusiastically.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+	  <Melee>2</Melee>
+      <Social>2</Social>
+	  <Intellectual>1</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <NaturalMood>1</NaturalMood>
+	</forcedTraits>
+    <workDisables>
+      <li>Caring</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>abductee</title>
+    <defName>CVN_BP_AbducteeReluctant</defName>
+    <titleShort>abductee</titleShort>
+    <baseDesc>[PAWN_nameDef] was born on an Imperial world but abducted in a raid by a heretical warband in which [PAWN_possessive] family was bloodily murdered. [PAWN_pronoun] remembers enough to resent having been snatched from [PAWN_possessive] old life, and has never got over it.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <skillGains>
+      <Social>3</Social>
+	  <Intellectual>1</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Nerves>-2</Nerves>
+	</forcedTraits>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>cultist child</title>
+    <defName>CVN_BP_CultistChildReluctant</defName>
+    <titleShort>cultist child</titleShort>
+    <baseDesc>[PAWN_nameDef] was raised among a cult worshipping the Ruinous Powers. [PAWN_pronoun] was involved in cult rituals from an early age and was repulsed by them, but found it difficult to escape the cult.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>1</Shooting>
+	  <Melee>1</Melee>
+      <Social>2</Social>
+	  <Intellectual>3</Intellectual>
+	  <Medicine>4</Medicine>
+    </skillGains>
+	<forcedTraits>
+	  <Neurotic>1</Neurotic>
+	  <NaturalMood>-1</NaturalMood>
+	</forcedTraits>	
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>noble child</title>
+    <defName>CVN_BP_ChaosNobleChild</defName>
+    <titleShort>noble child</titleShort>
+    <baseDesc>[PAWN_nameDef] grew up in unimaginable privilege as the child of a noble family secretly devoted to the Ruinous Powers. [PAWN_possessive] family had everything they could ever ask for, and a lot more besides, but they still wanted more, and went to any lengths to get it.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <skillGains>
+      <Shooting>1</Shooting>
+	  <Melee>3</Melee>
+      <Social>4</Social>
+	  <Intellectual>2</Intellectual>
+	  <Cooking>-2</Cooking>
+	  <Crafting>-4</Crafting>
+	  <Construction>-2</Construction>
+    </skillGains>
+    <workDisables>
+      <li>ManualDumb</li>
+    </workDisables>
+    <forcedTraits>
+      <Jealous />
+    </forcedTraits>
+    <disallowedTraits>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>	
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>agricultural labourer</title>
+    <defName>CVN_BP_ChaosAgriLabourer</defName>
+    <titleShort>labourer</titleShort>
+    <baseDesc>[PAWN_nameDef] worked as a fieldhand on an agriworld occupied by the forces of Chaos. [PAWN_pronoun] spent 14-hour shifts tending to endless fields of tainted crops and herds of mutated livestock.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+    <requiredWorkTags>
+      <li>PlantWork</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+	  <Plants>6</Plants>
+	  <Animals>3</Animals>
+	  <Social>-3</Social>
+	  <Intellectual>-4</Intellectual>
+    </skillGains>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>manufactorum worker</title>
+    <defName>CVN_BP_ChaosManufactorumWorker</defName>
+    <titleShort>worker</titleShort>
+    <baseDesc>[PAWN_nameDef] worked on a production line in a gargantuan manufactorum under the auspices of the Dark Mechanicum. [PAWN_possessive] days were spent on repetitive tasks and backbreaking labour, but at least [PAWN_pronoun] survived the experience.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+	  <Crafting>2</Crafting>
+	  <Intellectual>-2</Intellectual>
+	  <Plants>-2</Plants>
+	  <Animals>-2</Animals>
+    </skillGains>
+	<forcedTraits>
+	  <Industriousness>2</Industriousness>
+	  <Neurotic>2</Neurotic>
+	</forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Mechanicum thrall</title>
+    <defName>CVN_BP_MechanicumThrall</defName>
+    <titleShort>thrall</titleShort>
+    <baseDesc>[PAWN_nameDef] was a thrall in the service of the Dark Mechanicum. Thralls are used for menial work of all kinds and treated as completely expendable in the search for esoteric knowledge. [PAWN_pronoun] was lucky not to be worked to death or sacrificed in some dark ritual.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+	  <Shooting>-2</Shooting>
+	  <Melee>-2</Melee>
+	  <Intellectual>-2</Intellectual>
+	  <Social>-2</Social>
+	  <Crafting>1</Crafting>
+	  <Construction>1</Construction>
+    </skillGains>
+	<forcedTraits>
+	  <Industriousness>1</Industriousness>
+	  <Nerves>-1</Nerves>
+	</forcedTraits>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>voidsman</title>
+	<titleFemale>voidswoman</titleFemale>
+    <defName>CVN_BP_ChaosVoidsman</defName>
+    <titleShort>voidsman</titleShort>
+    <baseDesc>[PAWN_nameDef] served in the lower decks of a voidship crewed by heretics, performing skilled tasks, carrying weapons during boarding actions, and living in constant fear of death or worse at the hands of capricious would-be champions of the Four.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+	  <Shooting>3</Shooting>
+	  <Melee>4</Melee>
+	  <Crafting>3</Crafting>
+    </skillGains>
+    <workDisables>
+	  <li>PlantWork</li>
+	  <li>Animals</li>
+    </workDisables>	
+	<forcedTraits>
+	  <WH40kVoidhand />
+	  <Neurotic>2</Neurotic>
+	</forcedTraits>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+ 
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>noble</title>
+    <defName>CVN_BP_KhorneNoble</defName>
+    <titleShort>noble</titleShort>
+    <baseDesc>[PAWN_nameDef] was a noble secretly devoted to the Ruinous Powers. [PAWN_possessive] life was one of luxury, cruelty, and bloodletting, and [PAWN_pronoun] took a personal interest in dark rituals intended to grant [PAWN_objective] ever-greater strength and power.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>ManualDumb</li>
+	  <li>ManualSkilled</li>
+    </workDisables>
+    <skillGains>
+	  <Melee>4</Melee>
+	  <Social>2</Social>
+	  <Intellectual>-2</Intellectual>
+    </skillGains>
+	<forcedTraits>
+	  <Greedy />
+	  <Bloodlust />
+	  <Psychopath />
+	</forcedTraits>
+	<forcedTraits>
+	  <Occultist MayRequire="Ludeon.RimWorld.Anomaly"/>
+	</forcedTraits>
+    <disallowedTraits>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>		
+    <disallowedTraits>
+	  <Industriousness>1</Industriousness>
+    </disallowedTraits>	
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef> 
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>PDF turncoat</title>
+    <defName>CVN_BP_PDFTurncoat</defName>
+    <titleShort>PDF turncoat</titleShort>
+    <baseDesc>[PAWN_nameDef] was part of [PAWN_possessive] homeworld's Planetary Defence Forces and trained in the basic use of a lasgun and bayonet. Unfortunately for [PAWN_possessive] PDF comrades, [PAWN_pronoun] also belonged to a secretive heretic fraternity, and participated in a bloody mutiny and massacre of the unsuspecting defenders during an invasion of [PAWN_possessive] world. [PAWN_pronoun] welcomed its liberation from the Imperium's reign of terror.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_BloodPactBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+    </skillGains>
+    <disallowedTraits>
+	  <Wimp />
+	  <Kind />
+    </disallowedTraits>	
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+  </BackstoryDef>
+   
+</Defs>
