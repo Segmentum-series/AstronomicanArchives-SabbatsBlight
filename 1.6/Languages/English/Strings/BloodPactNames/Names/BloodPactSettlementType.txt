@@ -3,3 +3,4 @@ Outpost
 Fort
 Altar
 Field
+Camp

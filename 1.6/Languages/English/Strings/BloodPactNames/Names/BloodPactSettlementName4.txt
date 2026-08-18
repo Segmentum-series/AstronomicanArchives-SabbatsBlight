@@ -1,0 +1,10 @@
+Skull
+Blade
+Axe
+Gut
+Bone
+Corpse
+Vein
+Scar
+Rib
+Dead
