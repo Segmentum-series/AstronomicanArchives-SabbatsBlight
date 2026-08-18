@@ -5,7 +5,7 @@
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>CVN_BP_KhornemarineH</defName>
 		<label>Blood Berzerker helmet</label>
-        <description>A Power Armor helmet worn by Khornate Berzerkers. It is sturdy enough to withstand a torrent of enemy fire, allowing the Berzerker to leap into the fray and rend the corpse-worshippers apart. \n\n"Blood for the Blood God! Skulls for the Skull Throne!"</description>
+        <description>A power armour helmet worn by Khornate Berzerkers. It is sturdy enough to withstand a torrent of enemy fire, allowing the Berzerker to leap into the fray and rend the corpse-worshippers apart. \n\n"Blood for the Blood God! Skulls for the Skull Throne!"</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Headgear/BP_BerserkerHelmet_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -40,6 +40,11 @@
 			<MeleeHitChance>1</MeleeHitChance>
 			<AimingDelayFactor>-0.25</AimingDelayFactor>
             <ShootingAccuracyPawn>-2.5</ShootingAccuracyPawn>
+            <TerrorSource MayRequire="Ludeon.RimWorld.Ideology">10</TerrorSource>
+            <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.67</VacuumResistance>
+            <DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+            <HypoxiaResistance MayRequire="kentington.saveourship2">0.75</HypoxiaResistance>
+            <VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
 		</equippedStatOffsets>
 		<apparel>
 			<tags>

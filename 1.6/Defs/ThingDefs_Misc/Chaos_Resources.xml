@@ -31,7 +31,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>CVN_BP_KhornateSymbol</defName>
     <label>Khornate icon</label>
-    <description>A symbol of Khorne, ready to be welded onto other armor.</description>
+    <description>A symbol of Khorne, ready to be welded onto other armour.</description>
     <graphicData>
       <texPath>Things/Item/Resources/CC_MarkOfChaos</texPath>
       <graphicClass>Graphic_Single</graphicClass>

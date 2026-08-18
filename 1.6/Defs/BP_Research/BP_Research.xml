@@ -31,7 +31,7 @@
 		<defName>CVN_BP_Vanguard</defName>
 		<label>Vanguard arsenal</label>
 		<techLevel>Industrial</techLevel>
-        <description>Earn your place among the ranks of the Death Brigade. Made up of the veterans and 'elite' soldiers of the Blood Pact, this vanguard spearheads its assaults and military campaigns, relying on improved gear and armour to ensure success.</description>
+        <description>Earn your place among the ranks of the Death Brigade. Made up of the veterans and 'elite' soldiers of the Blood Pact, this vanguard spearheads the Pact's assaults and military campaigns, relying on improved gear and armour to ensure success.</description>
 		<prerequisites>
 			<li>CVN_BP_Basic</li>
 		</prerequisites>
@@ -44,7 +44,7 @@
 		<defName>CVN_BP_Elites</defName>
 		<label>Pact elites</label>
 		<techLevel>Industrial</techLevel>
-        <description>Receive permission to field elite units of the Pact. The Arnogaur, holding one of the highest ranks among the Pact, eliminatse any they deem unworthy or in violation of their codes. The Goremage, rogue psykers who use their unnatural powers to aid their kin in battle, often using their own blood in the process.</description>
+        <description>Receive permission to field elite units of the Pact. The Arnogaurs, holding one of the highest ranks among the Pact, eliminate any they deem unworthy or in violation of their codes. The Goremages are rogue psykers who use their unnatural powers to aid their kin in battle, often using their own blood in the process.</description>
 		<prerequisites>
 			<li>CVN_BP_Vanguard</li>
 		</prerequisites>
@@ -57,7 +57,7 @@
 		<defName>CVN_BP_Legion</defName>
 		<label>Legionary reinforcement</label>
 		<techLevel>Industrial</techLevel>
-        <description>Gain access to Chaos Marine reinforcements. Khorne Berzerkers, devoted to the bloodthirsty glory of the Blood God, are the finest warriors to don this gear. They charge into battle armed with vicious chain weapons and pistols, delivering death in a frenzy of slaughter. For those who survive the Butcher's Nails, only an insatiable desire to kill, maim, and burn remains.</description>
+        <description>Gain access to Chaos Marine reinforcements. Khorne Berzerkers, devoted to the bloodthirsty glory of the Blood God, are the finest warriors to don this gear. They charge into battle armed with vicious chain weapons and heavy pistols, delivering death in a frenzy of slaughter. For those who survive the Butcher's Nails, only an insatiable desire to kill, maim, and burn remains.</description>
 		<prerequisites>
 			<li>CVN_BP_Elites</li>
 		</prerequisites>
@@ -70,7 +70,7 @@
 		<defName>CVN_BP_HeatWeapons</defName>
 		<label>Repurposed heat weaponry</label>
 		<techLevel>Industrial</techLevel>
-        <description>Stolen equipment or, as they would say, "repurposed for more skilled individuals", these heavy weapons add much-needed firepower to the Blood Pact arsenal. True to their style, flamers and melta weapons, designed for up-close, personal death-dealing and anti-armour roles, fit seamlessly into their brutal and efficient tactics.</description>
+        <description>Stolen equipment or, as they would say, "repurposed for more skilled individuals", these heavy weapons add much-needed firepower to the Blood Pact arsenal. Flamers and melta weapons, designed for up-close death-dealing and anti-armour roles, fit seamlessly into the Pact's characteristically brutal and efficient tactics.</description>
 		<prerequisites>
 			<li>CVN_BP_Vanguard</li>
 		</prerequisites>

@@ -54,7 +54,7 @@
 	<ThingDef ParentName="CVN_BP_AutogunBase">
 		<defName>CVN_BP_Autogun</defName>
 		<label>Pact autogun</label>
-		<description>Automatic weapons usually issued to planetary defense forces. Autoguns, while weaker than lasguns, are far cheaper to produce and maintain.\n\nBlood Pact autoguns appear to pull from ancient terran designs involving historical revolts and uprisings, fitting for the image they believe themselves to have.\n\nThis specific model is intended for higher accuracy.</description>
+		<description>Automatic weapons usually issued to planetary defence forces. Autoguns, while weaker than lasguns, are far cheaper to produce and maintain.\n\nBlood Pact autoguns appear to pull from ancient terran designs involving historical revolts and uprisings, fitting for their own self-image.\n\nThis specific model is tooled for higher accuracy.</description>
 		<graphicData>
 			<texPath>Things/Item/Equipment/WeaponRanged/BP_Autogun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -127,7 +127,7 @@
 	<ThingDef ParentName="CVN_BP_AutogunBase">
         <defName>CVN_BP_Autocarbine</defName>
         <label>Pact autocarbine</label>
-        <description>An automatic stub weapon, usually issued to planetary defense forces. Autoguns, while weaker then lasguns, are far cheaper to produce and maintain. \n\nThe Pact's autoguns appear to pull from ancient Terran designs involving historical revolts and uprisings.</description>
+        <description>An automatic stub weapon, usually issued to planetary defence forces. Autoguns, while weaker then lasguns, are far cheaper to produce and maintain. \n\nThe Pact's autoguns appear to pull from ancient Terran designs involving historical revolts and uprisings.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Autocarbine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -200,7 +200,7 @@
 	<ThingDef ParentName="CVN_BP_AutogunBase">
         <defName>CVN_BP_Autopistol</defName>
         <label>Pact autopistol</label>
-        <description>A simple autopistol, unimpressive and weak. The autopistol's main benefit is its high rate of fire, ease of production, and low maintenance.\n\nPact pistols don't have many notable changes outside heretical markings, being such a commonly distributed weapon that none of its users hold particular attachment to them.</description>
+        <description>A simple autopistol, unimpressive and weak. The autopistol's main benefit is its high rate of fire, ease of production, and low maintenance requirements.\n\nPact pistols don't have many notable changes besides heretical markings, being such a commonly distributed weapon that none of its users hold particular attachment to them.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Autopistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
