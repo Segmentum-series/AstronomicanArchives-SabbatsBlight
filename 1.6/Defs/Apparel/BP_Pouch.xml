@@ -32,6 +32,7 @@
     <recipeMaker>
       <researchPrerequisites>
 		 <li>CVN_BP_Basic</li>
+		 <li>ComplexClothing</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>4</Crafting>

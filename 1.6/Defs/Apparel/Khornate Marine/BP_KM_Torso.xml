@@ -17,6 +17,7 @@
 		<recipeMaker>
 		    <researchPrerequisites>
 			 <li>CVN_BP_Legion</li>
+			 <li>AdvancedFabrication</li>
 			</researchPrerequisites>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>

@@ -66,9 +66,12 @@
 		</graphicData>
 		<uiIconScale>0.9</uiIconScale>
 		<recipeMaker>
-			<researchPrerequisites>
+			<researchPrerequisites Inherit="False">
 			<li>CVN_BP_Basic</li>
+			<li>GasOperation</li>
 			</researchPrerequisites>
+            <researchPrerequisite Inherit="False">
+	        </researchPrerequisite>
 			<recipeUsers Inherit="false">
 				<li>CVN_BP_FabricationBench</li>
 			</recipeUsers>
@@ -139,9 +142,12 @@
         </graphicData>
 		<uiIconScale>1</uiIconScale>
 		<recipeMaker>
-		    <researchPrerequisites>
+		    <researchPrerequisites Inherit="False">
 			 <li>CVN_BP_Basic</li>
+			 <li>GasOperation</li>
 			</researchPrerequisites>
+            <researchPrerequisite Inherit="False">
+	        </researchPrerequisite>
 			<recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>
             </recipeUsers>
@@ -287,8 +293,9 @@
 		<uiIconScale>0.95</uiIconScale>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
-		    <researchPrerequisites>
+		    <researchPrerequisites Inherit="false">
 		     <li>CVN_BP_Vanguard</li>
+		     <li>GasOperation</li>
 		    </researchPrerequisites>
 			<recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>

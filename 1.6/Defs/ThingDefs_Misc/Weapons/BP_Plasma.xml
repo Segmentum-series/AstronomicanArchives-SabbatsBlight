@@ -30,7 +30,10 @@
             </recipeUsers>		
             <researchPrerequisites>
                 <li>CVN_BP_Elites</li>
+				<li>AdvancedFabrication</li>
 	        </researchPrerequisites>
+            <researchPrerequisite Inherit="False">
+	        </researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
@@ -122,7 +125,10 @@
             </recipeUsers>		
             <researchPrerequisites>
                 <li>CVN_BP_Elites</li>
+				<li>Fabrication</li>
 	        </researchPrerequisites>
+            <researchPrerequisite Inherit="False">
+	        </researchPrerequisite>
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
@@ -202,7 +208,10 @@
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>CVN_BP_HeatWeapons</li>
+			 <li>AdvancedFabrication</li>
 	        </researchPrerequisites>
+            <researchPrerequisite Inherit="False">
+	        </researchPrerequisite>
 			<recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>
             </recipeUsers>

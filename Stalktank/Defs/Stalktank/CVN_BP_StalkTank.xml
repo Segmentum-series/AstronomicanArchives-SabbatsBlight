@@ -410,7 +410,7 @@
 					<CVN_BP_KhornateSymbol>2</CVN_BP_KhornateSymbol>
                 </costList>
                 <researchPrerequisites>
-                    <li>CVN_BP_MechSalvage</li>
+                    <li>CVN_BP_Vanguard</li>
                 </researchPrerequisites>
                 <statBases>
                     <WorkToBuild>8000</WorkToBuild>

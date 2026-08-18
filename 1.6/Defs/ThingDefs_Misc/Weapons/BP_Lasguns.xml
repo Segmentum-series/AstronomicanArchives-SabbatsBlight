@@ -20,8 +20,11 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <researchPrerequisites>
-		     <li>CVN_BP_Basic</li>
+		     <li>GasOperation</li>
+		     <li>Batteries</li>
 		    </researchPrerequisites>
+            <researchPrerequisite Inherit="False">
+	        </researchPrerequisite>
             <recipeUsers Inherit="false">
                 <li>HP_AM_MilitarumFabricationBench</li>
             </recipeUsers>
@@ -90,7 +93,7 @@
             </recipeUsers>
             <displayPriority>231</displayPriority>
 			<researchPrerequisites>
-		     <li>CVN_BP_Basic</li>
+		     <li>CVN_BP_Plunder</li>
 		    </researchPrerequisites>
         </recipeMaker>
         <tools>
@@ -306,8 +309,8 @@
             </recipeUsers>
             <displayPriority>231</displayPriority>
 			<researchPrerequisites>
-                <li>CVN_BP_Basic</li>
-	        </researchPrerequisites>
+		     <li>CVN_BP_Plunder</li>
+		    </researchPrerequisites>
         </recipeMaker>
         <tools>
             <li>

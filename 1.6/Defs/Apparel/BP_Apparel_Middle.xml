@@ -34,6 +34,7 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Plunder</li>
+			 <li>FlakArmor</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -81,6 +82,7 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Basic</li>
+			 <li>PlateArmor</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -130,6 +132,7 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Basic</li>
+			 <li>PlateArmor</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -179,6 +182,8 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Vanguard</li>
+			 <li>FlakArmor</li>
+			 <li>Fabrication</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -237,6 +242,8 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Vanguard</li>
+			 <li>FlakArmor</li>
+			 <li>Fabrication</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -295,6 +302,7 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Elites</li>
+			 <li>PlateArmor</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -354,6 +362,7 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Elites</li>
+			 <li>PlateArmor</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>

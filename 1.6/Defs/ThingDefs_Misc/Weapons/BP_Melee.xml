@@ -28,6 +28,7 @@
     <recipeMaker>
       <researchPrerequisites>
        <li>CVN_BP_Vanguard</li>
+	   <li>Smithing</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -91,6 +92,7 @@
     <recipeMaker>
       <researchPrerequisites>
        <li>CVN_BP_Basic</li>
+	   <li>Smithing</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>4</Crafting>
@@ -193,6 +195,7 @@
     <recipeMaker>
       <researchPrerequisites>
 	   <li>CVN_BP_Vanguard</li>
+	   <li>Machining</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -271,6 +274,7 @@
     <recipeMaker>
       <researchPrerequisites>
 	   <li>CVN_BP_Legion</li>
+	   <li>Fabrication</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
@@ -301,6 +305,8 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Elites</li>
+			 <li>Fabrication</li>
+			 <li>ShieldBelt</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>9</Crafting>
@@ -400,6 +406,8 @@
         <recipeMaker>
             <researchPrerequisites>
 			 <li>CVN_BP_Elites</li>
+			 <li>LongBlades</li>
+			 <li>ShieldBelt</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>9</Crafting>

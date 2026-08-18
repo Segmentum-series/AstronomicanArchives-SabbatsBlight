@@ -26,6 +26,7 @@
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>CVN_BP_Basic</li>
+			 <li>ComplexClothing</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -74,6 +75,7 @@
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>CVN_BP_Vanguard</li>
+			 <li>ComplexClothing</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -122,6 +124,7 @@
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>CVN_BP_Elites</li>
+			 <li>PlateArmor</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -172,6 +175,7 @@
         <recipeMaker>
 		    <researchPrerequisites>
 			 <li>CVN_BP_Elites</li>
+			 <li>ComplexClothing</li>
 			</researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
