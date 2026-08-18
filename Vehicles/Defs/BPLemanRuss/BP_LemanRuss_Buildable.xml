@@ -21,8 +21,8 @@
 			<li>CVN_BP_ReclaimedArmor</li>
 		</researchPrerequisites>
 		<costList>
-			<Steel>875</Steel>
-			<ComponentIndustrial>16</ComponentIndustrial>
+			<Steel>900</Steel>
+			<ComponentIndustrial>20</ComponentIndustrial>
 			<CVN_BP_KhornateSymbol>3</CVN_BP_KhornateSymbol>
 		</costList>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>

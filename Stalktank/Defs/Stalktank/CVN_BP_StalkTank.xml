@@ -2,8 +2,8 @@
 <Defs>
 
     <BodyPartDef Name="MechanicalThorax">
-        <defName>MechanicalNeckbrace</defName>
-        <label>neck plate</label>
+        <defName>CVN_BP_MechanicalNeckbrace</defName>
+        <label>neck plating</label>
         <hitPoints>20</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
         <skinCovered>false</skinCovered>
@@ -13,8 +13,8 @@
     </BodyPartDef>
 
     <BodyPartDef>
-        <defName>Deamonengine</defName>
-        <label>deamon engine</label>
+        <defName>CVN_BP_Daemonengine</defName>
+        <label>daemon engine</label>
         <hitPoints>20</hitPoints>
         <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
         <skinCovered>false</skinCovered>
@@ -28,7 +28,7 @@
 
     <BodyDef>
         <defName>CVN_Stalktankframe</defName>
-        <label>Stalktank Frame</label>
+        <label>stalk tank Frame</label>
         <corePart Class="taranchuk_mechsuits.MechPart">
             <partID>Torso</partID>
             <def>MechanicalThorax</def>
@@ -37,21 +37,21 @@
             <depth>Outside</depth>
             <slots>
                 <li>
-                    <label>Power Source</label>
+                    <label>power source</label>
                     <slotID>PowerSource</slotID>
                     <tags>
                         <li>Reactor</li>
                     </tags>
                 </li>
                 <li>
-                    <label>Plating</label>
+                    <label>torso plating</label>
                     <slotID>TorsoPlating</slotID>
                     <tags>
                         <li>Plating</li>
                     </tags>
                 </li>
                 <li>
-                    <label>Machinegun Mount</label>
+                    <label>rear turret mount</label>
                     <slotID>BackMachinegunMount</slotID>
                     <tags>
                         <li>CVN_BP_Turret</li>
@@ -67,6 +67,7 @@
             <parts>
                 <li>
                     <def>FluidReprocessor</def>
+                    <customLabel>hydraulics</customLabel>
                     <coverage>0.05</coverage>
                     <height>Middle</height>
                     <depth>Inside</depth>
@@ -78,14 +79,14 @@
                     <depth>Inside</depth>
                 </li>
                 <li>
-                    <def>MechanicalNeckbrace</def>
+                    <def>CVN_BP_MechanicalNeckbrace</def>
                     <coverage>0.18</coverage>
                     <height>Top</height>
                     <depth>Outside</depth>
                     <parts>
                         <li Class="taranchuk_mechsuits.MechPart">
                             <partID>Head</partID>
-                            <def>Deamonengine</def>
+                            <def>CVN_BP_Daemonengine</def>
                             <coverage>0.65</coverage>
                             <height>Top</height>
                             <depth>Outside</depth>
@@ -94,21 +95,21 @@
                             </groups>
                             <slots>
                                 <li>
-                                    <label>System Slot 1</label>
+                                    <label>system slot 1</label>
                                     <slotID>System1</slotID>
                                     <tags>
                                         <li>System</li>
                                     </tags>
                                 </li>
                                 <li>
-                                    <label>System Slot 2</label>
+                                    <label>system slot 2</label>
                                     <slotID>System2</slotID>
                                     <tags>
                                         <li>System</li>
                                     </tags>
                                 </li>
                                 <li>
-                                    <label>lasgun</label>
+                                    <label>head turret mount</label>
                                     <slotID>HeadLasgun</slotID>
                                     <tags>
                                         <li>H_Lasgun</li>
@@ -127,12 +128,13 @@
                                 <li Class="taranchuk_mechsuits.MechPart">
                                     <partID>Brain</partID>
                                     <def>Brain</def>
+                                    <customLabel>controls</customLabel>
                                     <coverage>0.20</coverage>
                                     <height>Top</height>
                                     <depth>Inside</depth>
                                     <slots>
                                         <li>
-                                            <label>Core</label>
+                                            <label>core</label>
                                             <slotID>Core</slotID>
                                             <tags>
                                                 <li>Core</li>
@@ -142,34 +144,35 @@
                                 </li>
                                 <li>
                                     <def>Eye</def>
-                                    <customLabel>left eye</customLabel>
+                                    <customLabel>port auspex</customLabel>
                                     <coverage>0.12</coverage>
                                     <height>Top</height>
                                     <depth>Outside</depth>
                                 </li>
                                 <li>
                                     <def>Eye</def>
-                                    <customLabel>right eye</customLabel>
+                                    <customLabel>starboard auspex</customLabel>
                                     <coverage>0.12</coverage>
                                     <height>Top</height>
                                     <depth>Outside</depth>
                                 </li>
                                 <li>
                                     <def>Antenna</def>
-                                    <customLabel>left antenna</customLabel>
+                                    <customLabel>port sensor</customLabel>
                                     <coverage>0.08</coverage>
                                     <height>Top</height>
                                     <depth>Outside</depth>
                                 </li>
                                 <li>
                                     <def>Antenna</def>
-                                    <customLabel>right antenna</customLabel>
+                                    <customLabel>starboard sensor</customLabel>
                                     <coverage>0.08</coverage>
                                     <height>Top</height>
                                     <depth>Outside</depth>
                                 </li>
                                 <li>
                                     <def>InsectNostril</def>
+                                    <customLabel>atmospheric gauge</customLabel>
                                     <coverage>0.06</coverage>
                                     <height>Top</height>
                                     <depth>Outside</depth>
@@ -319,9 +322,9 @@
 
 
     <ThingDef ParentName="BaseMechanoid">
-        <defName>StalkTank</defName>
-        <label>Stalk Tank</label>
-        <description>A small and nimble Dameonengine, of native Sabbat design. Armed with a lasgun and machinegun, it is a cheap way to add armour and spread terror.</description>
+        <defName>CVN_BP_StalkTank</defName>
+        <label>stalk tank</label>
+        <description>A multi-legged light armoured vehicle resembling a spindly version of the Chaos Defiler daemon engine. Armed with a multi-laser and dual heavy stubbers, the stalk tank can provide devastating anti-infantry firepower in support of Blood Pact forces and their allies.</description>
         <size>(5, 6)</size>
         <statBases>
             <UF_FlightSpeed>190</UF_FlightSpeed>
@@ -340,7 +343,7 @@
                 <chanceFactor>0.2</chanceFactor>
             </li>
             <li>
-                <label>claw</label>
+                <label>leg blade</label>
                 <capacities>
                     <li>Cut</li>
                 </capacities>
@@ -385,7 +388,6 @@
                 <canBePilotedByPawns>true</canBePilotedByPawns>
                 <standIfNotMoving>true</standIfNotMoving>
                 <workTypes>
-                    <li>Hauling</li>
                 </workTypes>
                 <overridenSkillLevels>
                     <Shooting>7</Shooting>
@@ -394,7 +396,7 @@
                 <basePowerGeneration>50</basePowerGeneration>
                 <basePilotCapacity>1</basePilotCapacity>
                 <basePassengerCapacity>0</basePassengerCapacity>
-                <baseCarryingCapacity>1000</baseCarryingCapacity>
+                <baseCarryingCapacity>0</baseCarryingCapacity>
 
                 <requiresGantryForModifications>False</requiresGantryForModifications>
                 <requiresGantryForConstruction>False</requiresGantryForConstruction>
@@ -403,12 +405,12 @@
 
                 <designationCategory>Security</designationCategory>
                 <costList>
-                    <Steel>250</Steel>
-                    <ComponentIndustrial>30</ComponentIndustrial>
+                    <Steel>600</Steel>
+                    <ComponentIndustrial>20</ComponentIndustrial>
+					<CVN_BP_KhornateSymbol>2</CVN_BP_KhornateSymbol>
                 </costList>
                 <researchPrerequisites>
-                    <li>MicroelectronicsBasics</li>
-                    <li>CVN_BP_Vanguard</li>
+                    <li>CVN_BP_MechSalvage</li>
                 </researchPrerequisites>
                 <statBases>
                     <WorkToBuild>8000</WorkToBuild>
@@ -418,17 +420,17 @@
             </li>
             <li Class="Taranchuk_ColorPicker.CompProperties_ColorPicker">
                 <includeColorTwo>true</includeColorTwo>
-                <label>Mech Personalized Paint</label>
-                <description>Mech Personalized Paint</description>
+                <label>Customize paint job</label>
+                <description>Customize the colour of the stalk tank's paint job.</description>
                 <iconPath>UI/PaintIcon_weapon</iconPath>
             </li>
         </comps>
     </ThingDef>
 
     <PawnKindDef ParentName="BaseMechanoidKind">
-        <defName>StalkTank</defName>
-        <label>Stalk Tank</label>
-        <race>StalkTank</race>
+        <defName>CVN_BP_StalkTankPawnkind</defName>
+        <label>stalk tank</label>
+        <race>CVN_BP_StalkTank</race>
         <combatPower>800</combatPower>
         <allowInMechClusters>false</allowInMechClusters>
         <lifeStages>
@@ -480,9 +482,9 @@
                 </prebuiltComponents>
                 <pilotsToGenerate>
                     <options>
-                        <Mercenary_Slasher>7</Mercenary_Slasher>
-                        <Mercenary_Gunner>10</Mercenary_Gunner>
-                        <Mercenary_Elite>10</Mercenary_Elite>
+                        <CVN_BP_Sirdar_Gunner>7</CVN_BP_Sirdar_Gunner>
+                        <CVN_BP_Sirdar_Ranged>10</CVN_BP_Sirdar_Ranged>
+                        <CVN_BP_DeathBrigade_Gunner>10</CVN_BP_DeathBrigade_Gunner>
                     </options>
                     <pawnCount>1</pawnCount>
                 </pilotsToGenerate>
@@ -493,7 +495,7 @@
                         <Mercenary_Gunner>10</Mercenary_Gunner>
                         <Mercenary_Elite>10</Mercenary_Elite>
                     </options>
-                    <pawnCount>5~10</pawnCount>
+                    <pawnCount>0</pawnCount>
                 </passengersToGenerate>
             </li>
         </modExtensions>

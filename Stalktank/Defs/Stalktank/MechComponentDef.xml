@@ -3,8 +3,8 @@
     <!-- Lasgun mouth MechComponent-->
     <taranchuk_mechsuits.MechComponentDef ParentName="CVN_MechComponentBase">
         <defName>CVN_StalkTank_Lasgun</defName>
-        <label>Lasgun</label>
-        <description>Lasgun</description>
+        <label>multi-laser</label>
+        <description>The multi-laser is a type of las weapon with less penetrative power than the larger lascannon but can deliver barrages of lasbolts at high velocity. This one is designed to be mounted on a stalk tank.</description>
 
         <graphicData>
             <texPath>Things/Pawn/StalkTank/Flammer_Chin_SubGun</texPath>
@@ -20,7 +20,7 @@
 
         <costList>
             <Steel>100</Steel>
-            <ComponentIndustrial>30</ComponentIndustrial>
+            <ComponentIndustrial>10</ComponentIndustrial>
         </costList>
         <comps>
             <li>
@@ -36,8 +36,8 @@
     <!-- Lasgun mouth turret -->
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>CVN_Stalktank_LasgunTurret</defName>
-        <label>Lasgun</label>
-        <description>WIP.</description>
+        <label>multi-laser head turret</label>
+        <description>A turret mounted on the stalk tank's head. The multi-laser is a type of las weapon with less penetrative power than the larger lascannon but can deliver barrages of lasbolts at high velocity.</description>
         <tradeability>None</tradeability>
         <destroyOnDrop>true</destroyOnDrop>
         <graphicData>
@@ -58,7 +58,7 @@
                 <defaultProjectile>Projectile_CVN_BP_Longlas</defaultProjectile>
                 <warmupTime>3.50</warmupTime>
                 <range>44.9</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>CVN_BP_LasgunFire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <burstShotCount>10</burstShotCount>
                 <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
@@ -72,8 +72,8 @@
     <!-- Flamethrower mouth turret -->
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>CVN_Stalktank_FlamethrowerTurret</defName>
-        <label>Flamethrower</label>
-        <description>WIP.</description>
+        <label>flamethrower head turret</label>
+        <description>A turret mounted on the stalk tank's head. It can project burning promethium that consumes anyone and anything unfortunate enough to be in its way.</description>
         <tradeability>None</tradeability>
         <destroyOnDrop>true</destroyOnDrop>
         <graphicData>
@@ -113,8 +113,8 @@
     <!-- Machinegun main turret MechComponent-->
     <taranchuk_mechsuits.MechComponentDef ParentName="CVN_MechComponentBase">
         <defName>CVN_Stalktank_Machinegun</defName>
-        <label>Machinegun</label>
-        <description>Machinegun</description>
+        <label>twin heavy stubbers</label>
+        <description>Twin heavy stubbers can project a devastating storm of bullets at anyone foolish enough to challenge the might of Urdesh's forges. This gun is designed to be mounted on a stalk tank.</description>
 
         <graphicData>
             <texPath>Things/Pawn/StalkTank/DualMG_MainGun</texPath>
@@ -146,8 +146,8 @@
     <!-- Machinegun main turret -->
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>CVN_Stalktank_MachinegunTurret</defName>
-        <label>Machinegun</label>
-        <description>WIP.</description>
+        <label>twin heavy stubber turret</label>
+        <description>A turret mounted on the back of the stalk tank. Twin heavy stubbers project a devastating storm of bullets at anyone foolish enough to challenge the might of Urdesh's forges.</description>
         <tradeability>None</tradeability>
         <destroyOnDrop>true</destroyOnDrop>
         <graphicData>

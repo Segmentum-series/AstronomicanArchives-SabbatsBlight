@@ -26,8 +26,8 @@
 		</researchPrerequisites>
 		
 		<costList>
-			<Steel>1240</Steel>
-			<ComponentIndustrial>24</ComponentIndustrial>
+			<Steel>780</Steel>
+			<ComponentIndustrial>16</ComponentIndustrial>
 		</costList>
 		
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
