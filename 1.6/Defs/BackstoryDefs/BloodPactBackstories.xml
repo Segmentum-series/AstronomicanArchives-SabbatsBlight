@@ -563,7 +563,7 @@
 	  <li>Animals</li>
     </workDisables>	
 	<forcedTraits>
-	  <WH40kVoidhand />
+	  <WH40kVoidhand MayRequire="anndra.40kbackstories"/>
 	  <Neurotic>2</Neurotic>
 	</forcedTraits>
     <bodyTypeMale>Male</bodyTypeMale>
