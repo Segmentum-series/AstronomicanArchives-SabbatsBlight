@@ -43,7 +43,7 @@
 		</equippedStatOffsets>
 		<apparel>
 			<tags>
-				<li>BerserkerBP</li>
+				<li>CVN_BP_Berzerker</li>
 			</tags>
 		    <wornGraphicPath>Things/Pawn/Humanlike/Apparel/BloodEaterBerserk/Headgear/BP_BerserkerHelmet</wornGraphicPath>
 			<drawData>

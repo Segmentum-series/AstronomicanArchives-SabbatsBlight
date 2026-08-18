@@ -2,7 +2,7 @@
 <Defs>
 
     <RulePackDef>
-        <defName>KilllYourself_Namer_BloodPact</defName>
+        <defName>CVN_BP_Namer_BloodPact</defName>
         <rulePack>
             <rulesStrings>
                 <li>r_name->Blood Pact</li>
@@ -10,7 +10,7 @@
         </rulePack>
     </RulePackDef>
 
-      <FactionDef ParentName="FactionBase" Name="KrillYourself_ChaosFactionBase" Abstract="True">
+      <FactionDef ParentName="FactionBase" Name="CVN_BP_ChaosFactionBase" Abstract="True">
         <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
         <settlementGenerationWeight>1</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
@@ -48,18 +48,18 @@
         </disallowedRaidAgeRestrictions>
     </FactionDef>
 
-  <FactionDef ParentName="KrillYourself_ChaosFactionBase">
-    <defName>Bloodpact</defName>
+  <FactionDef ParentName="CVN_BP_ChaosFactionBase">
+    <defName>CVN_BP_Bloodpactfaction</defName>
     <label>Blood Pact</label>
-    <description>A Blood Pact base of operations.</description>
+    <description>A Blood Pact warband operating on the Rimworld.</description>
     <configurationListOrderPriority>990</configurationListOrderPriority>
     <basicMemberKind>CVN_BP_Initiate</basicMemberKind>
-    <leaderTitle>Warlord</leaderTitle>
-    <pawnSingular>Soldier</pawnSingular>
-    <pawnsPlural>Soldiers</pawnsPlural>
+    <leaderTitle>Etogaur</leaderTitle>
+    <pawnSingular>warrior</pawnSingular>
+    <pawnsPlural>warriors</pawnsPlural>
     <techLevel>Industrial</techLevel>
     <naturalEnemy>true</naturalEnemy>
-    <factionNameMaker>KilllYourself_Namer_BloodPact</factionNameMaker>
+    <factionNameMaker>CVN_BP_Namer_BloodPact</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
     <factionIconPath>UI/Icons/CVN_BP_BP_BloodPactFactionIcon</factionIconPath>
@@ -159,15 +159,15 @@
   </FactionDef>
 
   <FactionDef ParentName="PlayerFactionBase">
-    <defName>YouTellingMeAShrimpFriedThisCode_Bloodpact_Player</defName>
+    <defName>CVN_BP_Bloodpact_Player</defName>
     <label>Blood Pact</label>
-    <description>A Blood Pact base of operations.</description>
+    <description>A Blood Pact warband operating on the Rimworld.</description>
     <isPlayer>true</isPlayer>
     <basicMemberKind>CVN_BP_Sirdar_Ranged</basicMemberKind>
-    <pawnSingular>Soldier</pawnSingular>
-    <pawnsPlural>Soldiers</pawnsPlural>
+    <pawnSingular>warrior</pawnSingular>
+    <pawnsPlural>warriors</pawnsPlural>
     <techLevel>Industrial</techLevel>
-    <factionNameMaker>KilllYourself_Namer_BloodPact</factionNameMaker>
+    <factionNameMaker>CVN_BP_Namer_BloodPact</factionNameMaker>
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <allowedCultures><li>Astropolitan</li></allowedCultures>
     <backstoryFilters>

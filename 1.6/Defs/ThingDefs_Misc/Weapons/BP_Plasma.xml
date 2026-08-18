@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>CVN_BP_PlasmaGun</defName>
-        <label>Pact Plasma Gun</label>
+        <label>Pact plasma gun</label>
         <description>A human-sized plasma gun. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma guns are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pact's defeat on Urdesh.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Plasmarifle</texPath>
@@ -43,7 +43,7 @@
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
         <weaponTags>
-         <li>BPranged3</li>
+         <li>CVN_BP_ranged3</li>
         </weaponTags>
         <verbs>
             <li>
@@ -98,8 +98,8 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
         <defName>CVN_BP_PlasmaPistol</defName>
-        <label>Pact Plasma Pistol</label>
-        <description>A human-sized plasma pistol. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma pistols are highly valued by the Pact for tank hunter squads, while being used regularly with senior members and melee specialists.</description>
+        <label>Pact plasma pistol</label>
+        <description>A human-sized plasma pistol. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma pistols are highly valued by the Pact for tank hunter squads, while also being used regularly by senior members and melee specialists.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Plasmapistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -135,7 +135,7 @@
             <ComponentSpacer>1</ComponentSpacer>
         </costList>
         <weaponTags>
-         <li>BPranged2</li>
+         <li>CVN_BP_ranged2</li>
         </weaponTags>
         <verbs>
             <li>
@@ -190,8 +190,8 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
         <defName>CVN_BP_Melta</defName>
-        <label>Pact Melta</label>
-        <description>WIP</description>
+        <label>Pact meltagun</label>
+        <description>A human-sized melta gun. Melta weaponry can turn the strongest metals into heaps of molten slag with superheated fusion blasts. \n\nMelta guns are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pact's defeat on Urdesh.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Meltagun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -243,7 +243,7 @@
             </li>
         </verbs>
 		<weaponTags>
-            <li>BPranged4</li>
+            <li>CVN_BP_ranged4</li>
         </weaponTags>
         <tools>
             <li>

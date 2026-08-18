@@ -4,8 +4,8 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>CVN_BP_ChaosSpikes</defName>
-    <label>Chaos Spikes</label>
-    <description>Simple spikes made from nearby salvage, meant to strike fear into the enemies of chaos.</description>
+    <label>Chaos spikes</label>
+    <description>Simple spikes made from available salvage, meant to strike fear into the enemies of chaos.</description>
     <graphicData>
       <texPath>Things/Item/Resources/CC_ChaosSpikes</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -30,7 +30,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>CVN_BP_KhornateSymbol</defName>
-    <label>Khornate Icon</label>
+    <label>Khornate icon</label>
     <description>A symbol of Khorne, ready to be welded onto other armor.</description>
     <graphicData>
       <texPath>Things/Item/Resources/CC_MarkOfChaos</texPath>
@@ -54,7 +54,7 @@
       <RecipeDef>
         <defName>CVN_BP_Make_ChaosSpikes</defName>
         <label>make chaos spikes</label>
-        <description>Make Chaos Spikes.</description>
+        <description>Make Chaos spikes.</description>
         <jobString>Making chaos spikes.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
@@ -91,9 +91,9 @@
 
       <RecipeDef>
         <defName>CVN_BP_Make_KhornateSymbol</defName>
-        <label>make Khornate Symbol</label>
-        <description>Make Khornate Symbol.</description>
-        <jobString>Making Khornate Symbol.</jobString>
+        <label>make Khornate icon</label>
+        <description>Make Khornate icon.</description>
+        <jobString>Making Khornate icon.</jobString>
         <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <effectWorking>Cook</effectWorking>
         <soundWorking>Recipe_Machining</soundWorking>

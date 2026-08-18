@@ -5,7 +5,7 @@
 		<defName>CVN_BP_Tech</defName>
 		<label>Blood Pact</label>
 		<generalTitle>Blood Pact</generalTitle>
-    	<generalDescription>Unlock technologies from the Blood Pact, a Khornate cult of warriors. A few projects require researches from the GrimWorld 40,000 tab.</generalDescription>
+    	<generalDescription>Unlock technologies from the Blood Pact, an organized force of warriors dedicated to the Blood God, Khorne.</generalDescription>
 	</ResearchTabDef>
 
 	<ResearchProjectDef Abstract="True" Name="BP_TechBase">
@@ -31,7 +31,7 @@
 		<defName>CVN_BP_Vanguard</defName>
 		<label>Vanguard arsenal</label>
 		<techLevel>Industrial</techLevel>
-        <description>Earn your place among the ranks of the Death Brigade. Made up of the veterans and 'elite' soldiers of the Blood Pact, this vanguard spearheads its assaults and military campaigns, relying on improved gear and armor to ensure success.</description>
+        <description>Earn your place among the ranks of the Death Brigade. Made up of the veterans and 'elite' soldiers of the Blood Pact, this vanguard spearheads its assaults and military campaigns, relying on improved gear and armour to ensure success.</description>
 		<prerequisites>
 			<li>CVN_BP_Basic</li>
 		</prerequisites>
@@ -70,7 +70,7 @@
 		<defName>CVN_BP_HeatWeapons</defName>
 		<label>Repurposed heat weaponry</label>
 		<techLevel>Industrial</techLevel>
-        <description>Stolen equipment or, as they would say, "repurposed for more skilled individuals", these heavy weapons add much-needed firepower to the Blood Pact arsenal. True to their style, flamers and melta weapons, designed for up-close, personal death-dealing and anti-armor roles, fit seamlessly into their brutal and efficient tactics.</description>
+        <description>Stolen equipment or, as they would say, "repurposed for more skilled individuals", these heavy weapons add much-needed firepower to the Blood Pact arsenal. True to their style, flamers and melta weapons, designed for up-close, personal death-dealing and anti-armour roles, fit seamlessly into their brutal and efficient tactics.</description>
 		<prerequisites>
 			<li>CVN_BP_Vanguard</li>
 		</prerequisites>
@@ -81,9 +81,9 @@
 
 	<ResearchProjectDef ParentName="BP_TechBase">
 		<defName>CVN_BP_AntiArmorWeapons</defName>
-		<label>Anti-armor weapons</label>
+		<label>Anti-armour weapons</label>
 		<techLevel>Industrial</techLevel>
-        <description>Gain access to anti-armor weapons. Like their Imperial counterparts, the Blood Pact uses frag and krak missiles to the same efficiency. An excellent blend of anti-armor or anti-personnel firepower, backed by plasma guns for dealing with heavy infantry and light vehicles.</description>
+        <description>Gain access to anti-armour weapons. Like their Imperial counterparts, the Blood Pact uses frag and krak missiles to the same efficiency. An excellent blend of anti-armour or anti-personnel firepower, backed by plasma guns for dealing with heavy infantry and light vehicles.</description>
 		<prerequisites>
 			<li>CVN_BP_Vanguard</li>
 		</prerequisites>
@@ -120,9 +120,9 @@
 
 	<ResearchProjectDef ParentName="BP_TechBase">
 		<defName>CVN_BP_ReclaimedArmor</defName>
-		<label>Reclaimed heavy armor</label>
+		<label>Reclaimed heavy armour</label>
 		<techLevel>Industrial</techLevel>
-        <description>Acquire heavy armor. Though the Blood Pact's mechanized capabilities may be seen as inferior, the Urdeshi-made Leman Russ is a battlefield threat that should never be underestimated.</description>
+        <description>Acquire heavy armour. Though the Blood Pact's mechanized capabilities may be seen as inferior, the Urdeshi-made Leman Russ is a battlefield threat that should never be underestimated.</description>
 		<prerequisites>
 			<li>CVN_BP_MechSalvage</li>
 		</prerequisites>

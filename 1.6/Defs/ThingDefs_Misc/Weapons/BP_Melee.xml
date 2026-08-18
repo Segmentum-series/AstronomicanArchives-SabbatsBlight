@@ -3,8 +3,8 @@
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>CVN_BP_SabreKnife</defName>
-    <label>Sabre-Knife</label>
-    <description>A grossly oversized knife-like sword, often seen in use by the Blood Pact. Great for hacking away at unarmored prey, it is however lacking when it comes to piercing armor.</description>
+    <label>sabre-knife</label>
+    <description>A grossly oversized knife-like sword, often seen in use by the Blood Pact. Great for hacking away at unarmoured prey, it is however lacking when it comes to piercing armour.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/BP_Sabreknife</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -38,7 +38,7 @@
       <displayPriority>421</displayPriority>
     </recipeMaker>
     <weaponTags>
-      <li>BPMelee1</li>
+      <li>CVN_BP_Melee1</li>
     </weaponTags>
     <weaponClasses>
       <li>Melee</li>
@@ -66,7 +66,7 @@
     
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
     <defName>CVN_BP_TrenchClub</defName>
-    <label>Trench Club</label>
+    <label>trench club</label>
     <description>A makeshift club, intended for use within cramped spaces. The smaller size allow for fast cruel swings.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/BP_TrenchMace</texPath>
@@ -101,7 +101,7 @@
       <displayPriority>422</displayPriority>
     </recipeMaker>
     <weaponTags>
-      <li>BPMelee1</li>
+      <li>CVN_BP_Melee1</li>
     </weaponTags>
     <weaponClasses>
       <li>Melee</li>
@@ -128,8 +128,8 @@
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>CVN_BP_ChainSword</defName>
-    <label>Pact Chainsword</label>
-    <description>A one-handed chainsword fit for use by a baseline human, it can still rip through enemy flesh with horrifying efficiency. \n\nOne of the most feared close combat armaments in known space, this particular Chainsword has been salvaged for service in the Blood Pact.</description>
+    <label>Pact chainsword</label>
+    <description>A one-handed chainsword fit for use by a baseline human, it can still rip through enemy flesh with horrifying efficiency. \n\nOne of the most feared close combat armaments in known space, this particular chainsword has been salvaged for service in the Blood Pact.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/BP_Chainsword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -137,7 +137,7 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>BPMelee2</li>
+      <li>CVN_BP_Melee2</li>
       <li>CVN_BP_Chainsword_Tag</li>
     </weaponTags>
 	<weaponClasses>
@@ -206,8 +206,8 @@
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>CVN_BP_ChainAxe</defName>
-    <label>Pact Chainaxe</label>
-    <description>The favored weapon of all Khornate worshippers, the Chain axe is a brutal melee weapon capable of biting deep into flesh or metal.\n\nThis particular axe appears to have originally belonged to the World Eaters, but has been gifted to the Blood Pact.</description>
+    <label>Pact chainaxe</label>
+    <description>The favored weapon of all Khornate worshippers, the chain axe is a brutal melee weapon capable of biting deep into flesh or metal.\n\nThis particular axe appears to have originally belonged to the World Eaters, but has been gifted to the Blood Pact.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/BP_Chainaxe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -216,7 +216,7 @@
 		<uiIconScale>0.8</uiIconScale>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>BPMelee2</li>
+      <li>CVN_BP_Melee2</li>
     </weaponTags>
 	<weaponClasses>
       <li>Melee</li>
@@ -284,8 +284,8 @@
   
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
         <defName>CVN_BP_PowerFist</defName>
-        <label>Pact Power Fist</label>
-        <description>The Powerfist is a brutal but refined weapon utilizing an energy field to disrupt matter it touchs, allowing it to easily rend even the largest of targets.</description>
+        <label>Pact power fist</label>
+        <description>The powerfist is a brutal but advanced weapon utilizing an energy field to disrupt matter it touchs, allowing it to easily rend even the largest of targets.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponMelee/BP_Powerfist</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -316,7 +316,7 @@
       <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
         </costList>
         <weaponTags>
-         <li>BPMelee3</li>
+         <li>CVN_BP_Melee3</li>
         </weaponTags>
         <weaponClasses>
          <li>Melee</li>
@@ -345,7 +345,7 @@
 	
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
         <defName>CVN_BP_PowerSword</defName>
-        <label>Pact Power Sword</label>
+        <label>Pact power sword</label>
 		<description>Power swords are elegantly crafted blades designed to carve through any target with ease, generally seeing widespread use among any high ranking members of the Imperium\n\nThis sword likely came from a commissar who refused to revoke his rank, and join the Blood Pact.</description>
         <graphicData>
 		    <texPath>Things/Item/Equipment/WeaponMelee/BP_Powersword</texPath>
@@ -355,8 +355,8 @@
         <uiIconScale>1</uiIconScale>
         <techLevel>Spacer</techLevel>
         <weaponTags>
-         <li>BPMelee3</li>
-         <li>BPPowerSwordTag</li>
+         <li>CVN_BP_Melee3</li>
+         <li>CVN_BP_PowerSwordTag</li>
         </weaponTags>
 		<weaponClasses>
          <li>Melee</li>

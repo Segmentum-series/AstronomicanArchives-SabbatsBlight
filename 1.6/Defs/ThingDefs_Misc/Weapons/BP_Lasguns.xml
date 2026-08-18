@@ -30,9 +30,9 @@
     </ThingDef>
 
     <ThingDef ParentName="CVN_BP_LasgunBase">
-        <defName>CVN_BP_Gun_Flashlight</defName>
-        <label>Pact Lasgun</label>
-        <description>The most iconic weapon throughout the entire Imperium of Man, the lasgun comes in too many variants to even attempt recording. Lasguns while more expensive to produce, have highly reduced strain logistical networks compared to the Autogun.\n\nPact lasguns dont see much modification outside the installation of bayonets.</description>
+        <defName>CVN_BP_Gun_Lasgun</defName>
+        <label>Pact lasgun</label>
+        <description>The most iconic weapon throughout the entire Imperium of Man, the lasgun comes in too many variants to even attempt recording. Lasguns, while more expensive to produce, have highly reduced strain on logistical networks compared to autoguns.\n\nPact lasguns don't see much modification outside the installation of bayonets.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Lasrifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -54,8 +54,8 @@
             <ComponentIndustrial>9</ComponentIndustrial>
         </costList>
         <weaponTags>
-            <li>BPranged2</li>
-            <li>BPlasGuns</li>
+            <li>CVN_BP_ranged2</li>
+            <li>CVN_BP_Lasguns</li>
         </weaponTags>
         <verbs>
             <li>
@@ -139,8 +139,8 @@
  
     <ThingDef ParentName="CVN_BP_LasgunBase">
         <defName>CVN_BP_Laspistol</defName>
-        <label>Pact Laspistol</label>
-        <description>Most commonly seen in the hands of a commissar, Laspistols are rumored to see more use in execution then in actual combat.\n\nDue to the Blood Pacts disdain for killing its own members, Laspistols arent nearly as common within its ranks.</description>
+        <label>Pact laspistol</label>
+        <description>Most commonly seen in the hands of officers or commissars, laspistols are rumoured to see more use in execution then in actual combat.\n\nDue to the Blood Pact's disdain for killing its own members, laspistols are not nearly as common within its ranks as within the Imperial Guard.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Laspistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -158,8 +158,8 @@
             <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
-            <li>BPranged2</li>
-            <li>BPlasGuns</li>
+            <li>CVN_BP_ranged2</li>
+            <li>CVN_BP_Lasguns</li>
          </weaponTags>
         <costList>
           <Steel>65</Steel>
@@ -248,8 +248,8 @@
 	
 	<ThingDef ParentName="CVN_BP_LasgunBase">
         <defName>CVN_BP_longLasgun</defName>
-        <label>Pact Longlas</label>
-        <description>A Lasgun that has been altered for long range engagement.\n\nMembers of the Pact equipped with these lack the common hand scars seen with other believers, this is due to the Archon allowing snipers to cut other parts of flesh during initiation, so as to not lessen their aim.</description>
+        <label>Pact longlas</label>
+        <description>A lasgun that has been altered for long range engagement.\n\nMembers of the Pact equipped with these lack the common hand scars seen with other believers. This is due to the Archon allowing snipers to cut other parts of flesh during initiation, so as not to impair their aim.</description>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponRanged/BP_Longlas</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -271,7 +271,7 @@
             <ComponentIndustrial>9</ComponentIndustrial>
         </costList>
         <weaponTags>
-            <li>BPlongLasTag</li>
+            <li>CVN_BP_LongLasTag</li>
         </weaponTags>
         <verbs>
             <li>

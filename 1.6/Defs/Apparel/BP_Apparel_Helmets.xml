@@ -4,7 +4,7 @@
 
     <ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>CVN_BP_Flakhelm</defName>
-        <label>Salvaged Flak helmet</label>
+        <label>salvaged flak helmet</label>
         <description>An Imperial Guard flak helmet, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. Repainted in the traditional Blood Pact colors.\n\nMade from low-grade ceramite, they offer superior protection compared to the hand-forged Blood Pact Grotesque while lacking in facial protection.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet</texPath>
@@ -35,7 +35,7 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet</wornGraphicPath>
             <tags>
-                <li>BPapparelhead1</li>
+                <li>CVN_BP_Apparelhead1</li>
             </tags>
 		    <bodyPartGroups>
                 <li>UpperHead</li>
@@ -48,7 +48,7 @@
 	
 	<ThingDef ParentName="CVN_BP_ArmorBase">
         <defName>CVN_BP_Flakghelm</defName>
-        <label>Salvaged Gas-mask helmet</label>
+        <label>salvaged gasmask helmet</label>
         <description>An Imperial Guard flak helmet, either taken during desertion, looted from an armory, or scavenged from the battlefield's dead. It features a familiar gas mask for added facial protection, while the helmet's fixed spikes can help in melee combat.\n\nMade from low-grade ceramite, they offer superior protection compared to the hand-forged Blood Pact Grotesque helmets.</description>
         <graphicData>
             <texPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask</texPath>
@@ -82,7 +82,7 @@
         <apparel>
             <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask</wornGraphicPath>
             <tags>
-                <li>BPapparelhead1</li>
+                <li>CVN_BP_Apparelhead1</li>
             </tags>
             <bodyPartGroups Inherit="False">
                 <li>FullHead</li>
@@ -132,7 +132,7 @@
                 <li>FullHead</li>
             </bodyPartGroups>
             <tags>
-                <li>BPapparelhead2</li>
+                <li>CVN_BP_Apparelhead2</li>
             </tags>
 			<layers>
                 <li>Overhead</li>
@@ -179,7 +179,7 @@
                 <li>FullHead</li>
             </bodyPartGroups>
             <tags>
-                <li>BPapparelhead2</li>
+                <li>CVN_BP_Apparelhead2</li>
             </tags>
 			<layers>
                 <li>Overhead</li>
@@ -227,7 +227,7 @@
                 <li>FullHead</li>
             </bodyPartGroups>
             <tags>
-                <li>BPapparelhead3</li>
+                <li>CVN_BP_Apparelhead3</li>
             </tags>
 			<layers>
                 <li>Overhead</li>
@@ -275,7 +275,7 @@
                 <li>FullHead</li>
             </bodyPartGroups>
             <tags>
-                <li>BPapparelhead3</li>
+                <li>CVN_BP_Apparelhead3</li>
             </tags>
 			<layers>
                 <li>Overhead</li>
@@ -325,6 +325,9 @@
             <bodyPartGroups Inherit="False">
                 <li>FullHead</li>
             </bodyPartGroups>
+            <tags>
+                <li>CVN_BP_Apparelhead4</li>
+            </tags>
 			<layers>
                 <li>Overhead</li>
             </layers>

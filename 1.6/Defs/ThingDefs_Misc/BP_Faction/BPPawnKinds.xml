@@ -3,7 +3,7 @@
 
   <PawnKindDef Name="CVN_BP_BP_PawnBase" Abstract="True">
         <race>Human</race>
-        <defaultFactionType>Bloodpact</defaultFactionType>
+        <defaultFactionType>CVN_BP_Bloodpactfaction</defaultFactionType>
         <invNutrition>2.55</invNutrition>
         <chemicalAddictionChance>0.33</chemicalAddictionChance>
         <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
@@ -49,7 +49,7 @@
             <li>BPapparelskin1</li>
         </apparelTags>
         <weaponTags>
-            <li>BPMelee1</li>
+            <li>CVN_BP_Melee1</li>
         </weaponTags>
         <weaponMoney>200~550</weaponMoney>
         <techHediffsChance>0.04</techHediffsChance>
@@ -71,16 +71,16 @@
         <apparelMoney>1500~2500</apparelMoney>
         <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle1</li>
-            <li>BPapparelhead1</li>
-            <li>CVN_BP_Pouchs</li>
-            <li>PactBackpack</li>
+            <li>CVN_BP_Apparelmiddle1</li>
+            <li>CVN_BP_Apparelhead1</li>
+            <li>CVN_BP_Pouches</li>
+            <li>CVN_BP_Backpack</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPMelee1</li>
+            <li>CVN_BP_Melee1</li>
             <li>CVN_BP_Chainsword_Tag</li>
         </weaponTags>
         <weaponMoney>550~850</weaponMoney>
@@ -104,17 +104,17 @@
         <apparelMoney>1700~2500</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle1</li>
-            <li>BPapparelhead1</li>
-            <li>CVN_BP_Pouchs</li>
-            <li>PactBackpack</li>
+            <li>CVN_BP_Apparelmiddle1</li>
+            <li>CVN_BP_Apparelhead1</li>
+            <li>CVN_BP_Pouches</li>
+            <li>CVN_BP_Backpack</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPranged1</li>
-            <li>BPlasGuns</li>
+            <li>CVN_BP_ranged1</li>
+            <li>CVN_BP_Lasguns</li>
         </weaponTags>
         <weaponMoney>600~1250</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -140,15 +140,15 @@
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle2</li>
-            <li>BPapparelhead2</li>
-            <li>CVN_BP_Pouchs</li>
+            <li>CVN_BP_Apparelmiddle2</li>
+            <li>CVN_BP_Apparelhead2</li>
+            <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPMelee1</li>
+            <li>CVN_BP_Melee1</li>
         </weaponTags>
         <weaponMoney>600~1250</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -171,15 +171,15 @@
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle2</li>
-            <li>BPapparelhead2</li>
-            <li>CVN_BP_Pouchs</li>
+            <li>CVN_BP_Apparelmiddle2</li>
+            <li>CVN_BP_Apparelhead2</li>
+            <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPranged1</li>
+            <li>CVN_BP_ranged1</li>
         </weaponTags>
         <weaponMoney>600~1250</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -205,16 +205,16 @@
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle2</li>
-            <li>BPapparelhead2</li>
-            <li>CVN_BP_Pouchs</li>
+            <li>CVN_BP_Apparelmiddle2</li>
+            <li>CVN_BP_Apparelhead2</li>
+            <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPranged3</li>
-            <li>BPranged4</li>
+            <li>CVN_BP_ranged3</li>
+            <li>CVN_BP_ranged4</li>
         </weaponTags>
         <weaponMoney>800~1550</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -240,15 +240,15 @@
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle2</li>
-            <li>BPapparelhead2</li>
-            <li>CVN_BP_Pouchs</li>
+            <li>CVN_BP_Apparelmiddle2</li>
+            <li>CVN_BP_Apparelhead2</li>
+            <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_Fatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPlongLasTag</li>
+            <li>CVN_BP_LongLasTag</li>
         </weaponTags>
         <weaponMoney>800~1550</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -277,14 +277,14 @@
             <li>CVN_BP_DBfatigues</li>
         </apparelRequired>
         <apparelTags>
-            <li>BPapparelmiddle3</li>
-            <li>BPapparelhead3</li>
-            <li>CVN_BP_Pouchs</li>
+            <li>CVN_BP_Apparelmiddle3</li>
+            <li>CVN_BP_Apparelhead3</li>
+            <li>CVN_BP_Pouches</li>
         </apparelTags>
         <weaponTags>
-            <li>BPMelee1</li>
-            <li>BPMelee2</li>
-            <li>BPMelee3</li>
+            <li>CVN_BP_Melee1</li>
+            <li>CVN_BP_Melee2</li>
+            <li>CVN_BP_Melee3</li>
         </weaponTags>
         <weaponMoney>700~2500</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -307,15 +307,15 @@
         <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle3</li>
-            <li>BPapparelhead3</li>
-            <li>CVN_BP_Pouchs</li>
+            <li>CVN_BP_Apparelmiddle3</li>
+            <li>CVN_BP_Apparelhead3</li>
+            <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPranged1</li>
+            <li>CVN_BP_ranged1</li>
         </weaponTags>
         <weaponMoney>700~1250</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -341,15 +341,15 @@
         <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle3</li>
-            <li>BPapparelhead3</li>
-            <li>CVN_BP_Pouchs</li>
+            <li>CVN_BP_Apparelmiddle3</li>
+            <li>CVN_BP_Apparelhead3</li>
+            <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPranged3</li>
+            <li>CVN_BP_ranged3</li>
         </weaponTags>
         <weaponMoney>700~1550</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -376,15 +376,15 @@
         <apparelMoney>5000~6000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelmiddle3</li>
-            <li>BPapparelhead3</li>
-            <li>CVN_BP_Pouchs</li>
+            <li>CVN_BP_Apparelmiddle3</li>
+            <li>CVN_BP_Apparelhead3</li>
+            <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
             <li>CVN_BP_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
-            <li>BPranged4</li>
+            <li>CVN_BP_ranged4</li>
         </weaponTags>
         <weaponMoney>960~2000</weaponMoney>
         <techHediffsChance>0.07</techHediffsChance>
@@ -416,10 +416,10 @@
             <li>CVN_BP_Arnogaurmask</li>
         </apparelRequired>
         <apparelTags>
-            <li>BPapparelmiddle4</li>
+            <li>CVN_BP_Apparelmiddle4</li>
         </apparelTags>
         <weaponTags>
-            <li>BPPowerSwordTag</li>
+            <li>CVN_BP_PowerSwordTag</li>
         </weaponTags>
         <weaponMoney>1225~2250</weaponMoney>
         <techHediffsChance>0.1</techHediffsChance>
@@ -449,11 +449,11 @@
             <li>CVN_BP_KhornemarineH</li>
         </apparelRequired>
         <apparelTags>
-            <li>BPapparelskin1</li>
+            <li>CVN_BP_Apparelskin1</li>
         </apparelTags>
         <weaponTags>
-            <li>BPMelee2</li>
-            <li>BPMelee3</li>
+            <li>CVN_BP_Melee2</li>
+            <li>CVN_BP_Melee3</li>
         </weaponTags>
         <weaponMoney>1225~4500</weaponMoney>
         <techHediffsChance>0.2</techHediffsChance>
