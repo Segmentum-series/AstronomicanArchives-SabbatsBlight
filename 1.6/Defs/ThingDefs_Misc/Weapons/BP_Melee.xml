@@ -28,7 +28,7 @@
     <recipeMaker>
       <researchPrerequisites>
        <li>CVN_BP_Vanguard</li>
-	   <li>Smithing</li>
+	   <li>LongBlades</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>5</Crafting>
@@ -196,6 +196,7 @@
       <researchPrerequisites>
 	   <li>CVN_BP_Vanguard</li>
 	   <li>Machining</li>
+	   <li>LongBlades</li>
 	  </researchPrerequisites>
       <skillRequirements>
         <Crafting>7</Crafting>
