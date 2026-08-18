@@ -37,7 +37,7 @@
 			<displayPriority>232</displayPriority>
         </recipeMaker>
         <costList>
-		    <Uranium>1</Uranium>
+		    <Uranium>10</Uranium>
             <Plasteel>50</Plasteel>
             <ComponentIndustrial>7</ComponentIndustrial>
             <ComponentSpacer>2</ComponentSpacer>
@@ -88,7 +88,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>CVN_BP_PlasDamage</damageDef>
             <damageAmountBase>40</damageAmountBase>
             <stoppingPower>2</stoppingPower>
             <armorPenetrationBase>0.5</armorPenetrationBase>
@@ -129,7 +129,7 @@
 			<displayPriority>233</displayPriority>
         </recipeMaker>
         <costList>
-		    <Uranium>1</Uranium>
+		    <Uranium>10</Uranium>
             <Plasteel>25</Plasteel>
             <ComponentIndustrial>3</ComponentIndustrial>
             <ComponentSpacer>1</ComponentSpacer>
@@ -180,7 +180,7 @@
             <drawSize>1.1</drawSize>
         </graphicData>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>CVN_BP_PlasDamage</damageDef>
             <damageAmountBase>20</damageAmountBase>
             <stoppingPower>2</stoppingPower>
             <armorPenetrationBase>0.5</armorPenetrationBase>
@@ -280,7 +280,7 @@
             <drawSize>1.5</drawSize>
         </graphicData>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>CVN_BP_MeltaDamage</damageDef>
             <damageAmountBase>25</damageAmountBase>
             <armorPenetrationBase>1</armorPenetrationBase>
             <stoppingPower>1.2</stoppingPower>
@@ -302,4 +302,27 @@
         </modExtensions>
     </ThingDef>
 
+
+	<DamageDef ParentName="Bullet">
+		<defName>CVN_BP_MeltaDamage</defName>
+		<label>melta burn</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<armorCategory>Heat</armorCategory>
+		<hediff>Shredded</hediff>
+		<deathMessage>{0} was melted into a pile of flesh and slag.</deathMessage>
+		<impactSoundType>Electric</impactSoundType>
+		<defaultArmorPenetration>2.0</defaultArmorPenetration>
+	</DamageDef>
+
+	<DamageDef>
+		<defName>CVN_BP_PlasDamage</defName>
+		<label>plasma burn</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<impactSoundType>Bullet</impactSoundType>
+		<soundExplosion>Explosion_EMP</soundExplosion>
+		<externalViolence>true</externalViolence>
+		<hediff>Shredded</hediff>
+		<armorCategory>Heat</armorCategory>
+		<deathMessage>{0} has been shown the power of the sun.</deathMessage>
+	</DamageDef>
 </Defs>

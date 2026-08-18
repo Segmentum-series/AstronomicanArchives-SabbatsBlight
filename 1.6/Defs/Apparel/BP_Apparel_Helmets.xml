@@ -10,16 +10,16 @@
             <texPath>Things/Pawn/Humanlike/Apparel/CorruptedCadian/Headgear/BP_CadianHelmet</texPath>
         </graphicData>
         <costList>
-        <Steel>25</Steel>
-	<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>60</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
         </costList>	
         <statBases>
             <WorkToMake>3000</WorkToMake>
-            <MaxHitPoints>250</MaxHitPoints>
+            <MaxHitPoints>200</MaxHitPoints>
             <Mass>2</Mass>
-            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+            <ArmorRating_Sharp>0.70</ArmorRating_Sharp>
             <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <ArmorRating_Heat>0.30</ArmorRating_Heat>
             <Insulation_Cold>2</Insulation_Cold>
             <EquipDelay>1.5</EquipDelay>
         </statBases>
@@ -54,16 +54,16 @@
             <texPath>Things/Pawn/Humanlike/Apparel/Gasmask/Headgear/BP_GenericGasmask</texPath>
         </graphicData>
         <costList>
-        <Steel>35</Steel>
-	<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>65</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
         </costList>	
         <statBases>
             <WorkToMake>4000</WorkToMake>
-            <MaxHitPoints>250</MaxHitPoints>
+            <MaxHitPoints>220</MaxHitPoints>
             <Mass>2.5</Mass>
-            <ArmorRating_Sharp>0.76</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.41</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <ArmorRating_Sharp>0.74</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.42</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.40</ArmorRating_Heat>
             <Insulation_Cold>4</Insulation_Cold>
             <EquipDelay>1.6</EquipDelay>
         </statBases>
@@ -101,8 +101,8 @@
             <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetA</texPath>
         </graphicData>
         <costList>
-        <Steel>40</Steel>
-	<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>80</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
         </costList>	
         <statBases>
             <WorkToMake>5000</WorkToMake>
@@ -148,8 +148,8 @@
             <texPath>Things/Pawn/Humanlike/Apparel/Sirdar/Headgear/BP_SirdarHelmetB</texPath>
         </graphicData>
         <costList>
-        <Steel>40</Steel>
-	<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>80</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
         </costList>	
         <statBases>
             <WorkToMake>5000</WorkToMake>
@@ -195,7 +195,7 @@
             <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetA</texPath>
         </graphicData>
         <costList>
-            <Steel>40</Steel>
+            <Steel>110</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
             <CVN_BP_ChaosSpikes>1</CVN_BP_ChaosSpikes>
         </costList>	
@@ -243,8 +243,8 @@
             <texPath>Things/Pawn/Humanlike/Apparel/DeathBrigade/Headgear/BP_DeathBHelmetB</texPath>
         </graphicData>
         <costList>
-        <Steel>70</Steel>
-	<ComponentIndustrial>2</ComponentIndustrial>
+			<Steel>110</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
             <CVN_BP_ChaosSpikes>1</CVN_BP_ChaosSpikes>
         </costList>	
         <statBases>
@@ -291,9 +291,9 @@
             <texPath>Things/Pawn/Humanlike/Apparel/Arnogaur/Headgear/BP_Arnogaur</texPath>
         </graphicData>
 		<costList>
-			<Steel>95</Steel>
+			<Steel>150</Steel>
 		    <ComponentIndustrial>3</ComponentIndustrial>
-			<Gold>10</Gold>
+			<Gold>1</Gold>
             <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
             <CVN_BP_ChaosSpikes>2</CVN_BP_ChaosSpikes>
         </costList>

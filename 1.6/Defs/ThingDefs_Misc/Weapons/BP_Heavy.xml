@@ -150,9 +150,9 @@
 			<workSkill>Crafting</workSkill>
 		</recipeMaker>
 		<costList>
-			<Plasteel>90</Plasteel>
-			<Steel>135</Steel>
-			<ComponentIndustrial>15</ComponentIndustrial>
+			<Plasteel>70</Plasteel>
+			<Steel>125</Steel>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<statBases>
 			<Mass>14</Mass>

@@ -28,11 +28,12 @@
 			<MaxHitPoints>480</MaxHitPoints>
 			<Mass>9</Mass>
 			<Flammability>0.1</Flammability>
-			<ArmorRating_Sharp>1.10</ArmorRating_Sharp>
-			<ArmorRating_Blunt>0.49</ArmorRating_Blunt>
-			<ArmorRating_Heat>0.58</ArmorRating_Heat>
-			<Insulation_Cold>34</Insulation_Cold>
-			<Insulation_Heat>12</Insulation_Heat>
+            <ArmorRating_Sharp>1.56</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+            <ArmorRating_Heat>1</ArmorRating_Heat>
+
+            <Insulation_Cold>36</Insulation_Cold>
+            <Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>7</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
@@ -71,8 +72,8 @@
 		</apparel>
 		<costList>
 			<ComponentSpacer>7</ComponentSpacer>
-			<Plasteel>350</Plasteel>
-			<Steel>350</Steel>
+			<Plasteel>200</Plasteel>
+			<Steel>250</Steel>
 			<CVN_BP_KhornateSymbol>2</CVN_BP_KhornateSymbol>
             <CVN_BP_ChaosSpikes>3</CVN_BP_ChaosSpikes>
 		</costList>

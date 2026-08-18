@@ -29,6 +29,18 @@
         </recipeMaker>
     </ThingDef>
 
+	<DamageDef ParentName="Bullet">
+		<defName>CVN_BP_LasgunDamage</defName>
+		<label>lasburn</label>
+		<workerClass>DamageWorker_AddInjury</workerClass>
+		<armorCategory>Sharp</armorCategory>
+		<hediff>Burn</hediff>
+		<deathMessage>{0} was blasted with a lasbolt.</deathMessage>
+		<impactSoundType>Electric</impactSoundType>
+		<defaultArmorPenetration>2.0</defaultArmorPenetration>
+		<combatLogRules>Damage_Flame</combatLogRules>
+	</DamageDef>
+	
     <ThingDef ParentName="CVN_BP_LasgunBase">
         <defName>CVN_BP_Gun_Lasgun</defName>
         <label>Pact lasgun</label>
@@ -115,9 +127,9 @@
             <drawSize>1</drawSize>
         </graphicData>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>CVN_BP_LasgunDamage</damageDef>
             <damageAmountBase>20</damageAmountBase>
-            <armorPenetrationBase>0.15</armorPenetrationBase>
+            <armorPenetrationBase>0.35</armorPenetrationBase>
             <stoppingPower>0.7</stoppingPower>
             <speed>1000</speed>
         </projectile>
@@ -224,9 +236,9 @@
             <drawSize>1</drawSize>
         </graphicData>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>CVN_BP_LasgunDamage</damageDef>
             <damageAmountBase>15</damageAmountBase>
-            <armorPenetrationBase>0.10</armorPenetrationBase>
+            <armorPenetrationBase>0.20</armorPenetrationBase>
             <stoppingPower>0.7</stoppingPower>
             <speed>1000</speed>
         </projectile>
@@ -267,8 +279,8 @@
             <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>100</Steel>
-            <ComponentIndustrial>9</ComponentIndustrial>
+            <Steel>110</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
         </costList>
         <weaponTags>
             <li>CVN_BP_LongLasTag</li>
@@ -331,10 +343,10 @@
             <drawSize>1</drawSize>
         </graphicData>
         <projectile>
-            <damageDef>Burn</damageDef>
+            <damageDef>CVN_BP_LasgunDamage</damageDef>
             <damageAmountBase>25</damageAmountBase>
-            <armorPenetrationBase>0.2</armorPenetrationBase>
-            <stoppingPower>0.7</stoppingPower>
+            <armorPenetrationBase>0.40</armorPenetrationBase>
+            <stoppingPower>3</stoppingPower>
             <speed>1000</speed>
         </projectile>
         <modExtensions>
