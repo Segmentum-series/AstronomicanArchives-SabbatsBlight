@@ -52,7 +52,7 @@
                 <defaultProjectile>Projectile_CVN_BP_Plasma</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
                 <range>30</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>CVN_BP_PlasmaSound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>	
             </li>
@@ -144,7 +144,7 @@
                 <defaultProjectile>Projectile_CVN_BP_PlasmaPistol</defaultProjectile>
                 <warmupTime>1.2</warmupTime>
                 <range>20</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>CVN_BP_PlasmaSound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>	
             </li>
@@ -237,7 +237,7 @@
                 <defaultProjectile>Projectile_CVN_BP_Melta</defaultProjectile>
                 <warmupTime>2.5</warmupTime>
                 <range>12.9</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>ChargeLance_Fire</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>

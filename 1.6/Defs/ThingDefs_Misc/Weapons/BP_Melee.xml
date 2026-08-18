@@ -347,6 +347,8 @@
         <defName>CVN_BP_PowerSword</defName>
         <label>Pact power sword</label>
 		<description>Power swords are elegantly crafted blades designed to carve through any target with ease, generally seeing widespread use among any high ranking members of the Imperium\n\nThis sword likely came from a commissar who refused to revoke his rank, and join the Blood Pact.</description>
+		<soundInteract>CVN_BP_PoweredMeleeWeaponEquipSound</soundInteract>
+		<meleeHitSound>CVN_BP_PoweredMeleeWeaponImpactSound</meleeHitSound>
         <graphicData>
 		    <texPath>Things/Item/Equipment/WeaponMelee/BP_Powersword</texPath>
           <graphicClass>Graphic_Single</graphicClass>

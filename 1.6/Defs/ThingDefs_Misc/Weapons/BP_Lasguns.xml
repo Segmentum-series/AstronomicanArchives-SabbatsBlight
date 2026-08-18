@@ -76,7 +76,7 @@
                 <defaultProjectile>Projectile_CVN_BP_Lasgun</defaultProjectile>
                 <warmupTime>1.20</warmupTime>
                 <range>34.9</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>CVN_BP_LasgunFire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
@@ -184,7 +184,7 @@
                 <defaultProjectile>Projectile_CVN_BP_Laspistol</defaultProjectile>
                 <warmupTime>1</warmupTime>
                 <range>23.9</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>CVN_BP_LasgunFire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
@@ -292,7 +292,7 @@
                 <defaultProjectile>Projectile_CVN_BP_Longlas</defaultProjectile>
                 <warmupTime>3.50</warmupTime>
                 <range>44.9</range>
-                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCast>CVN_BP_LasgunFire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>

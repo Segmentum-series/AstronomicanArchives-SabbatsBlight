@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+		<SoundDef>
+		<defName>CVN_BP_LasgunFire</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>3</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>CVN_BP_Sound_Lasgun</clipPath>
+					</li>
+				</grains>
+				<volumeRange>28~32</volumeRange>
+				<pitchRange>1.0~1.2</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>CVN_BP_PlasmaSound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>20</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>CVN_BP_Sound_Plasma</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~90</volumeRange>
+				<pitchRange>.8~1.4</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>CVN_BP_PlasmaImpactSound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>20</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>CVN_BP_Sound_Plasma</clipPath>
+					</li>
+				</grains>
+				<volumeRange>10~30</volumeRange>
+				<pitchRange>.8~1.4</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>CVN_BP_PoweredMeleeWeaponImpactSound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>20</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>CVN_BP_Sound_PoweredMeleeWeapon_Impact</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>CVN_BP_PoweredMeleeWeaponEquipSound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>20</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>CVN_BP_Sound_PoweredMeleeWeapon_Equip</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>
