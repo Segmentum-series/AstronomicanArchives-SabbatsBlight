@@ -70,11 +70,11 @@
       <rulesStrings>
         <li>r_name(p=4)->[BloodPactNumber] [BloodPactRegiment] [BloodPactAllegiance]</li>
         <li>r_name(p=2)->[BloodPactLeader] Etogaur's [BloodPactNumber] [BloodPactRegiment]</li>
-        <li>r_name(p=2)->[BloodPactLeader] Etogaur's Urdeshi [BloodPactRegiment]</li>
+        <li>r_name(p=1)->[BloodPactLeader] Etogaur's [BloodPactRegiment]</li>
         <li>r_name(p=2)->[BloodPactNumber] Urdeshi [BloodPactRegiment]</li>
-        <li>r_name(p=2)->[BloodPactLeader] Etogaur's Ghourran [BloodPactRegiment]</li>
+        <li>r_name(p=1)->[BloodPactLeader] Etogaur's [BloodPactRegiment]</li>
         <li>r_name(p=2)->[BloodPactNumber] Ghourran [BloodPactRegiment]</li>
-        <li>r_name(p=2)->[BloodPactLeader] Etogaur's Neffethyli [BloodPactRegiment]</li>
+        <li>r_name(p=1)->[BloodPactLeader] Etogaur's [BloodPactRegiment]</li>
         <li>r_name(p=2)->[BloodPactNumber] Neffethyli [BloodPactRegiment]</li>
         <li>r_name(p=2)->[BloodPactNumber] Death Brigade</li>
       </rulesStrings>
