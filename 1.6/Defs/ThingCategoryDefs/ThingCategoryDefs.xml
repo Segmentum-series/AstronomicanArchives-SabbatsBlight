@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+	<ThingCategoryDef>
+		<defName>CVN_BP_PactArmour</defName>
+		<label>Blood Pact armour</label>
+		<parent>ApparelArmor</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>CVN_BP_PactApparel</defName>
+		<label>Blood Pact apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+</Defs>

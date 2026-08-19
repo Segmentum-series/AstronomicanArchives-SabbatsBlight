@@ -10,7 +10,7 @@
             <drawSize>1.3</drawSize>
         </graphicData>
         <thingCategories>
-            <li>Apparel</li>
+            <li>CVN_BP_PactApparel</li>
         </thingCategories>
         <recipeMaker>
             <recipeUsers Inherit="false">

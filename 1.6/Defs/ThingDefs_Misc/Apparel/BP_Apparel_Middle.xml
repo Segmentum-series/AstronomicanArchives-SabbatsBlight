@@ -16,7 +16,7 @@
 		</graphicData>
 		<uiIconScale>1.6</uiIconScale>
 		<thingCategories>
-			<li>ApparelArmor</li>
+			<li>CVN_BP_PactArmour</li>
 		</thingCategories>
         <statBases>
             <Flammability>0.5</Flammability>

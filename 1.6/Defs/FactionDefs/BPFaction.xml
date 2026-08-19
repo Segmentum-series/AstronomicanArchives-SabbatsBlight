@@ -9,26 +9,45 @@
         <canMakeRandomly>true</canMakeRandomly>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
-        <requiredMemes>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
-        </requiredMemes>
-        <disallowedPrecepts>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Disapproved</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
-        </disallowedPrecepts>
-        <structureMemeWeights>
-            <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
-        </structureMemeWeights>
+		<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
+		<ideoName MayRequire="Ludeon.RimWorld.Ideology">Cult of Khorne</ideoName>
+		<ideoDescription MayRequire="Ludeon.RimWorld.Ideology">The tribes of the Sabbat Worlds worship Khorne, sometimes called Kharneth, the lord of blood and rage. Khorne is said to rule his domain in the warp from atop a throne of skulls, and the tribes of the Sanguinary Worlds - to use their own term - worship him in various aspects. Although some devotees of Khorne can devolve into mindless violence - Khorne cares not whence the blood flows, after all - the Sanguinary Tribes have maintained a functioning if brutal society for millennia, long before the arrival of the Imperium, who are in many ways no less brutal.</ideoDescription>
+		<deityPresets MayRequire="Ludeon.RimWorld.Ideology">
+			<li>
+				<nameType>
+					<name>Khorne</name>
+					<type>God of Blood</type>
+				</nameType>
+				<gender>Male</gender>
+				<iconPath>UI/Deities/DeityGeneric</iconPath>
+			</li>
+		</deityPresets>
+		<forcedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+		</forcedMemes>
+		<requiredPreceptsOnly MayRequire="Ludeon.RimWorld.Ideology">false</requiredPreceptsOnly>
+		<structureMemeWeights>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistAbstract>
+		</structureMemeWeights>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Skullspike_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Execution_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Horrible</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Slavery_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Disapproved</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_Abhorrent</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_HorribleNoSell</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OrganUse_HorribleSellOK</li>
+		</disallowedPrecepts>
         <raidCommonalityFromPointsCurve>
             <points>
                 <li>(0, 1)</li> <!--Constant 1 at all points levels-->
@@ -61,7 +80,7 @@
     <backstoryFilters>
       <li>
         <categories>
-          <li>Offworld</li>
+          <li>CVN_BP_BloodPactBackstories</li>
         </categories>
       </li>
     </backstoryFilters>
@@ -164,7 +183,7 @@
     <backstoryFilters>
       <li>
         <categories>
-          <li>Offworld</li>
+          <li>CVN_BP_BloodPactBackstories</li>
         </categories>
       </li>
     </backstoryFilters>

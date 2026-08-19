@@ -12,3 +12,6 @@ Vein
 Ruin
 Scar
 Rib
+Rage
+Murder
+Skin

@@ -6,8 +6,7 @@
         <defaultFactionType>CVN_BP_Bloodpactfaction</defaultFactionType>
         <invNutrition>2.55</invNutrition>
         <chemicalAddictionChance>0.33</chemicalAddictionChance>
-        <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
-        <itemQuality>Good</itemQuality>
+        <backstoryCryptosleepCommonality>0.00</backstoryCryptosleepCommonality>
         <gearHealthRange>1~1</gearHealthRange>
         <minGenerationAge>18</minGenerationAge>
         <maxGenerationAge>55</maxGenerationAge>
@@ -16,13 +15,11 @@
         <techHediffsTags>
           <li>Poor</li>
           <li>Simple</li>
+          <li MayRequire="REDACTED.Segmentum.ChildrenOfTheOmnissiah">Seg_COTO_CrudeAugmetics</li>
         </techHediffsTags>
-        <techHediffsDisallowTags>
-          <li>PainCauser</li>
-        </techHediffsDisallowTags>
         <combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
         <isFighter>true</isFighter>
-        <initialWillRange>3~5</initialWillRange>
+        <initialWillRange>10~15</initialWillRange>
         <initialResistanceRange>15~25</initialResistanceRange>
         <xenotypeSet>
             <xenotypeChances>
@@ -43,10 +40,11 @@
   <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Initiate</defName>
         <combatPower>40</combatPower>
-        <apparelMoney>20~700</apparelMoney>
+        <apparelMoney>600~1000</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelskin1</li>
+            <li>CVN_BP_Backpack</li>
         </apparelTags>
         <weaponTags>
             <li>CVN_BP_Melee1</li>
@@ -447,6 +445,7 @@
         <apparelRequired>
             <li>CVN_BP_KhornemarineT</li>
             <li>CVN_BP_KhornemarineH</li>
+            <li>CVN_BP_KhorneBackpack</li>
         </apparelRequired>
         <apparelTags>
             <li>CVN_BP_Apparelskin1</li>
