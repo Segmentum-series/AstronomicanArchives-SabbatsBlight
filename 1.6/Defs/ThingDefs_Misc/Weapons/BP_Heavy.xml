@@ -97,16 +97,23 @@
 		<defName>CVN_BP_Bullet_Flamer</defName>
 		<label>flame burst</label>
 		<graphicData>
-			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
+			<texPath>Things/Projectile/LauncherShot</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
+			<color>(251,139,35)</color>
 		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<damageDef>Burn</damageDef>
+			<damageDef>Flame</damageDef>
 			<damageAmountBase>12</damageAmountBase>
 			<stoppingPower>0.5</stoppingPower>
 			<armorPenetrationBase>0.1</armorPenetrationBase>
+			
 			<speed>25</speed>
+			<explosionRadius>1.1</explosionRadius>
+			<preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+			<preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
 	</ThingDef>
 
@@ -171,6 +178,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>CVN_BP_Bullet_Flamer</defaultProjectile>
 				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<forcedMissRadius>.3</forcedMissRadius>
 				<warmupTime>1.25</warmupTime>
 				<range>14</range>
 				<burstShotCount>1</burstShotCount>
