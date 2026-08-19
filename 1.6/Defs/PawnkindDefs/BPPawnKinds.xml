@@ -135,7 +135,7 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Melee</defName>
         <combatPower>100</combatPower>
-        <apparelMoney>2200~3300</apparelMoney>
+        <apparelMoney>3200~4300</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
             <li>CVN_BP_Apparelmiddle2</li>
@@ -166,7 +166,7 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Ranged</defName>
         <combatPower>100</combatPower>
-        <apparelMoney>2200~3300</apparelMoney>
+        <apparelMoney>3200~4300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>CVN_BP_Apparelmiddle2</li>
@@ -200,7 +200,7 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Gunner</defName>
         <combatPower>150</combatPower>
-        <apparelMoney>2200~3300</apparelMoney>
+        <apparelMoney>3200~4300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>CVN_BP_Apparelmiddle2</li>
@@ -269,7 +269,7 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Melee</defName>
         <combatPower>150</combatPower>
-        <apparelMoney>5000~6000</apparelMoney>
+        <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelRequired>
             <li>CVN_BP_DBfatigues</li>
@@ -302,7 +302,7 @@
      <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Ranged</defName>
         <combatPower>150</combatPower>
-        <apparelMoney>5000~6000</apparelMoney>
+        <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>CVN_BP_Apparelmiddle3</li>
@@ -336,7 +336,7 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Gunner</defName>
         <combatPower>1800</combatPower>
-        <apparelMoney>5000~6000</apparelMoney>
+        <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>CVN_BP_Apparelmiddle3</li>
@@ -371,7 +371,7 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Demo</defName>
         <combatPower>1800</combatPower>
-        <apparelMoney>5000~6000</apparelMoney>
+        <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
             <li>CVN_BP_Apparelmiddle3</li>
