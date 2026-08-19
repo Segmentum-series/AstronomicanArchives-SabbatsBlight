@@ -70,6 +70,15 @@
             <soundWear>Wear_PowerArmor</soundWear>
             <soundRemove>Remove_PowerArmor</soundRemove>
 		    <gender>Male</gender>
+
+			<drawData>
+				<dataEast>
+					<layer>71</layer>
+				</dataEast>
+				<dataWest>
+					<layer>71</layer>
+				</dataWest>
+			</drawData>
 		</apparel>
 		<costList>
 			<ComponentSpacer>7</ComponentSpacer>

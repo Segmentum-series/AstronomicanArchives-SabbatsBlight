@@ -79,6 +79,15 @@
             <soundWear>Wear_PowerArmor</soundWear>
             <soundRemove>Remove_PowerArmor</soundRemove>
 		    <gender>Male</gender>
+
+			<drawData>
+				<dataEast>
+					<layer>69</layer>
+				</dataEast>
+				<dataWest>
+					<layer>69</layer>
+				</dataWest>
+			</drawData>
 		</apparel>
 		<costList>
 			<ComponentSpacer>2</ComponentSpacer>
