@@ -50,7 +50,7 @@
 		<li>r_name(p=4)->Fort [BloodPacttownname1][BloodPacttownname2]</li>
 		<li>r_name(p=4)->[BloodPacttownname1][BloodPacttownname2] [BloodPacttowntype]</li>
 		<li>r_name(p=4)->[BloodPacttownname1][BloodPacttownname2] Fortress</li>
-		<li>r_name(p=4)->[BloodPacttowntype] of the [BloodPacttownname3]</li>
+		<li>r_name(p=4)->[BloodPacttowntype] of [BloodPacttownname3]</li>
 		<li>r_name(p=4)->[BloodPacttowntype] of the [BloodPacttownname1][BloodPacttownname2]</li>
 		<li>r_name(p=1)->Place of the [BloodPacttownname4]</li>
       </rulesStrings>
