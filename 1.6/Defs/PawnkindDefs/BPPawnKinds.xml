@@ -52,8 +52,10 @@
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
             <li>BPapparelskin1</li>
-            <li>CVN_BP_Backpack</li>
         </apparelTags>
+		<apparelRequired Inherit="False">
+			<li>CVN_BP_Fatigues</li>
+		</apparelRequired>
         <weaponTags>
             <li>CVN_BP_Melee1</li>
             <li>CVN_BP_ranged1</li>
