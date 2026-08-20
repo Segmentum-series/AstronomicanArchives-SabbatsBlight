@@ -51,7 +51,7 @@
         <apparelMoney>600~1000</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
-            <li>BPapparelskin1</li>
+            <li>CVN_BP_Apparelskin1</li>
         </apparelTags>
 		<apparelRequired Inherit="False">
 			<li>CVN_BP_Fatigues</li>
