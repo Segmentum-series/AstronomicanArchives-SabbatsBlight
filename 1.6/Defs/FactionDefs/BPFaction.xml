@@ -69,7 +69,16 @@
     <pawnSingular>warrior</pawnSingular>
     <pawnsPlural>warriors</pawnsPlural>
     <techLevel>Industrial</techLevel>
-    <naturalEnemy>true</naturalEnemy>
+    <permanentEnemyToEveryoneExcept>
+      <li>CVN_BP_Bloodpact_Player</li>
+      <li>PlayerTribe</li>
+      <li>OutlanderRough</li>
+      <li>TribeRough</li>
+      <li MayRequire="redacted.segmentum.warrantofthevoid">Seg_WOTV_ImperiumPirates</li>
+      <li MayRequire="shadow.rimdark.hereticfactions">SHAD_HereticFaction</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Beggars</li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey">TradersGuild</li>
+    </permanentEnemyToEveryoneExcept>
     <factionNameMaker>CVN_BP_NamerFactionBloodPact</factionNameMaker>
     <settlementNameMaker>CVN_BP_NamerSettlementBloodPact</settlementNameMaker>
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
@@ -96,6 +105,7 @@
       <thingDefs>
         <li>Cloth</li>
         <li>Leather_Plain</li>
+        <li>Leather_Human</li>
         <li>Steel</li>
       </thingDefs>
     </apparelStuffFilter>
@@ -258,6 +268,7 @@
       <thingDefs>
         <li>Cloth</li>
         <li>Leather_Plain</li>
+        <li>Leather_Human</li>
         <li>Steel</li>
       </thingDefs>
     </apparelStuffFilter>
