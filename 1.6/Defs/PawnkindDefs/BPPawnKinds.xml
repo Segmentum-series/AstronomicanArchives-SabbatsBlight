@@ -39,6 +39,7 @@
 
   <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Initiate</defName>
+		<label>initiate</label>
         <combatPower>40</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -73,6 +74,7 @@
 
       <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_TraitorGuardMelee</defName>
+		<label>traitor guard</label>
         <combatPower>100</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -114,6 +116,7 @@
 
       <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_TraitorGuardRanged</defName>
+		<label>traitor guard</label>
         <combatPower>100</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -158,6 +161,7 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Melee</defName>
+		<label>warrior</label>
         <combatPower>100</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -197,6 +201,7 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Ranged</defName>
+		<label>warrior</label>
         <combatPower>100</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -238,6 +243,7 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Gunner</defName>
+		<label>warrior</label>
         <combatPower>150</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -280,6 +286,7 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_sniper</defName>
+		<label>warrior</label>
         <combatPower>130</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -321,6 +328,7 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Melee</defName>
+		<label>Death Brigadier</label>
         <combatPower>150</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -364,6 +372,7 @@
 
      <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Ranged</defName>
+		<label>Death Brigadier</label>
         <combatPower>150</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -408,6 +417,7 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Gunner</defName>
+		<label>Death Brigadier</label>
         <combatPower>180</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -453,6 +463,7 @@
     
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Demo</defName>
+		<label>Death Brigadier</label>
         <combatPower>180</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -497,6 +508,7 @@
 
       <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Arnogaur</defName>
+		<label>Arnogaur</label>
         <combatPower>200</combatPower>
 		<backstoryFiltersOverride>
 			<li>
@@ -542,6 +554,7 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_KhorneBerzerker</defName>
+		<label>heretic Astartes</label>
         <combatPower>350</combatPower>
 		<backstoryFiltersOverride>
 			<li>
