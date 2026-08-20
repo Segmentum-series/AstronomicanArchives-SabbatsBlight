@@ -431,6 +431,7 @@
     <spawnCategories>
 	  <li>CVN_BP_BloodPactChildBackstories</li>
 	  <li>CVN_BP_BloodPactWarriorBackstories</li>
+	  <li>CVN_BP_BloodPactInitiateBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -479,6 +480,7 @@
     <spawnCategories>
 	  <li>CVN_BP_BloodPactChildBackstories</li>
       <li>CVN_BP_BloodPactInitiateBackstories</li>
+      <li>CVN_BP_BloodPactWarriorBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>1</Shooting>

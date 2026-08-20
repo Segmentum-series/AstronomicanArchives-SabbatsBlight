@@ -47,9 +47,9 @@
     <defName>CVN_BP_NamerSettlementBloodPact</defName>
     <rulePack>
       <rulesStrings>
-		<li>r_name(p=3)->Fort [BloodPacttownname1][BloodPacttownname2]</li>
+		<li>r_name(p=1)->Fort [BloodPacttownname1][BloodPacttownname2]</li>
+		<li>r_name(p=1)->Camp [BloodPacttownname1][BloodPacttownname2]</li>
 		<li>r_name(p=4)->[BloodPacttownname1][BloodPacttownname2] [BloodPacttowntype]</li>
-		<li>r_name(p=4)->[BloodPacttownname1][BloodPacttownname2] Fortress</li>
 		<li>r_name(p=2)->[BloodPacttowntype] of [BloodPacttownname3]</li>
 		<li>r_name(p=4)->[BloodPacttowntype] of the [BloodPacttownname1][BloodPacttownname2]</li>
 		<li>r_name(p=1)->Place of the [BloodPacttownname4]</li>

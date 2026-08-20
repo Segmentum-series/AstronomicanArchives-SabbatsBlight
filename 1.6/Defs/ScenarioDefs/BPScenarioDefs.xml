@@ -28,7 +28,8 @@
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
-				<li>CVN_BP_BloodPactBackstories</li>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+				<li>CVN_BP_BloodPactSirdarBackstories</li>
 			</categoriesChildhood>
 			<categoriesAdulthood>
 				<li>CVN_BP_BloodPactSirdarBackstories</li>
@@ -62,7 +63,7 @@
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
-				<li>CVN_BP_BloodPactBackstories</li>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
 			</categoriesChildhood>
 			<categoriesAdulthood>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
@@ -94,7 +95,7 @@
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
-				<li>CVN_BP_BloodPactBackstories</li>
+				<li>CVN_BP_BloodPactInitiateBackstories</li>
 			</categoriesChildhood>
 			<categoriesAdulthood>
 				<li>CVN_BP_BloodPactInitiateBackstories</li>

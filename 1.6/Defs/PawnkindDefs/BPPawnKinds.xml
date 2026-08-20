@@ -43,9 +43,15 @@
         <combatPower>40</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
+				<li>Outlander</li>
+				<li>Offworld</li>
 				<li>CVN_BP_BloodPactInitiateBackstories</li>
-			</categories>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_BloodPactInitiateBackstories</li>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
         <apparelMoney>600~1000</apparelMoney>
@@ -80,10 +86,16 @@
         <combatPower>100</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Outlander</li>
+				<li>Offworld</li>
 				<li>CVN_BP_BloodPactInitiateBackstories</li>
 				<li>CVN_BP_BloodPactTraitorBackstories</li>
-			</categories>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_BloodPactInitiateBackstories</li>
+				<li>CVN_BP_BloodPactTraitorBackstories</li>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
         <apparelMoney>1500~2500</apparelMoney>
@@ -122,10 +134,16 @@
         <combatPower>100</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Outlander</li>
+				<li>Offworld</li>
 				<li>CVN_BP_BloodPactInitiateBackstories</li>
 				<li>CVN_BP_BloodPactTraitorBackstories</li>
-			</categories>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_BloodPactInitiateBackstories</li>
+				<li>CVN_BP_BloodPactTraitorBackstories</li>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
         <apparelMoney>1700~2500</apparelMoney>
@@ -167,10 +185,13 @@
         <combatPower>100</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
-				<li>CVN_BP_BloodPactInitiateBackstories</li>
+			<categoriesChildhood>
+				<li>Tribal</li>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
-			</categories>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
         <apparelMoney>3200~4300</apparelMoney>
@@ -207,9 +228,13 @@
         <combatPower>100</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
-			</categories>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
         <apparelMoney>3200~4300</apparelMoney>
@@ -249,9 +274,13 @@
         <combatPower>150</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
-			</categories>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
         <apparelMoney>3200~4300</apparelMoney>
@@ -292,9 +321,13 @@
         <combatPower>130</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
-			</categories>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
         <apparelMoney>2200~3300</apparelMoney>
@@ -334,10 +367,14 @@
         <combatPower>150</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
 				<li>CVN_BP_BloodPactDeathBrigadeBackstories</li>
-			</categories>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<initialWillRange>12~20</initialWillRange>
@@ -378,10 +415,14 @@
         <combatPower>150</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
 				<li>CVN_BP_BloodPactDeathBrigadeBackstories</li>
-			</categories>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<initialWillRange>12~20</initialWillRange>
@@ -423,10 +464,14 @@
         <combatPower>180</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
 				<li>CVN_BP_BloodPactDeathBrigadeBackstories</li>
-			</categories>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<initialWillRange>12~20</initialWillRange>
@@ -469,10 +514,14 @@
         <combatPower>180</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
 				<li>CVN_BP_BloodPactDeathBrigadeBackstories</li>
-			</categories>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<initialWillRange>12~20</initialWillRange>
@@ -514,10 +563,15 @@
         <combatPower>200</combatPower>
 		<backstoryFiltersOverride>
 			<li>
-			<categories>
+			<categoriesChildhood>
+				<li>Tribal</li>
 				<li>CVN_BP_BloodPactWarriorBackstories</li>
 				<li>CVN_BP_BloodPactSirdarBackstories</li>
-			</categories>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+				<li>CVN_BP_BloodPactSirdarBackstories</li>
+			</categoriesAdulthood>
 			</li>
 		</backstoryFiltersOverride>
 		<initialWillRange>20~30</initialWillRange>
@@ -561,6 +615,7 @@
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
+				<li>Tribal</li>
 				<li>CVN_BP_HereticAstartesChildBackstories</li>
 			</categoriesChildhood>
 			<categoriesAdulthood>
