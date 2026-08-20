@@ -40,6 +40,13 @@
   <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Initiate</defName>
         <combatPower>40</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactInitiateBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
         <apparelMoney>600~1000</apparelMoney>
         <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
         <apparelTags>
@@ -48,6 +55,7 @@
         </apparelTags>
         <weaponTags>
             <li>CVN_BP_Melee1</li>
+            <li>CVN_BP_ranged1</li>
         </weaponTags>
         <weaponMoney>200~550</weaponMoney>
         <techHediffsChance>0.04</techHediffsChance>
@@ -66,6 +74,14 @@
       <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_TraitorGuardMelee</defName>
         <combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactInitiateBackstories</li>
+				<li>CVN_BP_BloodPactTraitorBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
         <apparelMoney>1500~2500</apparelMoney>
         <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
         <apparelTags>
@@ -99,6 +115,14 @@
       <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_TraitorGuardRanged</defName>
         <combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactInitiateBackstories</li>
+				<li>CVN_BP_BloodPactTraitorBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
         <apparelMoney>1700~2500</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
@@ -135,6 +159,14 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Melee</defName>
         <combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactInitiateBackstories</li>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
         <apparelMoney>3200~4300</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelTags>
@@ -166,6 +198,13 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Ranged</defName>
         <combatPower>100</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
         <apparelMoney>3200~4300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
@@ -200,6 +239,13 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_Gunner</defName>
         <combatPower>150</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
         <apparelMoney>3200~4300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
@@ -235,6 +281,13 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Sirdar_sniper</defName>
         <combatPower>130</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
         <apparelMoney>2200~3300</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
@@ -269,6 +322,16 @@
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Melee</defName>
         <combatPower>150</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+				<li>CVN_BP_BloodPactDeathBrigadeBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>12~20</initialWillRange>
+		<initialResistanceRange>26~50</initialResistanceRange>
         <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelRequired>
@@ -302,6 +365,16 @@
      <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Ranged</defName>
         <combatPower>150</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+				<li>CVN_BP_BloodPactDeathBrigadeBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>12~20</initialWillRange>
+		<initialResistanceRange>26~50</initialResistanceRange>
         <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
@@ -335,7 +408,17 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Gunner</defName>
-        <combatPower>1800</combatPower>
+        <combatPower>180</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+				<li>CVN_BP_BloodPactDeathBrigadeBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>12~20</initialWillRange>
+		<initialResistanceRange>26~50</initialResistanceRange>
         <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
@@ -370,7 +453,17 @@
     
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_DeathBrigade_Demo</defName>
-        <combatPower>1800</combatPower>
+        <combatPower>180</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+				<li>CVN_BP_BloodPactDeathBrigadeBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>12~20</initialWillRange>
+		<initialResistanceRange>26~50</initialResistanceRange>
         <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelTags>
@@ -404,7 +497,17 @@
 
       <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_Arnogaur</defName>
-        <combatPower>250</combatPower>
+        <combatPower>200</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categories>
+				<li>CVN_BP_BloodPactWarriorBackstories</li>
+				<li>CVN_BP_BloodPactSirdarBackstories</li>
+			</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>20~30</initialWillRange>
+		<initialResistanceRange>36~60</initialResistanceRange>
         <apparelMoney>3000~3500</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <factionLeader>true</factionLeader>
@@ -439,7 +542,19 @@
 
     <PawnKindDef ParentName="CVN_BP_BP_PawnBase">
         <defName>CVN_BP_KhorneBerzerker</defName>
-        <combatPower>400</combatPower>
+        <combatPower>350</combatPower>
+		<backstoryFiltersOverride>
+			<li>
+			<categoriesChildhood>
+				<li>CVN_BP_HereticAstartesChildBackstories</li>
+			</categoriesChildhood>
+			<categoriesAdulthood>
+				<li>CVN_BP_HereticAstartesBackstories</li>
+			</categoriesAdulthood>
+			</li>
+		</backstoryFiltersOverride>
+		<initialWillRange>200~300</initialWillRange>
+		<initialResistanceRange>360~600</initialResistanceRange>
         <apparelMoney>3000~3500</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelRequired>

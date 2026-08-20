@@ -9,6 +9,7 @@
         <canMakeRandomly>true</canMakeRandomly>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
+		<leaderTitle>Etogaur</leaderTitle>
 		<fixedIdeo MayRequire="Ludeon.RimWorld.Ideology">true</fixedIdeo>
 		<ideoName MayRequire="Ludeon.RimWorld.Ideology">Cult of Khorne</ideoName>
 		<ideoDescription MayRequire="Ludeon.RimWorld.Ideology">The tribes of the Sabbat Worlds worship Khorne, sometimes called Kharneth, the lord of blood and rage. Khorne is said to rule his domain in the warp from atop a throne of skulls, and the tribes of the Sanguinary Worlds - to use their own term - worship him in various aspects. Although some devotees of Khorne can devolve into mindless violence - Khorne cares not whence the blood flows, after all - the Sanguinary Tribes have maintained a functioning if brutal society for millennia, long before the arrival of the Imperium, who are in many ways no less brutal.</ideoDescription>
@@ -61,7 +62,7 @@
   <FactionDef ParentName="CVN_BP_ChaosFactionBase">
     <defName>CVN_BP_Bloodpactfaction</defName>
     <label>Blood Pact</label>
-    <description>A Blood Pact warband operating on the Rimworld.</description>
+    <description>A highly organised Chaos cult devoted to Khorne, the god of Blood, Rage, and Hatred. The Blood Pact fights like a disciplined army, similar in training and organisation to the Imperial Guard, rather than the disorganised irregular forces that define most cults. They are named after the ritual in which they are sworn to the service of the Archon, the leader of the Pact.</description>
     <configurationListOrderPriority>990</configurationListOrderPriority>
     <basicMemberKind>CVN_BP_Initiate</basicMemberKind>
     <leaderTitle>Etogaur</leaderTitle>
@@ -108,7 +109,19 @@
         </points>
       </maxPawnCostPerTotalPointsCurve>
         <pawnGroupMakers>
-
+			<!--Traitor Guard-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>0.8</commonality>
+                <options>
+                  <CVN_BP_Initiate>10</CVN_BP_Initiate>
+                  <CVN_BP_TraitorGuardMelee>4</CVN_BP_TraitorGuardMelee>
+                  <CVN_BP_TraitorGuardRanged>10</CVN_BP_TraitorGuardRanged>
+                  <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
+                </options>
+            </li>
+			
+			<!--General Blood Pact force-->
             <li>
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
@@ -124,9 +137,51 @@
                   <CVN_BP_DeathBrigade_Ranged>6</CVN_BP_DeathBrigade_Ranged>
                   <CVN_BP_DeathBrigade_Gunner>2</CVN_BP_DeathBrigade_Gunner>
                   <CVN_BP_DeathBrigade_Demo>2</CVN_BP_DeathBrigade_Demo>
+                  <CVN_BP_KhorneBerzerker>2</CVN_BP_KhorneBerzerker>
                   <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
                 </options>
-              </li>
+            </li>
+			
+			<!--Sirdar group-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                  <CVN_BP_Initiate>8</CVN_BP_Initiate>
+                  <CVN_BP_TraitorGuardMelee>2</CVN_BP_TraitorGuardMelee>
+                  <CVN_BP_TraitorGuardRanged>5</CVN_BP_TraitorGuardRanged>
+                  <CVN_BP_Sirdar_Melee>4</CVN_BP_Sirdar_Melee>
+                  <CVN_BP_Sirdar_Ranged>10</CVN_BP_Sirdar_Ranged>
+                  <CVN_BP_Sirdar_Gunner>2</CVN_BP_Sirdar_Gunner>
+                  <CVN_BP_Sirdar_sniper>2</CVN_BP_Sirdar_sniper>
+                  <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
+                </options>
+            </li>
+			
+			<!--Death Brigade-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>0.4</commonality>
+                <options>
+                  <CVN_BP_DeathBrigade_Melee>6</CVN_BP_DeathBrigade_Melee>
+                  <CVN_BP_DeathBrigade_Ranged>10</CVN_BP_DeathBrigade_Ranged>
+                  <CVN_BP_DeathBrigade_Gunner>4</CVN_BP_DeathBrigade_Gunner>
+                  <CVN_BP_DeathBrigade_Demo>2</CVN_BP_DeathBrigade_Demo>
+                  <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
+                </options>
+            </li>
+			
+			<!--Berzerkers-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>0.2</commonality>
+                <options>
+                  <CVN_BP_Initiate>5</CVN_BP_Initiate>
+                  <CVN_BP_KhorneBerzerker>5</CVN_BP_KhorneBerzerker>
+                  <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
+                </options>
+            </li>
+			
             <li>
                 <kindDef>Peaceful</kindDef>
                 <options>
@@ -160,6 +215,7 @@
                   <CVN_BP_DeathBrigade_Ranged>6</CVN_BP_DeathBrigade_Ranged>
                   <CVN_BP_DeathBrigade_Gunner>2</CVN_BP_DeathBrigade_Gunner>
                   <CVN_BP_DeathBrigade_Demo>2</CVN_BP_DeathBrigade_Demo>
+                  <CVN_BP_KhorneBerzerker>2</CVN_BP_KhorneBerzerker>
                   <CVN_BP_Arnogaur>1</CVN_BP_Arnogaur>
                 </options>
               </li>

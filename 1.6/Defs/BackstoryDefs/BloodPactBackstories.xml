@@ -43,13 +43,39 @@
 
   <BackstoryDef>
     <slot>Adulthood</slot>
+    <title>penal legionary</title>
+    <defName>CVN_BP_PenalLegionary</defName>
+    <titleShort>penal legionary</titleShort>
+    <baseDesc>[PAWN_nameDef] was convicted of a capital crime on an Imperial world and pressed into a Penal Legion. [PAWN_pronoun] was sent into battle as las fodder but managed to run away and somehow remove the bomb collar around [PAWN_possessive] neck. So far [PAWN_pronoun] has avoided death or capture.</baseDesc>
+    <spawnCategories>
+	  <li>CVN_BP_BloodPactTraitorBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+	<forcedTraits>
+	  <NaturalMood>-1</NaturalMood>
+	</forcedTraits>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+  
+  <BackstoryDef>
+    <slot>Adulthood</slot>
     <title>Militarum deserter</title>
     <defName>CVN_BP_HereticDeserter</defName>
     <titleShort>deserter</titleShort>
     <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum and trained in the use of a lasgun and bayonet. [PAWN_pronoun] deserted and ended up joining the Blood Pact, where [PAWN_pronoun] is treated better than [PAWN_pronoun] ever was in [PAWN_possessive] former regiment.</baseDesc>
     <spawnCategories>
 	  <li>CVN_BP_BloodPactBackstories</li>	
-	  <li>CVN_BP_BloodPactInitiateBackstories</li>  
+      <li>CVN_BP_BloodPactTraitorBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -78,8 +104,7 @@
     <baseDesc>[PAWN_nameDef] was conscripted into the Astra Militarum and trained in the use of a lasgun and bayonet. Taken prisoner by Blood Pact forces, [PAWN_pronoun] was offered the chance to join as long as [PAWN_pronoun] embraced the worship of Khorne.</baseDesc>
     <spawnCategories>
 	  <li>CVN_BP_BloodPactBackstories</li>	  
-	  <li>CVN_BP_BloodPactInitiateBackstories</li>
-	  <li>CVN_BP_BloodPactWarriorBackstories</li>  
+      <li>CVN_BP_BloodPactTraitorBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -112,6 +137,7 @@
     <spawnCategories>
 	  <li>CVN_BP_BloodPactBackstories</li>	
 	  <li>CVN_BP_BloodPactWarriorBackstories</li>    
+      <li>CVN_BP_BloodPactTraitorBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -177,7 +203,8 @@
     <baseDesc>[PAWN_nameDef] was inducted into the forces of the Blood Pact and trained in the ways of war, including the ways of keeping people fighting after wounds are sustained. [PAWN_possessive] methods may be crude by the standards of 'civilised' Imperial medicae, but they work, and many Pact warriors have survived to kill again under [PAWN_possessive] knife.</baseDesc>
     <spawnCategories>
 	  <li>CVN_BP_BloodPactBackstories</li>	  
-	  <li>CVN_BP_BloodPactWarriorBackstories</li>  
+	  <li>CVN_BP_BloodPactWarriorBackstories</li>
+      <li>CVN_BP_BloodPactTraitorBackstories</li>  
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -246,6 +273,7 @@
     <baseDesc>[PAWN_nameDef] was inducted into the forces of the Blood Pact and elevated to the elite Death Brigade, a unit of storm troopers and unyielding fighters, for [PAWN_possessive] bravery and martial prowess. [PAWN_pronoun] is utterly committed to the service of the Gaur and the Lord of Blood.</baseDesc>
     <spawnCategories>
 	  <li>CVN_BP_BloodPactBackstories</li>	  
+	  <li>CVN_BP_BloodPactDeathBrigadeBackstories</li>	  
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -311,7 +339,7 @@
     <titleShort>Gore Mage</titleShort>
     <baseDesc>[PAWN_nameDef] is a Gore Mage, a psyker dedicated to Khorne, the Brazen King. [PAWN_pronoun] knows bloody rituals that can bring visions and track enemies.</baseDesc>
     <spawnCategories>
-	  <li>CVN_BP_BloodPactBackstories</li>
+	  <li>CVN_BP_BloodPactGoreMageBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -347,7 +375,9 @@
     <titleShort>cultist child</titleShort>
     <baseDesc>[PAWN_nameDef] was raised among a cult worshipping the Ruinous Powers. [PAWN_pronoun] was involved in dark rituals from an early age and took great delight in participating.</baseDesc>
     <spawnCategories>
-	  <li>CVN_BP_BloodPactBackstories</li>
+	  <li>CVN_BP_BloodPactChildBackstories</li>
+	  <li>CVN_BP_BloodPactWarriorBackstories</li>
+	  <li>CVN_BP_BloodPactInitiateBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>1</Shooting>
@@ -371,7 +401,9 @@
     <titleShort>tribe child</titleShort>
     <baseDesc>[PAWN_nameDef] was raised among the Sanguinary Tribes of the Sabbat Worlds. [PAWN_pronoun] was taught from a young age to respect the warmaking followers of the Blood God and of the power that comes from the old ways.</baseDesc>
     <spawnCategories>
-	  <li>CVN_BP_BloodPactBackstories</li>
+	  <li>CVN_BP_BloodPactChildBackstories</li>
+	  <li>CVN_BP_BloodPactWarriorBackstories</li>
+	  <li>CVN_BP_BloodPactInitiateBackstories</li>
     </spawnCategories>
     <skillGains>
 	  <Melee>2</Melee>
@@ -397,7 +429,8 @@
     <titleShort>abductee</titleShort>
     <baseDesc>[PAWN_nameDef] was born on an Imperial world but abducted in a raid by a heretical warband in which [PAWN_possessive] family was bloodily murdered. [PAWN_pronoun] barely remembers [PAWN_possessive] parents, and has embraced the possibilities of [PAWN_possessive] new life enthusiastically.</baseDesc>
     <spawnCategories>
-	  <li>CVN_BP_BloodPactBackstories</li>
+	  <li>CVN_BP_BloodPactChildBackstories</li>
+	  <li>CVN_BP_BloodPactWarriorBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -422,7 +455,7 @@
     <titleShort>abductee</titleShort>
     <baseDesc>[PAWN_nameDef] was born on an Imperial world but abducted in a raid by a heretical warband in which [PAWN_possessive] family was bloodily murdered. [PAWN_pronoun] remembers enough to resent having been snatched from [PAWN_possessive] old life, and has never got over it.</baseDesc>
     <spawnCategories>
-	  <li>CVN_BP_BloodPactBackstories</li>
+	  <li>CVN_BP_BloodPactChildBackstories</li>
       <li>CVN_BP_BloodPactInitiateBackstories</li>
     </spawnCategories>
     <skillGains>
@@ -444,7 +477,7 @@
     <titleShort>cultist child</titleShort>
     <baseDesc>[PAWN_nameDef] was raised among a cult worshipping the Ruinous Powers. [PAWN_pronoun] was involved in cult rituals from an early age and was repulsed by them, but found it difficult to escape the cult.</baseDesc>
     <spawnCategories>
-	  <li>CVN_BP_BloodPactBackstories</li>
+	  <li>CVN_BP_BloodPactChildBackstories</li>
       <li>CVN_BP_BloodPactInitiateBackstories</li>
     </spawnCategories>
     <skillGains>
@@ -470,7 +503,8 @@
     <titleShort>noble child</titleShort>
     <baseDesc>[PAWN_nameDef] grew up in unimaginable privilege as the child of a noble family secretly devoted to the Ruinous Powers. [PAWN_possessive] family had everything they could ever ask for, and a lot more besides, but they still wanted more, and went to any lengths to get it.</baseDesc>
     <spawnCategories>
-      <li>CVN_BP_BloodPactBackstories</li>
+      <li>CVN_BP_BloodPactChildBackstories</li>
+      <li>CVN_BP_BloodPactSirdarBackstories</li>
     </spawnCategories>
     <skillGains>
       <Shooting>1</Shooting>
@@ -559,6 +593,7 @@
     <baseDesc>[PAWN_nameDef] was a thrall in the service of the Dark Mechanicum. Thralls are used for menial work of all kinds and treated as completely expendable in the search for esoteric knowledge. [PAWN_pronoun] was lucky not to be worked to death or sacrificed in some dark ritual.</baseDesc>
     <spawnCategories>
       <li>CVN_BP_BloodPactBackstories</li>
+      <li>CVN_BP_BloodPactInitiateBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>ManualDumb</li>
@@ -662,6 +697,8 @@
     <spawnCategories>
       <li>CVN_BP_BloodPactBackstories</li>
       <li>CVN_BP_BloodPactInitiateBackstories</li>
+      <li>CVN_BP_BloodPactWarriorBackstories</li>
+      <li>CVN_BP_BloodPactTraitorBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
@@ -681,4 +718,158 @@
     <bodyTypeFemale>Female</bodyTypeFemale>
   </BackstoryDef>
    
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>cloned specimen</title>
+    <defName>CVN_BP_HereticAstartesClone</defName>
+    <titleShort>clone</titleShort>
+    <baseDesc>[PAWN_nameDef] was created in a heretical laboratory by a fallen Apothecary, and implanted with whatever geneseed was available after being put through an accelerated growth process. [PAWN_pronoun] was one among thousands of failed clones and nonviable specimens.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_HereticAstartesChildBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <disallowedTraits>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>	
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <slot>Childhood</slot>
+    <title>exceptional slave</title>
+    <defName>CVN_BP_ExceptionalSlaveChild</defName>
+    <titleShort>slave</titleShort>
+    <baseDesc>[PAWN_nameDef] was born into a life of toil, pain, and suffering in service to a traitor space marine warband. [PAWN_possessive] potential was noticed by those among the warband responsible for 'recruitment', and [PAWN_pronoun] was chosen for elevation into a transhuman monster.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_HereticAstartesChildBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>2</Shooting>
+      <Melee>4</Melee>
+	  <Construction>1</Construction>
+	  <Mining>1</Mining>
+	  <Cooking>2</Cooking>
+	  <Plants>2</Plants>
+    </skillGains>
+    <disallowedTraits>
+	  <Wimp />
+	  <Delicate MayRequire="Ludeon.RimWorld.Biotech"/>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+  </BackstoryDef> 
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>heretical space marine</title>
+    <defName>CVN_BP_ChaosMarine</defName>
+    <titleShort>chaos marine</titleShort>
+    <baseDesc>[PAWN_nameDef] underwent the lengthy process of surgery, genetic modification, and conditioning to become a full-fledged Astartes - but whether post-conversion or otherwise, [PAWN_pronoun] now serves the Ruinous Powers. [PAWN_pronoun] is a transhuman monster, entirely made for war, and dedicated to the ruin of the Imperium.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_HereticAstartesBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>7</Shooting>
+      <Melee>7</Melee>
+	  <Construction>2</Construction>
+	  <Mining>2</Mining>
+	  <Cooking>-1</Cooking>
+	  <Plants>-2</Plants>
+	  <Social>2</Social>
+    </skillGains>
+	<forcedTraits>
+	  <Bloodlust />
+	  <Psychopath />
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Delicate MayRequire="Ludeon.RimWorld.Biotech"/>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+  </BackstoryDef> 
+
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>heretical space marine</title>
+    <defName>CVN_BP_ChaosMarineVariant</defName>
+    <titleShort>chaos marine</titleShort>
+    <baseDesc>[PAWN_nameDef] underwent the lengthy process of surgery, genetic modification, and conditioning to become a full-fledged Astartes - but whether post-conversion or otherwise, [PAWN_pronoun] now serves the Ruinous Powers. [PAWN_pronoun] is a transhuman monster, entirely made for war, and dedicated to the ruin of the Imperium.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_HereticAstartesBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>7</Shooting>
+      <Melee>6</Melee>
+	  <Construction>2</Construction>
+	  <Mining>2</Mining>
+	  <Cooking>-1</Cooking>
+	  <Social>2</Social>
+    </skillGains>
+	<forcedTraits>
+	  <Bloodlust />
+	  <Psychopath />
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Delicate MayRequire="Ludeon.RimWorld.Biotech"/>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+  </BackstoryDef> 
+  
+  <BackstoryDef>
+    <slot>Adulthood</slot>
+    <title>Khornate cultist</title>
+    <defName>CVN_BP_KhornateMarine</defName>
+    <titleShort>Khornate marine</titleShort>
+    <baseDesc>[PAWN_nameDef] underwent the lengthy process of surgery, genetic modification, and conditioning to become a full-fledged Astartes - but whether post-conversion or otherwise, [PAWN_pronoun] now serves the Blood God Khorne. [PAWN_pronoun] is a transhuman monster who delights in bloodshed and the collection of skulls for his patron god.</baseDesc>
+    <spawnCategories>
+      <li>CVN_BP_HereticAstartesBackstories</li>
+    </spawnCategories>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <workDisables>
+      <li>None</li>
+    </workDisables>
+    <skillGains>
+      <Shooting>7</Shooting>
+      <Melee>7</Melee>
+	  <Construction>2</Construction>
+	  <Mining>2</Mining>
+	  <Cooking>-1</Cooking>
+	  <Plants>-2</Plants>
+	  <Social>2</Social>
+    </skillGains>
+	<forcedTraits>
+	  <Bloodlust />
+	  <Psychopath />
+	</forcedTraits>
+    <disallowedTraits>
+	  <Wimp />
+	  <Delicate MayRequire="Ludeon.RimWorld.Biotech"/>
+	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
+    </disallowedTraits>
+  </BackstoryDef> 
+
 </Defs>

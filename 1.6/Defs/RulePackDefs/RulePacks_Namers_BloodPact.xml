@@ -87,4 +87,13 @@
     </rulePack>
   </RulePackDef>
  
+  <RulePackDef>
+    <defName>LeaderTitleMaker_Sanguinary</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Etogaur</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
 </Defs>
