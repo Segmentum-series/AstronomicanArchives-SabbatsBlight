@@ -153,7 +153,7 @@
     </ThingDef>
  
     <ThingDef ParentName="CVN_BP_LasgunBase">
-        <defName>CVN_BP_Laspistol</defName>
+        <defName>CVN_BP_Gun_Laspistol</defName>
         <label>Pact laspistol</label>
         <description>Most commonly seen in the hands of officers or commissars, laspistols are rumoured to see more use in execution then in actual combat.\n\nDue to the Blood Pact's disdain for killing its own members, laspistols are not nearly as common within its ranks as within the Imperial Guard.</description>
         <graphicData>
@@ -262,7 +262,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_LasgunBase">
-        <defName>CVN_BP_longLasgun</defName>
+        <defName>CVN_BP_Gun_LongLasgun</defName>
         <label>Pact longlas</label>
         <description>A lasgun that has been altered for long range engagement.\n\nMembers of the Pact equipped with these lack the common hand scars seen with other believers. This is due to the Archon allowing snipers to cut other parts of flesh during initiation, so as not to impair their aim.</description>
         <graphicData>

@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>CVN_BP_PlasmaGun</defName>
+        <defName>CVN_BP_Gun_PlasmaGun</defName>
         <label>Pact plasma gun</label>
         <description>A human-sized plasma gun. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma guns are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pact's defeat on Urdesh.</description>
         <graphicData>
@@ -100,7 +100,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>CVN_BP_PlasmaPistol</defName>
+        <defName>CVN_BP_Gun_PlasmaPistol</defName>
         <label>Pact plasma pistol</label>
         <description>A human-sized plasma pistol. Plasma weaponry makes use of hydrogen fuel superheated to deliver bolts of destructive energy. \n\nPlasma pistols are highly valued by the Pact for tank hunter squads, while also being used regularly by senior members and melee specialists.</description>
         <graphicData>
@@ -195,7 +195,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>CVN_BP_Melta</defName>
+        <defName>CVN_BP_Gun_Melta</defName>
         <label>Pact meltagun</label>
         <description>A human-sized melta gun. Melta weaponry can turn the strongest metals into heaps of molten slag with superheated fusion blasts. \n\nMelta guns are highly valued by the Pact for tank hunter squads. Demand has only increased since the Pact's defeat on Urdesh.</description>
         <graphicData>

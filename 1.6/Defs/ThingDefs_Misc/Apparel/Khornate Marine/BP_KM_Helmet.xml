@@ -3,7 +3,7 @@
 <Defs>
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>CVN_BP_KhornemarineH</defName>
+        <defName>CVN_BP_Apparel_KhornemarineHelmet</defName>
 		<label>Blood Berzerker helmet</label>
         <description>A power armour helmet worn by Khornate Berzerkers. It is sturdy enough to withstand a torrent of enemy fire, allowing the Berzerker to leap into the fray and rend the corpse-worshippers apart. \n\n"Blood for the Blood God! Skulls for the Skull Throne!"</description>
 		<graphicData>

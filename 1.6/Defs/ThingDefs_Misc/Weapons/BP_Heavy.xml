@@ -2,7 +2,7 @@
 <Defs>
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>CVN_BP_MissileLauncher</defName>
+		<defName>CVN_BP_Gun_MissileLauncher</defName>
 		<label>Pact missile launcher</label>
 		<description>A standard Astra Millitarum shoulder-fired missile launcher, covered in red markings by its new owners.\n\nA favorite of heavy weapons teams, these launchers can sling a potent, high-speed missile far outside the range of hand grenades and grenade launchers.</description>
 		<graphicData>
@@ -126,7 +126,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="CVN_BP_FlamerBase">
-		<defName>CVN_BP_Flamer</defName>
+		<defName>CVN_BP_Gun_Flamer</defName>
 		<label>Blood Pact flamer</label>
 		<description>A man-portable flamer used by warriors of the Blood Pact. Imperial forces facing this weapon are consumed in a tide of blazing promethium. \n\nThe burns caused by flamers spill no blood, but Khorne nevertheless remains pleased at the death of his enemies.</description>
 		<graphicData>

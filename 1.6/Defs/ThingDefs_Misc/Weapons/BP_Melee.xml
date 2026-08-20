@@ -2,7 +2,7 @@
 <Defs>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>CVN_BP_SabreKnife</defName>
+    <defName>CVN_BP_MeleeWeapon_SabreKnife</defName>
     <label>sabre-knife</label>
     <description>A grossly oversized knife-like sword, often seen in use by the Blood Pact. Great for hacking away at unarmoured prey, it is however lacking when it comes to piercing armour.</description>
     <graphicData>
@@ -66,7 +66,7 @@
   </ThingDef>
     
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-    <defName>CVN_BP_TrenchClub</defName>
+    <defName>CVN_BP_MeleeWeapon_TrenchClub</defName>
     <label>trench club</label>
     <description>A makeshift club, intended for use within cramped spaces. The smaller size allow for fast cruel swings.</description>
     <graphicData>
@@ -129,7 +129,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>CVN_BP_ChainSword</defName>
+    <defName>CVN_BP_MeleeWeapon_ChainSword</defName>
     <label>Pact chainsword</label>
     <description>A one-handed chainsword fit for use by a baseline human, it can still rip through enemy flesh with horrifying efficiency. \n\nOne of the most feared close combat armaments in known space, this particular chainsword has been salvaged for service in the Blood Pact.\n\n&lt;color=#40cbde&gt;Note:&lt;/color&gt; This weapon will deal multiple instances of damage as the chain teeth rev on impact.</description>
     <soundInteract>CVN_BP_ChainedMeleeWeaponEquipSound</soundInteract>
@@ -211,7 +211,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-    <defName>CVN_BP_ChainAxe</defName>
+    <defName>CVN_BP_MeleeWeapon_ChainAxe</defName>
     <label>Pact chainaxe</label>
     <description>The favored weapon of all Khornate worshippers, the chain axe is a brutal melee weapon capable of biting deep into flesh or metal.\n\nThis particular axe appears to have originally belonged to the World Eaters, but has been gifted to the Blood Pact.\n\n&lt;color=#40cbde&gt;Note:&lt;/color&gt; This weapon will deal multiple instances of damage as the chain teeth rev on impact.</description>
     <soundInteract>CVN_BP_ChainedMeleeWeaponEquipSound</soundInteract>
@@ -292,7 +292,7 @@
   </ThingDef>
   
   <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-        <defName>CVN_BP_PowerFist</defName>
+        <defName>CVN_BP_MeleeWeapon_PowerFist</defName>
         <label>Pact power fist</label>
         <description>The powerfist is a brutal but advanced weapon utilizing an energy field to disrupt matter it touchs, allowing it to easily rend even the largest of targets.</description>
         <soundInteract>CVN_BP_PoweredMeleeWeaponEquipSound</soundInteract>
@@ -356,7 +356,7 @@
     </ThingDef>
 	
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-        <defName>CVN_BP_PowerSword</defName>
+        <defName>CVN_BP_MeleeWeapon_PowerSword</defName>
         <label>Pact power sword</label>
 		<description>Power swords are elegantly crafted blades designed to carve through any target with ease, generally seeing widespread use among any high ranking members of the Imperium\n\nThis sword likely came from a commissar who refused to revoke his rank, and join the Blood Pact.</description>
 		<soundInteract>CVN_BP_PoweredMeleeWeaponEquipSound</soundInteract>

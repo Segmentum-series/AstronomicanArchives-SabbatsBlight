@@ -123,12 +123,12 @@
 		<subSounds>
 		<li>
 			<grains>
-			<li Class="AudioGrain_Folder">
-				<clipFolderPath>Weapon/Minigun</clipFolderPath>
-			</li>
-			</grains>      
-			<volumeRange>45~48</volumeRange>      
-			<pitchRange>.6~.7</pitchRange>      
+				<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapon/Minigun</clipFolderPath>
+				</li>
+			</grains>
+			<volumeRange>45~48</volumeRange>
+			<pitchRange>.55~.65</pitchRange>
 			<sustainLoop>False</sustainLoop>
 		</li>
 		</subSounds>

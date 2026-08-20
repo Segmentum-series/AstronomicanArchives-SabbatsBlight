@@ -3,7 +3,7 @@
 <Defs>
 
   <ThingDef ParentName="ApparelNoQualityBase">
-    <defName>CVN_BP_Backpack</defName>
+    <defName>CVN_BP_Utility_Backpack</defName>
     <label>salvaged battleline backpack</label>
     <description>A basic battleline backpack used by the Blood Pact. \n\nThe Pact teaches all of its members to grab anything they can: munitions, food, and more. Backpacks like these allow their warriors to maintain supplies and battle readiness during longer campaigns.</description>
     <techLevel>Industrial</techLevel>
@@ -98,7 +98,7 @@
   </ThingDef>
   
   <ThingDef ParentName="ApparelNoQualityBase">
-    <defName>CVN_BP_BackpackM</defName>
+    <defName>CVN_BP_Utility_BackpackMedicae</defName>
     <label>salvaged medicae backpack</label>
     <description>A basic backpack used by the Blood Pact. This one has been outfitted with crude medical supplies, resulting in better medical outcomes for those being tended. \n\nIt is rare for a Chaos cult to have medics, especially a Khornate one - after all, Khorne cares not from whence the blood flows. The presence of these medicae indicates a discipline among the Blood Pact that many others lack.</description>
     <techLevel>Industrial</techLevel>
@@ -194,7 +194,7 @@
   </ThingDef>
 
 <ThingDef ParentName="ApparelNoQualityBase">
-    <defName>CVN_BP_KhorneBackpack</defName>
+    <defName>CVN_BP_Apparel_KhornemarineBackpack</defName>
     <label>Blood Berzerker powerpack</label>
     <description>A power armour backpack modified for use by Khornate Berzerkers. As well as providing backup power to the armour’s servos, these backpacks also serve other functions, such as supplying reserve air in a vacuum, temperature regulation, and air purification.\n\nWhile permanently joining a cult would reduce an Astartes' ability to maintain their equipment, the Pact provides a more organized enviroment for Khornate Berzerkers.</description>
     <techLevel>Industrial</techLevel>

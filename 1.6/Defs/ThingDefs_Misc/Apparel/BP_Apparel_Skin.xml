@@ -21,7 +21,7 @@
     </ThingDef>
 
     <ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>CVN_BP_Fatigues</defName>
+        <defName>CVN_BP_Apparel_Fatigues</defName>
         <label>Sirdar fatigues</label>
         <recipeMaker>
 		    <researchPrerequisites>
@@ -70,7 +70,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>CVN_BP_DBfatigues</defName>
+        <defName>CVN_BP_Apparel_DBfatigues</defName>
         <label>Death tunic</label>
         <recipeMaker>
 		    <researchPrerequisites>
@@ -119,7 +119,7 @@
     </ThingDef>
 	
     <ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>CVN_BP_AGchainmail</defName>
+        <defName>CVN_BP_Apparel_ArnogaurChainmail</defName>
         <label>Arnogaur chainmail</label>
         <recipeMaker>
 		    <researchPrerequisites>
@@ -170,7 +170,7 @@
     </ThingDef>
 	
 	<ThingDef ParentName="CVN_BP_OnSkinBase">
-        <defName>CVN_BP_Gorerobe</defName>
+        <defName>CVN_BP_Apparel_Goremagerobe</defName>
         <label>Gore Mage tunic</label>
         <recipeMaker>
 		    <researchPrerequisites>

@@ -3,7 +3,7 @@
 <Defs>
 
   <ThingDef ParentName="CVN_BP_OnSkinBase">
-    <defName>CVN_BP_Pouch</defName>
+    <defName>CVN_BP_Apparel_Pouch</defName>
     <label>Sirdar protector belt</label>
     <description>A small belt with a crude metal plate attached, used to store munitions for extended combat and additional abdominal protection.</description>
     <graphicData>

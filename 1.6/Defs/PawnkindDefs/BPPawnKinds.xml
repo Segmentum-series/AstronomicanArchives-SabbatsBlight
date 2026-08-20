@@ -54,7 +54,7 @@
             <li>CVN_BP_Apparelskin1</li>
         </apparelTags>
 		<apparelRequired Inherit="False">
-			<li>CVN_BP_Fatigues</li>
+			<li>CVN_BP_Apparel_Fatigues</li>
 		</apparelRequired>
         <weaponTags>
             <li>CVN_BP_Melee1</li>
@@ -95,7 +95,7 @@
             <li>CVN_BP_Backpack</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_Fatigues</li>
+            <li>CVN_BP_Apparel_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_Melee1</li>
@@ -137,7 +137,7 @@
             <li>CVN_BP_Backpack</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_Fatigues</li>
+            <li>CVN_BP_Apparel_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_ranged1</li>
@@ -181,7 +181,7 @@
             <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_Fatigues</li>
+            <li>CVN_BP_Apparel_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_Melee1</li>
@@ -220,7 +220,7 @@
             <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_Fatigues</li>
+            <li>CVN_BP_Apparel_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_ranged1</li>
@@ -262,7 +262,7 @@
             <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_Fatigues</li>
+            <li>CVN_BP_Apparel_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_ranged3</li>
@@ -305,7 +305,7 @@
             <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_Fatigues</li>
+            <li>CVN_BP_Apparel_Fatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_LongLasTag</li>
@@ -345,7 +345,7 @@
         <apparelMoney>6000~7000</apparelMoney>
         <apparelAllowHeadgearChance>0.9</apparelAllowHeadgearChance>
         <apparelRequired>
-            <li>CVN_BP_DBfatigues</li>
+            <li>CVN_BP_Apparel_DBfatigues</li>
         </apparelRequired>
         <apparelTags>
             <li>CVN_BP_Apparelmiddle3</li>
@@ -394,7 +394,7 @@
             <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_DBfatigues</li>
+            <li>CVN_BP_Apparel_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_ranged1</li>
@@ -439,7 +439,7 @@
             <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_DBfatigues</li>
+            <li>CVN_BP_Apparel_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_ranged3</li>
@@ -485,7 +485,7 @@
             <li>CVN_BP_Pouches</li>
         </apparelTags>
         <apparelRequired>
-            <li>CVN_BP_DBfatigues</li>
+            <li>CVN_BP_Apparel_DBfatigues</li>
         </apparelRequired>
         <weaponTags>
             <li>CVN_BP_ranged4</li>
@@ -526,9 +526,9 @@
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <factionLeader>true</factionLeader>
         <apparelRequired>
-            <li>CVN_BP_AGchainmail</li>
-            <li>CVN_BP_Arnogaur</li>
-            <li>CVN_BP_Arnogaurmask</li>
+            <li>CVN_BP_Apparel_ArnogaurChainmail</li>
+            <li>CVN_BP_Apparel_ArnogaurBattleplate</li>
+            <li>CVN_BP_Apparel_ArnogaurMask</li>
         </apparelRequired>
         <apparelTags>
             <li>CVN_BP_Apparelmiddle4</li>
@@ -573,9 +573,9 @@
         <apparelMoney>3000~3500</apparelMoney>
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelRequired>
-            <li>CVN_BP_KhornemarineT</li>
-            <li>CVN_BP_KhornemarineH</li>
-            <li>CVN_BP_KhorneBackpack</li>
+            <li>CVN_BP_Apparel_KhornemarineTorso</li>
+            <li>CVN_BP_Apparel_KhornemarineHelmet</li>
+            <li>CVN_BP_Apparel_KhornemarineBackpack</li>
         </apparelRequired>
         <apparelTags>
             <li>CVN_BP_Apparelskin1</li>

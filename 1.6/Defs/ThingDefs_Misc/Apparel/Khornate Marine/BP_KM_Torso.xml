@@ -3,7 +3,7 @@
 <Defs>
 
 	<ThingDef ParentName="CVN_BP_ArmorBase">
-        <defName>CVN_BP_KhornemarineT</defName>
+        <defName>CVN_BP_Apparel_KhornemarineTorso</defName>
 		<label>Blood Berzerker armour</label>
         <description>The power armour of a Khornate Berzerker, complete with the markings of the World Eaters Traitor Legion on its shoulders. The pain of blows and projectiles that can pierce its thick ceramite is dulled by the white-hot rage of its wearer. \n\nThe Pact has been known to recruit Berzerkers from the World Eaters, with many permanently joining the Pact and converting to its ideals of restraint and focus - or rather, concentrated slaughter.</description>
 		<graphicData>

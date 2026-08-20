@@ -13,9 +13,9 @@
 			<!-- <li>?</li> -->
 		</apparelTags>
 		<apparelRequired Inherit="False">
-			<li>CVN_BP_Fatigues</li>
-			<li>CVN_BP_SirdarMaskA</li>
-			<li>CVN_BP_SirdarArmorB</li>
+			<li>CVN_BP_Apparel_Fatigues</li>
+			<li>CVN_BP_Apparel_SirdarMaskA</li>
+			<li>CVN_BP_Apparel_SirdarArmorB</li>
 		</apparelRequired>
 		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
 		<initialWillRange>0~0</initialWillRange>
@@ -49,9 +49,9 @@
 			<!-- <li>?</li> -->
 		</apparelTags>
 		<apparelRequired Inherit="False">
-			<li>CVN_BP_Fatigues</li>
-			<li>CVN_BP_Flakhelm</li>
-			<li>CVN_BP_SirdarArmorA</li>
+			<li>CVN_BP_Apparel_Fatigues</li>
+			<li>CVN_BP_Apparel_Flakhelm</li>
+			<li>CVN_BP_Apparel_SirdarArmorA</li>
 		</apparelRequired>
 		<techHediffsChance>0</techHediffsChance>
 		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
@@ -83,7 +83,7 @@
 			<!-- <li>?</li> -->
 		</apparelTags>
 		<apparelRequired Inherit="False">
-			<li>CVN_BP_Fatigues</li>
+			<li>CVN_BP_Apparel_Fatigues</li>
 		</apparelRequired>
 		<ignoreIdeoApparelColors>true</ignoreIdeoApparelColors>
 		<initialWillRange>0~0</initialWillRange>
@@ -176,15 +176,15 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>CVN_BP_Autocarbine</thingDef>
+          <thingDef>CVN_BP_Gun_Autocarbine</thingDef>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>CVN_BP_Autopistol</thingDef>
+          <thingDef>CVN_BP_Gun_AutoPistol</thingDef>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>CVN_BP_TrenchClub</thingDef>
+          <thingDef>CVN_BP_MeleeWeapon_TrenchClub</thingDef>
           <stuff>Steel</stuff>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
@@ -198,7 +198,7 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>CVN_BP_SabreKnife</thingDef>
+          <thingDef>CVN_BP_MeleeWeapon_SabreKnife</thingDef>
           <stuff>Steel</stuff>
         </li>
 
