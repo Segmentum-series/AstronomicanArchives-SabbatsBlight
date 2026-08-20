@@ -47,10 +47,10 @@
     <defName>CVN_BP_NamerSettlementBloodPact</defName>
     <rulePack>
       <rulesStrings>
-		<li>r_name(p=4)->Fort [BloodPacttownname1][BloodPacttownname2]</li>
+		<li>r_name(p=3)->Fort [BloodPacttownname1][BloodPacttownname2]</li>
 		<li>r_name(p=4)->[BloodPacttownname1][BloodPacttownname2] [BloodPacttowntype]</li>
 		<li>r_name(p=4)->[BloodPacttownname1][BloodPacttownname2] Fortress</li>
-		<li>r_name(p=4)->[BloodPacttowntype] of [BloodPacttownname3]</li>
+		<li>r_name(p=2)->[BloodPacttowntype] of [BloodPacttownname3]</li>
 		<li>r_name(p=4)->[BloodPacttowntype] of the [BloodPacttownname1][BloodPacttownname2]</li>
 		<li>r_name(p=1)->Place of the [BloodPacttownname4]</li>
       </rulesStrings>
@@ -68,7 +68,7 @@
     <defName>CVN_BP_NamerFactionBloodPact</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name(p=4)->[BloodPactNumber] [BloodPactRegiment] [BloodPactAllegiance]</li>
+        <li>r_name(p=5)->[BloodPactNumber] [BloodPactRegiment] [BloodPactAllegiance]</li>
         <li>r_name(p=2)->[BloodPactLeader] Etogaur's [BloodPactNumber] [BloodPactRegiment]</li>
         <li>r_name(p=1)->[BloodPactLeader] Etogaur's [BloodPactRegiment]</li>
         <li>r_name(p=2)->[BloodPactNumber] Urdeshi [BloodPactRegiment]</li>
@@ -76,7 +76,7 @@
         <li>r_name(p=2)->[BloodPactNumber] Ghourran [BloodPactRegiment]</li>
         <li>r_name(p=1)->[BloodPactLeader] Etogaur's [BloodPactRegiment]</li>
         <li>r_name(p=2)->[BloodPactNumber] Neffethyli [BloodPactRegiment]</li>
-        <li>r_name(p=2)->[BloodPactNumber] Death Brigade</li>
+        <li>r_name(p=1)->[BloodPactNumber] Death Brigade</li>
       </rulesStrings>
       <rulesFiles>
 		<li>BloodPactLeader->BloodPactNames/Names/BloodPactLast</li>
