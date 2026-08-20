@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	
-		<SoundDef>
+	<SoundDef>
 		<defName>CVN_BP_LasgunFire</defName>
 		<context>MapOnly</context>
 		<maxSimultaneous>3</maxSimultaneous>
@@ -83,4 +83,73 @@
 			</li>
 		</subSounds>
 	</SoundDef>
+	
+	<SoundDef>
+		<defName>CVN_BP_ChainedMeleeWeaponImpactSound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>20</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>CVN_BP_Sound_ChainedMeleeWeapon_Impact</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>CVN_BP_ChainedMeleeWeaponEquipSound</defName>
+		<context>MapOnly</context>
+		<maxSimultaneous>20</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Clip">
+						<clipPath>CVN_BP_Sound_ChainedMeleeWeapon_Equip</clipPath>
+					</li>
+				</grains>
+				<volumeRange>30~40</volumeRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>CVN_BP_Shot_HeavyStubber</defName>  
+		<context>MapOnly</context>  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		<li>
+			<grains>
+			<li Class="AudioGrain_Folder">
+				<clipFolderPath>Weapon/Minigun</clipFolderPath>
+			</li>
+			</grains>      
+			<volumeRange>45~48</volumeRange>      
+			<pitchRange>.6~.7</pitchRange>      
+			<sustainLoop>False</sustainLoop>
+		</li>
+		</subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>CVN_BP_FlamerFire</defName> 
+		<context>MapOnly</context>  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+		<li>
+			<grains>
+				<li Class="AudioGrain_Clip">
+					<clipPath>CVN_BP_Sound_Flamer</clipPath>
+				</li>
+			</grains>
+			<volumeRange>45~48</volumeRange>
+			<pitchRange>1.0~1.2</pitchRange>
+			<sustainLoop>False</sustainLoop>
+		</li>
+		</subSounds>
+	</SoundDef>
+	
 </Defs>

@@ -132,6 +132,8 @@
     <defName>CVN_BP_ChainSword</defName>
     <label>Pact chainsword</label>
     <description>A one-handed chainsword fit for use by a baseline human, it can still rip through enemy flesh with horrifying efficiency. \n\nOne of the most feared close combat armaments in known space, this particular chainsword has been salvaged for service in the Blood Pact.\n\n&lt;color=#40cbde&gt;Note:&lt;/color&gt; This weapon will deal multiple instances of damage as the chain teeth rev on impact.</description>
+    <soundInteract>CVN_BP_ChainedMeleeWeaponEquipSound</soundInteract>
+		<meleeHitSound>CVN_BP_ChainedMeleeWeaponImpactSound</meleeHitSound>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/BP_Chainsword</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -212,6 +214,8 @@
     <defName>CVN_BP_ChainAxe</defName>
     <label>Pact chainaxe</label>
     <description>The favored weapon of all Khornate worshippers, the chain axe is a brutal melee weapon capable of biting deep into flesh or metal.\n\nThis particular axe appears to have originally belonged to the World Eaters, but has been gifted to the Blood Pact.\n\n&lt;color=#40cbde&gt;Note:&lt;/color&gt; This weapon will deal multiple instances of damage as the chain teeth rev on impact.</description>
+    <soundInteract>CVN_BP_ChainedMeleeWeaponEquipSound</soundInteract>
+		<meleeHitSound>CVN_BP_ChainedMeleeWeaponImpactSound</meleeHitSound>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/BP_Chainaxe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -291,6 +295,7 @@
         <defName>CVN_BP_PowerFist</defName>
         <label>Pact power fist</label>
         <description>The powerfist is a brutal but advanced weapon utilizing an energy field to disrupt matter it touchs, allowing it to easily rend even the largest of targets.</description>
+        <soundInteract>CVN_BP_PoweredMeleeWeaponEquipSound</soundInteract>
         <graphicData>
             <texPath>Things/Item/Equipment/WeaponMelee/BP_Powerfist</texPath>
             <graphicClass>Graphic_Single</graphicClass>

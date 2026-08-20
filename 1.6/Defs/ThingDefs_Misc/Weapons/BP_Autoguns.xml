@@ -331,7 +331,7 @@
                 <range>33.9</range>
                 <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>Shot_Minigun</soundCast>
+                <soundCast>CVN_BP_Shot_HeavyStubber</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>

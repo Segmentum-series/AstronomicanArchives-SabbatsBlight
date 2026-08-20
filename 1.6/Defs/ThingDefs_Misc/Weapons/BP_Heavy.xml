@@ -182,9 +182,9 @@
 				<warmupTime>1.25</warmupTime>
 				<range>14</range>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCast>CVN_BP_FlamerFire</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
-				<muzzleFlashScale>14</muzzleFlashScale>
+				<muzzleFlashScale>18</muzzleFlashScale>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
 				</targetParams>
