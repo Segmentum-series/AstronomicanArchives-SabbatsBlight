@@ -72,6 +72,9 @@
         </costList>
         <recipes>
         </recipes>
+		<researchPrerequisites>
+			<li>CVN_BP_Basic</li>
+		</researchPrerequisites>
         <graphicData>
             <texPath>Things/Building/Production/BP_Bench/BloodPactBench</texPath>
         </graphicData>

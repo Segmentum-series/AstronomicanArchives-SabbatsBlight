@@ -118,7 +118,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
         <defName>Projectile_CVN_BP_Lasgun</defName>
-        <label>Laser</label>
+        <label>lasbolt</label>
         <description>a laser</description>
         <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
         <drawOffscreen>true</drawOffscreen>
@@ -227,7 +227,7 @@
 	
     <ThingDef ParentName="BaseBullet">
         <defName>Projectile_CVN_BP_Laspistol</defName>
-        <label>Laser</label>
+        <label>lasbolt</label>
         <description>a laser</description>
         <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
         <drawOffscreen>true</drawOffscreen>
@@ -334,7 +334,7 @@
 	
     <ThingDef ParentName="BaseBullet">
         <defName>Projectile_CVN_BP_Longlas</defName>
-        <label>Laser</label>
+        <label>lasbolt</label>
         <description>a laser</description>
         <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
         <drawOffscreen>true</drawOffscreen>
