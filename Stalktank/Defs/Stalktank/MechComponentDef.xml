@@ -48,7 +48,11 @@
         <statBases>
             <WorkToMake>2500</WorkToMake>
             <Mass>3.4</Mass>
-            <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+            <AccuracyTouch>0.5</AccuracyTouch>
+            <AccuracyShort>0.65</AccuracyShort>
+            <AccuracyMedium>0.75</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
             <Flammability>0.7</Flammability>
         </statBases>
         <verbs>
@@ -57,7 +61,7 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>Projectile_CVN_BP_Longlas</defaultProjectile>
                 <warmupTime>3.50</warmupTime>
-                <range>44.9</range>
+                <range>40.9</range>
                 <soundCast>CVN_BP_LasgunFire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <burstShotCount>10</burstShotCount>
@@ -162,7 +166,7 @@
             <AccuracyShort>0.25</AccuracyShort>
             <AccuracyMedium>0.25</AccuracyMedium>
             <AccuracyLong>0.18</AccuracyLong>
-            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
         <verbs>
             <li>
@@ -171,8 +175,8 @@
                 <defaultProjectile>Bullet_Minigun</defaultProjectile>
                 <warmupTime>2.5</warmupTime>
                 <range>30.9</range>
-                <burstShotCount>30</burstShotCount>
-                <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+                <burstShotCount>18</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                 <soundCast>Shot_Minigun</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
