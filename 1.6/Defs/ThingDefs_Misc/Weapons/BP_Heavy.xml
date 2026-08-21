@@ -36,7 +36,7 @@
             <MoveSpeed>-0.50</MoveSpeed>
 		</equippedStatOffsets>
 	    <equippedAngleOffset>45</equippedAngleOffset>
-		<weaponTags>
+		<weaponTags Inherit="False">
          <li>CVN_BP_ranged4</li>
         </weaponTags>
 		<verbs>
@@ -145,7 +145,7 @@
 				<cooldownTime>2.6</cooldownTime>
 			</li>
 		</tools>
-		<weaponTags>
+		<weaponTags Inherit="False">
          <li>CVN_BP_ranged3</li>
         </weaponTags>
 		<recipeMaker>

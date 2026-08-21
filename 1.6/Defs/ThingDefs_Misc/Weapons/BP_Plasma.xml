@@ -45,7 +45,7 @@
             <ComponentIndustrial>7</ComponentIndustrial>
             <ComponentSpacer>2</ComponentSpacer>
         </costList>
-        <weaponTags>
+        <weaponTags Inherit="False">
          <li>CVN_BP_ranged3</li>
         </weaponTags>
         <verbs>
@@ -140,7 +140,7 @@
             <ComponentIndustrial>3</ComponentIndustrial>
             <ComponentSpacer>1</ComponentSpacer>
         </costList>
-        <weaponTags>
+        <weaponTags Inherit="False">
          <li>CVN_BP_ranged2</li>
         </weaponTags>
         <verbs>
@@ -251,7 +251,7 @@
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
         </verbs>
-		<weaponTags>
+		<weaponTags Inherit="False">
             <li>CVN_BP_ranged4</li>
         </weaponTags>
         <tools>
@@ -277,7 +277,7 @@
 	
 	<ThingDef ParentName="BaseBullet">
         <defName>Projectile_CVN_BP_Melta</defName>
-        <label>Laser</label>
+        <label>melta blast</label>
         <description>a laser</description>
         <thingClass>taranchuk_lasers.LaserProjectile</thingClass>
         <drawOffscreen>true</drawOffscreen>

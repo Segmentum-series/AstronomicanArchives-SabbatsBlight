@@ -46,10 +46,10 @@
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
-		<tradeTags>
+		<tradeTags Inherit="False">
 			<li>CVN_BP_Autoguns</li>
 		</tradeTags>
-		<weaponTags>
+		<weaponTags Inherit="False">
 			<li>CVN_BP_Autogun</li>
 		</weaponTags>
 	</ThingDef>

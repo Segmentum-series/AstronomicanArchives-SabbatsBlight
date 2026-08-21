@@ -38,7 +38,7 @@
       </recipeUsers>
       <displayPriority>421</displayPriority>
     </recipeMaker>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>CVN_BP_Melee1</li>
     </weaponTags>
     <weaponClasses>
@@ -102,7 +102,7 @@
       </recipeUsers>
       <displayPriority>422</displayPriority>
     </recipeMaker>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>CVN_BP_Melee1</li>
     </weaponTags>
     <weaponClasses>
@@ -139,8 +139,8 @@
       <graphicClass>Graphic_Single</graphicClass>
 	    <drawSize>1.4</drawSize>
     </graphicData>
-    <techLevel>Medieval</techLevel>
-    <weaponTags>
+    <techLevel>Spacer</techLevel>
+    <weaponTags Inherit="False">
       <li>CVN_BP_Melee2</li>
       <li>CVN_BP_Chainsword_Tag</li>
     </weaponTags>
@@ -221,8 +221,8 @@
 	    <drawSize>1.4</drawSize>
     </graphicData>
 		<uiIconScale>0.8</uiIconScale>
-    <techLevel>Medieval</techLevel>
-    <weaponTags>
+    <techLevel>Spacer</techLevel>
+    <weaponTags Inherit="False">
       <li>CVN_BP_Melee2</li>
     </weaponTags>
 	<weaponClasses>
@@ -325,7 +325,7 @@
             <ComponentSpacer>2</ComponentSpacer>
       <CVN_BP_KhornateSymbol>1</CVN_BP_KhornateSymbol>
         </costList>
-        <weaponTags>
+        <weaponTags Inherit="False">
          <li>CVN_BP_Melee3</li>
         </weaponTags>
         <weaponClasses>
@@ -366,7 +366,7 @@
         </graphicData>
         <uiIconScale>1</uiIconScale>
         <techLevel>Spacer</techLevel>
-        <weaponTags>
+        <weaponTags Inherit="False">
          <li>CVN_BP_Melee3</li>
          <li>CVN_BP_PowerSwordTag</li>
         </weaponTags>

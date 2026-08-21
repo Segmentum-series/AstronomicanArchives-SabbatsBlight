@@ -7,10 +7,10 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_ChargeRifle</soundInteract>
-        <weaponTags>
+        <weaponTags Inherit="False">
         </weaponTags>
-        <tradeTags>
-            <li>HPRanged</li>
+        <tradeTags Inherit="False">
+            <li>CVN_BP_Ranged</li>
         </tradeTags>
         <thingSetMakerTags>
           <li>RewardStandardQualitySuper</li>
