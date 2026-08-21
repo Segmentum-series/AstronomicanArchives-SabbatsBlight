@@ -204,10 +204,10 @@
 				<shotsPerBurst>3</shotsPerBurst>
 				<ticksBetweenShots>20</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
-				<AccuracyTouch>0.6</AccuracyTouch>
-				<AccuracyShort>0.75</AccuracyShort>
-				<AccuracyMedium>0.8</AccuracyMedium>
-				<AccuracyLong>0.6</AccuracyLong>
+				<accuracyTouch>0.6</accuracyTouch>
+				<accuracyShort>0.75</accuracyShort>
+				<accuracyMedium>0.8</accuracyMedium>
+				<accuracyLong>0.6</accuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
@@ -215,10 +215,10 @@
 				<shotsPerBurst>8</shotsPerBurst>
 				<ticksBetweenShots>15</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
-				<AccuracyTouch>0.4</AccuracyTouch>
-				<AccuracyShort>0.55</AccuracyShort>
-				<AccuracyMedium>0.6</AccuracyMedium>
-				<AccuracyLong>0.4</AccuracyLong>
+				<accuracyTouch>0.4</accuracyTouch>
+				<accuracyShort>0.55</accuracyShort>
+				<accuracyMedium>0.6</accuracyMedium>
+				<accuracyLong>0.4</accuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -226,10 +226,10 @@
 				<shotsPerBurst>15</shotsPerBurst>
 				<ticksBetweenShots>9</ticksBetweenShots>
 				<ticksBetweenBursts>90</ticksBetweenBursts>
-				<AccuracyTouch>0.2</AccuracyTouch>
-				<AccuracyShort>0.35</AccuracyShort>
-				<AccuracyMedium>0.5</AccuracyMedium>
-				<AccuracyLong>0.25</AccuracyLong>
+				<accuracyTouch>0.2</accuracyTouch>
+				<accuracyShort>0.35</accuracyShort>
+				<accuracyMedium>0.5</accuracyMedium>
+				<accuracyLong>0.25</accuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
