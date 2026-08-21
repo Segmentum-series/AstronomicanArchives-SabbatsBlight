@@ -612,6 +612,8 @@
         <defName>CVN_BP_KhorneBerzerker</defName>
 		<label>heretic Astartes</label>
         <combatPower>350</combatPower>
+        <minGenerationAge>19</minGenerationAge>
+        <maxGenerationAge>99</maxGenerationAge>
 		<backstoryFiltersOverride>
 			<li>
 			<categoriesChildhood>
@@ -655,5 +657,10 @@
         <forcedTraits>
             <li>Brawler</li>
         </forcedTraits>
+        <xenotypeSet>
+            <xenotypeChances>
+                <CVN_BP_KhorneMarine MayRequire="Phonicmas.RimDark.MankindsFinest">1</CVN_BP_KhorneMarine>
+            </xenotypeChances>
+        </xenotypeSet>
     </PawnKindDef>
 </Defs>
