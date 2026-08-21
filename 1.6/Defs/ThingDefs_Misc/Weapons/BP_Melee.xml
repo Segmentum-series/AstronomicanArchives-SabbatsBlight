@@ -152,7 +152,6 @@
       <Mass>5.5</Mass>
     </statBases>
 	<equippedAngleOffset>-65</equippedAngleOffset>
-    <relicChance>1</relicChance>
     <costList>
 	    <Steel>80</Steel>
         <Plasteel>20</Plasteel>
@@ -233,7 +232,6 @@
       <WorkToMake>20000</WorkToMake>
       <Mass>7</Mass>
     </statBases>
-    <relicChance>1</relicChance>
     <equippedAngleOffset>-45</equippedAngleOffset>
     <costList>
 	    <Steel>120</Steel>
@@ -380,7 +378,6 @@
             <Mass>3</Mass>
         </statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
-        <relicChance>1</relicChance>
         <tools>
             <li>
                 <label>hilt</label>
