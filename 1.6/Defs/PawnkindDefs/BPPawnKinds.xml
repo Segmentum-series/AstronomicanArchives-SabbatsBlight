@@ -8,6 +8,7 @@
         <chemicalAddictionChance>0.33</chemicalAddictionChance>
         <backstoryCryptosleepCommonality>0.00</backstoryCryptosleepCommonality>
         <gearHealthRange>1~1</gearHealthRange>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <minGenerationAge>18</minGenerationAge>
         <maxGenerationAge>55</maxGenerationAge>
         <techHediffsChance>0.03</techHediffsChance>
