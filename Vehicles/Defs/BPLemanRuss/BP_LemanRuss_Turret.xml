@@ -32,7 +32,7 @@
         <projectile>
             <damageDef>Bullet</damageDef>
             <damageAmountBase>30</damageAmountBase>
-			<stoppingPower>1.2</stoppingPower>
+			<stoppingPower>1.4</stoppingPower>
 			<armorPenetrationBase>0.55</armorPenetrationBase>
             <speed>50</speed>
         </projectile>
@@ -198,27 +198,27 @@
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>2.0</rotationSpeed>
 		<projectileOffset>2.0</projectileOffset>
-		<maxRange>28.9</maxRange>
+		<maxRange>32.9</maxRange>
 		<fireModes>
 			<li>
 				<shotsPerBurst>3</shotsPerBurst>
-				<ticksBetweenShots>9</ticksBetweenShots>
+				<ticksBetweenShots>20</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
-				<accuracyTouch>0.9</accuracyTouch>
-				<accuracyShort>0.85</accuracyShort>
-				<accuracyMedium>0.65</accuracyMedium>
-				<accuracyLong>0.55</accuracyLong>
+				<AccuracyTouch>0.6</AccuracyTouch>
+				<AccuracyShort>0.75</AccuracyShort>
+				<AccuracyMedium>0.8</AccuracyMedium>
+				<AccuracyLong>0.6</AccuracyLong>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
 			<li>
 				<shotsPerBurst>8</shotsPerBurst>
-				<ticksBetweenShots>9</ticksBetweenShots>
+				<ticksBetweenShots>15</ticksBetweenShots>
 				<ticksBetweenBursts>60</ticksBetweenBursts>
-				<accuracyTouch>0.75</accuracyTouch>
-				<accuracyShort>0.65</accuracyShort>
-				<accuracyMedium>0.45</accuracyMedium>
-				<accuracyLong>0.35</accuracyLong>
+				<AccuracyTouch>0.4</AccuracyTouch>
+				<AccuracyShort>0.55</AccuracyShort>
+				<AccuracyMedium>0.6</AccuracyMedium>
+				<AccuracyLong>0.4</AccuracyLong>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
@@ -226,10 +226,10 @@
 				<shotsPerBurst>15</shotsPerBurst>
 				<ticksBetweenShots>9</ticksBetweenShots>
 				<ticksBetweenBursts>90</ticksBetweenBursts>
-				<accuracyTouch>0.60</accuracyTouch>
-				<accuracyShort>0.50</accuracyShort>
-				<accuracyMedium>0.40</accuracyMedium>
-				<accuracyLong>0.25</accuracyLong>
+				<AccuracyTouch>0.2</AccuracyTouch>
+				<AccuracyShort>0.35</AccuracyShort>
+				<AccuracyMedium>0.5</AccuracyMedium>
+				<AccuracyLong>0.25</AccuracyLong>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
 			</li>
