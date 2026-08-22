@@ -52,7 +52,7 @@
         <hasInteractionCell>true</hasInteractionCell>
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
         <designationCategory>Production</designationCategory>
-        <uiOrder>1</uiOrder>
+        <uiOrder>3000</uiOrder>
         <surfaceType>Item</surfaceType>
         <designationHotKey></designationHotKey>
         <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
