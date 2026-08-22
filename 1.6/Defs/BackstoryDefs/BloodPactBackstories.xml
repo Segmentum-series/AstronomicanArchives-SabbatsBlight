@@ -718,8 +718,8 @@
 	  <Wimp />
 	  <Kind />
     </disallowedTraits>	
-    <bodyTypeMale>Male</bodyTypeMale>
-    <bodyTypeFemale>Female</bodyTypeFemale>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
   </BackstoryDef>
    
   <BackstoryDef>
@@ -740,6 +740,8 @@
     <disallowedTraits>
 	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
     </disallowedTraits>	
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
   </BackstoryDef>
 
   <BackstoryDef>
@@ -770,6 +772,8 @@
 	  <Delicate MayRequire="Ludeon.RimWorld.Biotech"/>
 	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
     </disallowedTraits>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
   </BackstoryDef> 
 
   <BackstoryDef>
@@ -805,6 +809,8 @@
 	  <Delicate MayRequire="Ludeon.RimWorld.Biotech"/>
 	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
     </disallowedTraits>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
   </BackstoryDef> 
 
   <BackstoryDef>
@@ -839,6 +845,8 @@
 	  <Delicate MayRequire="Ludeon.RimWorld.Biotech"/>
 	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
     </disallowedTraits>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
   </BackstoryDef> 
   
   <BackstoryDef>
@@ -874,6 +882,8 @@
 	  <Delicate MayRequire="Ludeon.RimWorld.Biotech"/>
 	  <BEWH_Serf MayRequire="phonicmas.rimdark.mankindsfinest"/>
     </disallowedTraits>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
   </BackstoryDef> 
 
 </Defs>

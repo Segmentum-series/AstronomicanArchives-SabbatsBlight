@@ -632,8 +632,8 @@
         <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
         <apparelRequired>
             <li>CVN_BP_Apparel_KhornemarineTorso</li>
-            <li>CVN_BP_Apparel_KhornemarineHelmet</li>
-            <li>CVN_BP_Apparel_KhornemarineBackpack</li>
+            <li>CVN_BP_Apparel_KhornemarineHelmet</li> 
+            <li>CVN_BP_Apparel_KhornemarineBackpack</li> 
         </apparelRequired>
         <apparelTags>
             <li>CVN_BP_Apparelskin1</li>
