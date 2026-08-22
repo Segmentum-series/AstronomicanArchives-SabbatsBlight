@@ -58,14 +58,14 @@
         <statBases>
             <WorkToMake>42000</WorkToMake>
             <Mass>4</Mass>
-            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
-            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyMedium>0.75</AccuracyMedium>
             <AccuracyLong>0.75</AccuracyLong>
             <RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <Steel>100</Steel>
+            <Steel>90</Steel>
             <ComponentIndustrial>9</ComponentIndustrial>
         </costList>
         <weaponTags>
@@ -80,7 +80,7 @@
                 <warmupTime>1.20</warmupTime>
                 <range>34.9</range>
                 <soundCast>CVN_BP_LasgunFire</soundCast>
-                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
         </verbs>
@@ -106,11 +106,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
             <li>
-                <label>bayonet</label>
+                <label>saw bayonet</label>
                 <capacities>
                 <li>Cut</li>
                 </capacities>
-                <power>13</power>
+                <power>16</power>
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
@@ -131,7 +131,7 @@
         </graphicData>
         <projectile>
             <damageDef>CVN_BP_LasgunDamage</damageDef>
-            <damageAmountBase>20</damageAmountBase>
+            <damageAmountBase>19</damageAmountBase>
             <armorPenetrationBase>0.35</armorPenetrationBase>
             <stoppingPower>0.7</stoppingPower>
             <speed>1000</speed>
@@ -166,11 +166,11 @@
         <statBases>
             <WorkToMake>38000</WorkToMake>
             <Mass>4</Mass>
-            <AccuracyTouch>0.80</AccuracyTouch>
-            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
             <AccuracyMedium>0.65</AccuracyMedium>
             <AccuracyLong>0.60</AccuracyLong>
-            <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
+            <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
             <li>CVN_BP_ranged2</li>
@@ -188,7 +188,7 @@
                 <warmupTime>1</warmupTime>
                 <range>23.9</range>
                 <soundCast>CVN_BP_LasgunFire</soundCast>
-                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
         </verbs>
@@ -278,7 +278,7 @@
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.85</AccuracyMedium>
-            <AccuracyLong>0.75</AccuracyLong>
+            <AccuracyLong>0.80</AccuracyLong>
             <RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
         </statBases>
         <costList>
@@ -302,7 +302,7 @@
         </verbs>
 		<recipeMaker>
             <skillRequirements>
-                <Crafting>7</Crafting>
+                <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers Inherit="false">
                 <li>CVN_BP_FabricationBench</li>
@@ -322,11 +322,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
             <li>
-                <label>bayonet</label>
+                <label>barrel</label>
                 <capacities>
-                <li>Cut</li>
+                <li>Blunt</li>
                 </capacities>
-                <power>13</power>
+                <power>9</power>
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
