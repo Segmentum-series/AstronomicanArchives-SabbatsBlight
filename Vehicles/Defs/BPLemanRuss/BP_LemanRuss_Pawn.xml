@@ -44,7 +44,7 @@
 			<Mass>620</Mass>
 			<MoveSpeed>7.2</MoveSpeed>
 			<CargoCapacity>225</CargoCapacity>
-			<RepairRate>0.25</RepairRate>
+			<RepairRate>1</RepairRate>
 			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.04</AccelerationRate>
 		</vehicleStats>
 		<soundSustainersOnEvent>
@@ -80,15 +80,24 @@
 					</turretIds>
 				</li>
 				<li>
-					<key>gunner</key>
-					<label>Gunner</label>
+					<key>sponsongunner</key>
+					<label>Sponson Gunner</label>
+					<slots>1</slots>
+					<slotsToOperate>1</slotsToOperate>
+					<handlingTypes>Turret</handlingTypes>
+					<turretIds>
+						<li>leftMountedTurret</li>
+						<li>rightMountedTurret</li>
+					</turretIds>
+				</li>
+				<li>
+					<key>maingunner</key>
+					<label>Main Cannon Gunner</label>
 					<slots>1</slots>
 					<slotsToOperate>1</slotsToOperate>
 					<handlingTypes>Turret</handlingTypes>
 					<turretIds>
 						<li>mainTurret</li>
-						<li>leftMountedTurret</li>
-						<li>rightMountedTurret</li>
 					</turretIds>
 				</li>
 				<li>
@@ -371,6 +380,7 @@
 			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
+				<!--Battle Cannon-->
 					<li>
 						<turretDef>CVN_BP_LemanRuss_MainTurret</turretDef>
 							<renderProperties>
@@ -384,37 +394,42 @@
 							<aimPieOffset>(0, 1.4)</aimPieOffset>
 							<key>mainTurret</key>
 						</li>
+							<!--Right Sponson-->
 							<li>
 								<turretDef>CVN_BP_LemanRuss_HeavyBolter</turretDef>
 								<renderProperties>
-							<north>(-0.43, 1.8)</north>
-							<south>(0.43, -1.45)</south>
-							<east>(1.7, 0.38)</east>
-							<west>(-1.7, -0.38)</west>
+									<north>(1.95, -.15)</north>
+									<south>(-1.95,.15)</south>
+									<east>(2, 0.5)</east>
+									<west>(-2, -0.5)</west>
 								</renderProperties>
-								<drawLayer>6</drawLayer>
-								<gizmoLabel>Bolter</gizmoLabel>
-						        <angleRestricted>(295, 65)</angleRestricted>
+								<drawLayer>1</drawLayer>
+								<gizmoLabel>Right SponsonBolter</gizmoLabel>
+						        <angleRestricted>(0, 90)</angleRestricted>
 								<aimPieOffset>(0, 0)</aimPieOffset>
 								<key>rightMountedTurret</key>
 								<parentKey>mainTurret</parentKey>
 							</li>
+							<!--Frontal Bolter-->
+
 							<li>
 								<turretDef>CVN_BP_LemanRuss_HeavyBolter</turretDef>
 								<renderProperties>
-							<north>(2, 0)</north>
-							<south>(-2, -0.15)</south>
-							<east>(0.12, -2.15)</east>
-							<west>(-0.15, 2.15)</west>
+										<north>(-0.43, 1.5)</north>
+									<south>(0.43, -1.45)</south>
+									<east>(1.7, 0.38)</east>
+									<west>(-1.7, -0.38)</west>
 								</renderProperties>
-								<drawLayer>6</drawLayer>
-								<gizmoLabel>Bolter</gizmoLabel>
-						        <angleRestricted>(0, 90)</angleRestricted>
+								<drawLayer>1</drawLayer>
+								<gizmoLabel>Frontal Bolter</gizmoLabel>
+								<angleRestricted>(295, 65)</angleRestricted>
 								<aimPieOffset>(0, 0)</aimPieOffset>
 								<key>pintleTurret</key>
 								<parentKey>mainTurret</parentKey>
 							</li>
+						<!--left sponson-->	
 					<li>
+
 						<turretDef>CVN_BP_LemanRuss_HeavyBolter</turretDef>
 						<renderProperties>
 							<north>(-2, 0)</north>
