@@ -90,6 +90,7 @@
     <backstoryFilters>
       <li>
         <categories>
+		  <li>CVN_BP_BloodPactChildBackstories</li>
           <li>CVN_BP_BloodPactBackstories</li>
         </categories>
       </li>

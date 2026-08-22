@@ -48,6 +48,7 @@
     <titleShort>penal legionary</titleShort>
     <baseDesc>[PAWN_nameDef] was convicted of a capital crime on an Imperial world and pressed into a Penal Legion. [PAWN_pronoun] was sent into battle as las fodder but managed to run away and somehow remove the bomb collar around [PAWN_possessive] neck. So far [PAWN_pronoun] has avoided death or capture.</baseDesc>
     <spawnCategories>
+      <li>CVN_BP_BloodPactBackstories</li>
 	  <li>CVN_BP_BloodPactTraitorBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
@@ -340,6 +341,7 @@
     <baseDesc>[PAWN_nameDef] is a Gore Mage, a psyker dedicated to Khorne, the Brazen King. [PAWN_pronoun] knows bloody rituals that can bring visions and track enemies.</baseDesc>
     <spawnCategories>
 	  <li>CVN_BP_BloodPactGoreMageBackstories</li>
+      <li>CVN_BP_BloodPactBackstories</li>
     </spawnCategories>
     <requiredWorkTags>
       <li>Violent</li>
