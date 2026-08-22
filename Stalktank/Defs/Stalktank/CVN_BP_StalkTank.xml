@@ -405,8 +405,10 @@
 
                 <designationCategory>Security</designationCategory>
                 <costList>
-                    <Steel>600</Steel>
-                    <ComponentIndustrial>20</ComponentIndustrial>
+                    <Steel>800</Steel>
+					<Plasteel>80</Plasteel>
+                    <ComponentIndustrial>24</ComponentIndustrial>
+					<ComponentSpacer>4</ComponentSpacer>
 					<CVN_BP_KhornateSymbol>2</CVN_BP_KhornateSymbol>
                 </costList>
                 <researchPrerequisites>

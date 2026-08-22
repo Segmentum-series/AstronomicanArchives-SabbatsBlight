@@ -21,13 +21,15 @@
 			<li>CVN_BP_ReclaimedArmor</li>
 		</researchPrerequisites>
 		<costList>
-			<Steel>900</Steel>
-			<ComponentIndustrial>20</ComponentIndustrial>
+			<Steel>1100</Steel>
+			<Plasteel>200</Plasteel>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
 			<CVN_BP_KhornateSymbol>3</CVN_BP_KhornateSymbol>
 		</costList>
 		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<thingToSpawn>CVN_BP_LemanRuss</thingToSpawn>
-		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 	</Vehicles.VehicleBuildDef>
 	
 </Defs>

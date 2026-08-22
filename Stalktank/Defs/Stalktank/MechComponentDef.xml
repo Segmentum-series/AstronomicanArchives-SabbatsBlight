@@ -20,7 +20,7 @@
 
         <costList>
             <Steel>100</Steel>
-            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentIndustrial>20</ComponentIndustrial>
         </costList>
         <comps>
             <li>
@@ -59,12 +59,12 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>Projectile_CVN_BP_Longlas</defaultProjectile>
+                <defaultProjectile>Projectile_CVN_BP_Lasgun</defaultProjectile>
                 <warmupTime>3.50</warmupTime>
-                <range>40.9</range>
+                <range>38.9</range>
                 <soundCast>CVN_BP_LasgunFire</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
-                <burstShotCount>10</burstShotCount>
+                <burstShotCount>8</burstShotCount>
                 <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
@@ -74,7 +74,7 @@
     </ThingDef>
 
     <!-- Flamethrower mouth turret -->
-    <ThingDef ParentName="BaseWeaponTurret">
+    <!--ThingDef ParentName="BaseWeaponTurret">
         <defName>CVN_Stalktank_FlamethrowerTurret</defName>
         <label>flamethrower head turret</label>
         <description>A turret mounted on the stalk tank's head. It can project burning promethium that consumes anyone and anything unfortunate enough to be in its way.</description>
@@ -111,7 +111,7 @@
         </verbs>
         <comps>
         </comps>
-    </ThingDef>
+    </ThingDef-->
 
 
     <!-- Machinegun main turret MechComponent-->
@@ -134,7 +134,7 @@
 
         <costList>
             <Steel>100</Steel>
-            <ComponentIndustrial>30</ComponentIndustrial>
+            <ComponentIndustrial>20</ComponentIndustrial>
         </costList>
         <comps>
             <li>
@@ -174,10 +174,10 @@
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>CVN_BP_Bullet_AutoGun</defaultProjectile>
                 <warmupTime>3</warmupTime>
-                <range>33.9</range>
-                <burstShotCount>20</burstShotCount>
+                <range>31.9</range>
+                <burstShotCount>16</burstShotCount>
                 <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-                <soundCast>Shot_Minigun</soundCast>
+                <soundCast>CVN_BP_Shot_HeavyStubber</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
